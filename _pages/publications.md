@@ -7,6 +7,18 @@ author_profile: true
 
 You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 
+
+<p>
+<br>
+<strong>
+SVFormer: Semi-supervised Video Transformer for Action Recognition.
+</strong>
+<br>
+  <strong>Zhen Xing</strong>, Qi dai, Zuxuan Wu, Yu-Gang Jiang
+<br>
+  PrePrint <strong>(Arxiv)</strong>, 2022
+</p>
+
 ### SVFormer: Semi-supervised Video Transformer for Action Recognition.
 
 **Zhen Xing**, Qi Dai, Han Hu, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang
