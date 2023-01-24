@@ -8,29 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year Ph.D student at the Department of Computer Science at [Fudan University](#) , China, where I work at Vision and Learning Lab under the supervision of Prof. [Yu-Gang Jiang](#) and Prof. [Zuxuan Wu](#). Before this, I received my BS degree from [TianJin University](#) .
+I am a first year Ph.D student at the Department of Computer Science at [Fudan University](https://www.fudan.edu.cn/en/) , China, where I work at Vision and Learning Lab(FVL) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
 
-Since the summer of 2022, I am fortunate enough to get an opportunity to work under the guidance of Researcher. [Qi Dai](#), as a research intern in MicroSoft Research Asia([MSRA](#)).
-
-
-Research Interest
-------
-My research interests lie broadly in computer vision and artificial intelligence. My current focus majorly is to explore and conduct fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
+Since the summer of 2022, I am fortunate enough to get an opportunity to work under the guidance of Researcher. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)).
 
 
 
 News
 ------
-* [Nov'2022] Be invited as a reviewer for CVPR 2023.
-* [July'2022] Three papers on 3D reconstruction and sketch-based image retrieval accepted by ECCV 2022.
-* [June'2022] One paper on sketch-based image retrieval accepted by ACM'MM 2022.
-* [May'2022] Be acted as a reviewer for ECCV 2022.
-* [May'2022] Joined Vision and Learning Lab , as an Ph.D research in Computer Vision.
-* [Apr'2022] One paper on 3D pose Estimation accepted to ACM ICMR 2022.
-* [Mar'2022] Started my internship at MicroSoft Research Asia(MSRA).
-* [Jan'2022] One paper on Time series self-supervised accepted to DASFAA 2022.
-* [Nov'2021] Be invited as a reviewer for CVPR 2022.
-* [Sep'2021] One paper on Video Summarization accepted to ACM TOMM2022.
+* [Nov'2022] Be acted as a reviewer for [CVPR 2023](https://cvpr2023.thecvf.com/).
+* [July'2022] **Three** papers are accepted by [ECCV 2022](https://eccv2022.ecva.net/).
+* [June'2022] **One** paper is accepted by [ACM'MM 2022](https://2022.acmmm.org/).
+* [May'2022] Be acted as a reviewer for [ECCV 2022](https://eccv2022.ecva.net/).
+* [May'2022] Joined Vision and Learning Lab, as Ph.D research in Computer Vision.
+* [Apr'2022] **One** paper is accepted to [ACM ICMR 2022](https://www.icmr2022.org/).
+* [Mar'2022] Started my internship at MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)).
+* [Jan'2022] One paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).
+* [Nov'2021] Be invited as a reviewer for [CVPR 2022](https://cvpr2022.thecvf.com/).
+* [Sep'2021] One paper is accepted to [ACM TOMM2022](https://dl.acm.org/journal/tomm).
 
 <!-- Create content & metadata
 ------

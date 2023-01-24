@@ -14,6 +14,10 @@ Education
 * B.S. in TianJin, TianJin University, 2020
 * Ph.D in ShangHai, Fudan University, 2025 (expected)
 
+Research Interest
+======
+My research interests lie broadly in computer vision and artificial intelligence. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
+
 Work experience
 ======
 * Mar. 2022- Now: Research Intern
@@ -54,5 +58,5 @@ Teaching
   
 Service
 ======
-* Conference Reviewer: CVPR(2022-2023), ECCV(2022), AAAI(2022-2023), MM(2022)
+* Conference Reviewer: **CVPR**(2022-2023), **ECCV**(2022), **AAAI**(2022-2023), **MM**(2022)
 * Teaching Assistant: Digital Image Processing, Computer Image Technology in Fudan University
