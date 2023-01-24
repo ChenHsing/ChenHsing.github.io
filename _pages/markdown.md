@@ -7,7 +7,6 @@ redirect_from:
   - /markdown.html
 ---
 
-
 * Tencent academic scholarship. (**Rank 1/130, PhD**) [2022]
 * Fudan University excellent academic scholarship. (**Top-5%, Master**) [2021]
 * CCKS 2021 National knowledge graph and semantic computing competition (**Rank 6/431**). [2021]
