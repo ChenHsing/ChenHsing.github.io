@@ -52,7 +52,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
   
-Service and leadership
+Service
 ======
 * Conference Reviewer: CVPR(2022-2023), ECCV(2022), AAAI(2022-2023), MM(2022)
 * Teaching Assistant: Digital Image Processing, Computer Image Technology in Fudan University
