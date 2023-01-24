@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Zhen Xing"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "ShangHai China"
+  avatar           : "Zhenxing.jpg"
+  bio              : "Ph.D. student at Computer Science Department, University of Fudan"
+  location         : "ShangHai, China"
   employer         :
-  googlescholar    : "https://scolar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao"
+  googlescholar    : "https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao"
   email            : "zxing20@fudan.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -114,7 +114,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
+  dblp             : "https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao"
 
 # Reading Files
 include:
