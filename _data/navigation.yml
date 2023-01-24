@@ -16,7 +16,7 @@ main:
   #   url: /year-archive/
     
   - title: "Honors & Awards"
-    url: /markdown/
-    
+    url: /honor/
+
   - title: "CV"
     url: /cv/

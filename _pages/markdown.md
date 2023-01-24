@@ -1,5 +1,5 @@
 ---
-permalink: /markdown/
+permalink: /honor/
 title: "Honors & Awards"
 author_profile: true
 redirect_from: 

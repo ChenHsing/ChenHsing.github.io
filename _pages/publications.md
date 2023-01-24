@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-
 <p>
 <br>
 <strong>
@@ -16,7 +15,6 @@ SVFormer: Semi-supervised Video Transformer for Action Recognition.
 <br>
   PrePrint <strong>(Arxiv)</strong>, 2022
 </p>
-
 <p>
 <br>
 <strong>
@@ -26,7 +24,6 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
   (Under Review), 2022
 </p>
-
 <p>
 <br>
 <strong>Semi-supervised Single-view 3D Reconstruction via Prototype Shape Priors.</strong>
@@ -35,8 +32,6 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
  European Conference on Computer Vision(<strong>ECCV</strong>), 2022
 </p>
-
-
 <p>
 <br>
 <strong>Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network.</strong>
@@ -45,8 +40,6 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
  European Conference on Computer Vision(<strong>ECCV</strong>), 2022
 </p>
-
-
 <p>
 <br>
 <strong>Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval.</strong>
@@ -55,8 +48,6 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
  European Conference on Computer Vision(<strong>ECCV</strong>), 2022
 </p>
-
-
 <p>
 <br>
 <strong>Multi-Level Region Matching for Fine-Grained Sketch-Based Image Retrieval.</strong>
@@ -65,8 +56,6 @@ Zhixin Ling, <strong>Zhen Xing</strong>, Jiangtong Li, Li Niu
 <br>
  ACM International Conference on Multimedia(<strong>MM</strong>), 2022
 </p>
-
-
 <p>
 <br>
 <strong>3D-Augmented Contrastive Knowledge Distillation for Image-based Object Pose Estimation.</strong>
@@ -75,8 +64,6 @@ Zhidan Liu,<strong>Zhen Xing</strong>, Xiangdong Zhou, Yijiang Chen, Guichun Zho
 <br>
  ACM International Conference on Multimedia Retrieval(<strong>ICMR</strong>), 2022
 </p>
-
-
 <p>
 <br>
 <strong>CaSS: A Channel-aware Self-supervised Representation Learning Framework for Multivariate Time Series Classification.</strong>
@@ -85,7 +72,6 @@ Yijiang Chen, Xiangdong Zhou, <strong>Zhen Xing</strong>, Zhidan Liu, Minyang Xu
 <br>
  International Conference on Database Systems for Advanced Applications(<strong>DASFFA</strong>), 2022
 </p>
-
 <p>
 <br>
 <strong>From Coarse to Fine: Hierarchical Structure-aware Video Summarization.</strong>
