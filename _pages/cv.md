@@ -11,32 +11,30 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in TianJin, TianJin University, 2020
+* Ph.D in ShangHai, Fudan University, 2025 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Mar. 2022- Now: Research Intern
+  * MicroSoft Research Asia, Visual Computing
+  * Duties included:  Video Action Recognition, Self/Semi Supervised Learning
+  * Supervisor: Researcher Qi Dai
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Apr. 2019 - July. 2019: Algorithm Engineer Intern
+  * China Automotic Technology and Research Center
+  * Duties included: Object Detection, Path Planning
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -52,8 +50,9 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Conference Reviewer: CVPR(2022-2023), ECCV(2022), AAAI(2022-2023), MM(2022)
+* Teaching Assistant: Digital Image Processing, Computer Image Technology in Fudan University

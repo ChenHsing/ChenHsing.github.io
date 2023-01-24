@@ -1,13 +1,14 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
+  name        : "Zhen Xing"
   uri         : "http://name.com"
   email       : "name@name.com"
   bio         : "This is the first name."
   avatar      : "bio-photo-2.jpg"
   twitter     : "name"
   google_plus : "Name"
+  google_scholar: "https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao"
 
 Name2 Name2:
   name        : "Name2 Name2"
