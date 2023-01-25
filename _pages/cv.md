@@ -18,6 +18,10 @@ Research Interest
 ======
 * My research interests lie broadly in computer vision and artificial intelligence. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
 
+Publications
+======
+See in [Publications](/publications) or <u><a href="https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</u>
+
 Honors & Awards
 ======
 * Tencent academic scholarship. (**Rank 1/130, PhD**) [2022]
