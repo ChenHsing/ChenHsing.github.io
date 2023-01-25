@@ -22,9 +22,9 @@ News
 * [May'2022] Joined Vision and Learning Lab, as Ph.D research in Computer Vision.
 * [Apr'2022] **One** paper is accepted to [ACM ICMR 2022](https://www.icmr2022.org/).
 * [Mar'2022] Started my internship at MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)).
-* [Jan'2022] One paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).
+* [Jan'2022] **One** paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).
 * [Nov'2021] Be invited as a reviewer for [CVPR 2022](https://cvpr2022.thecvf.com/).
-* [Sep'2021] One paper is accepted to [ACM TOMM2022](https://dl.acm.org/journal/tomm).
+* [Sep'2021] **One** paper is accepted to [ACM TOMM2022](https://dl.acm.org/journal/tomm).
 
 
 
