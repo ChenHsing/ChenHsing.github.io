@@ -20,7 +20,7 @@ Research Interest
 
 Publications
 ======
-See details in [Publications](/publications).
+* See details in **[Publications](/publications)**.
 
 Honors & Awards
 ======
