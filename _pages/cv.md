@@ -20,7 +20,7 @@ Research Interest
 
 Publications
 ======
-See in [Publications](/publications) or <u><a href="https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</u>
+See details in [Publications](/publications).
 
 Honors & Awards
 ======
