@@ -15,8 +15,8 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "Honors & Awards"
-    url: /honor/
+  # - title: "Honors & Awards"
+  #   url: /honor/
 
   - title: "CV"
     url: /cv/
