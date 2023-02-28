@@ -14,7 +14,8 @@ Since the summer of 2022, I work under the guidance of Researcher. [Qi Dai](http
 
 News
 ------
-* [Feb'2023] Be acted as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
+* [Feb'2023] **Two** papers are accepted by [CVPR 2023](https://cvpr2023.thecvf.com/)).
+* [Jan'2023] Be acted as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
 * [Nov'2022] Be acted as a reviewer for [CVPR 2023](https://cvpr2023.thecvf.com/).
 * [July'2022] **Three** papers are accepted by [ECCV 2022](https://eccv2022.ecva.net/).
 * [June'2022] **One** paper is accepted by [ACM'MM 2022](https://2022.acmmm.org/).
@@ -24,7 +25,7 @@ News
 * [Mar'2022] Started my internship at MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)).
 * [Jan'2022] **One** paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).
 * [Nov'2021] Be invited as a reviewer for [CVPR 2022](https://cvpr2022.thecvf.com/).
-* [Sep'2021] **One** paper is accepted to [ACM TOMM2022](https://dl.acm.org/journal/tomm).
+* [Sep'2021] **One** paper is accepted by [ACM TOMM2022](https://dl.acm.org/journal/tomm).
 
 
 

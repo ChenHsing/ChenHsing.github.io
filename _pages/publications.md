@@ -13,8 +13,9 @@ SVFormer: Semi-supervised Video Transformer for Action Recognition.
 <br>
   <strong>Zhen Xing</strong>, Qi dai, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang
 <br>
-  PrePrint <strong>(Arxiv)</strong>, 2022, [<a href="https://arxiv.org/abs/2211.13222">Paper</a>]
+ Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2022, [<a href="https://arxiv.org/abs/2211.13222">Paper</a>]
 </p>
+
 <p>
 <br>
 <strong>
@@ -22,8 +23,9 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
   Zhixin Ling, <strong>Zhen Xing</strong>, Xiangdong Zhou, Manliang Cao
 <br>
-  (Under Review), 2022
+ Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2022, 
 </p>
+
 <p>
 <br>
 <strong>Semi-supervised Single-view 3D Reconstruction via Prototype Shape Priors.</strong>
