@@ -29,6 +29,47 @@ News
 
 
 
+Education
+======
+* B.S. in TianJin, TianJin University, 2020
+* Ph.D in ShangHai, Fudan University, 2025 (expected)
+
+Research Interest
+======
+* My research interests lie broadly in computer vision and artificial intelligence. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
+
+Publications
+======
+* See details in **[Publications](/publications)**.
+
+Honors & Awards
+======
+* Tencent academic scholarship. (**Rank 1/130, PhD**) [2022]
+* Fudan University excellent academic scholarship. (**Top-5%, Master**) [2021]
+* CCKS 2021 National knowledge graph and semantic computing competition (**Rank 6/431**). [2021]
+* MangoTV International audio and video algorithm competition (**Rank 6/193**). [2021]
+* Outstanding graduates of TianJin University. (**Top-5%**) [2020]
+* Second prize of virtual scene group of automatic driving challenge of International Intelligent Conference. [2019]
+* Excellent monitor of Tianjin University. (**Top-10**) [2018]
+* Academic scholarship of Tianjin University. (**Top-10%**) [2017-2020]
+
+Work experience
+======
+* Mar. 2022- Now: Research Intern
+  * MicroSoft Research Asia, Visual Computing
+  * Duties included:  Video Action Recognition, Self/Semi Supervised Learning
+  * Supervisor: Researcher Qi Dai
+
+* Apr. 2019 - July. 2019: Algorithm Engineer Intern
+  * China Automotic Technology and Research Center
+  * Duties included: Object Detection, Path Planning
+
+Service
+======
+* Conference Reviewer: **CVPR**(2022-2023),**ICCV**(2023) **ECCV**(2022), **AAAI**(2022-2023), **MM**(2022)
+* Teaching Assistant: Digital Image Processing, Computer Image Technology in Fudan University
+  
+
 <!-- Create content & metadata
 ------
 For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
