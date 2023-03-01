@@ -11,7 +11,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 SVFormer: Semi-supervised Video Transformer for Action Recognition.
 </strong>
 <br>
-  <strong>Zhen Xing</strong>, Qi dai, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang
+  <strong>Zhen Xing</strong>, Qi Dai, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang
 <br>
  Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023, [<a href="https://arxiv.org/abs/2211.13222">Paper</a>]
 </p>

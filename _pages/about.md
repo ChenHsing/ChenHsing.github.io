@@ -10,10 +10,10 @@ redirect_from:
 
 I am a first year Ph.D student at the Department of Computer Science at [Fudan University](https://www.fudan.edu.cn/en/) , China, where I work at Vision and Learning Lab(FVL) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
 
-Since the summer of 2022, I work under the guidance of Researcher. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). Here is my latest [Resume](/cv).
+Since the summer of 2022, I work under the guidance of Researcher. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). 
 
 News
-------
+======
 * [Feb'2023] **Two** papers are accepted by [CVPR 2023](https://cvpr2023.thecvf.com/).
 * [Jan'2023] Be acted as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
 * [Nov'2022] Be acted as a reviewer for [CVPR 2023](https://cvpr2023.thecvf.com/).
@@ -36,7 +36,7 @@ Education
 
 Research Interest
 ======
-* My research interests lie broadly in **computer vision** and **artificial intelligence**. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
+* My research interests lie broadly in **Computer Vision** and **Artificial Intelligence**. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
 
 Publications
 ======
