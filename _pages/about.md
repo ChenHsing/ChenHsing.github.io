@@ -36,7 +36,7 @@ Education
 
 Research Interest
 ======
-* My research interests lie broadly in computer vision and artificial intelligence. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
+* My research interests lie broadly in **computer vision** and **artificial intelligence**. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
 
 Publications
 ======
