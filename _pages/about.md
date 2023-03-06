@@ -58,7 +58,7 @@ Work experience
 * Mar. 2022- Now: Research Intern
   * MicroSoft Research Asia, Visual Computing
   * Duties included:  Video Action Recognition, Self/Semi Supervised Learning
-  * Supervisor: Researcher Qi Dai
+  * Supervisor: Qi Dai, Han Hu
 
 * Apr. 2019 - July. 2019: Algorithm Engineer Intern
   * China Automotic Technology and Research Center
