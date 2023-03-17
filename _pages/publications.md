@@ -5,6 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</u>
+
+
+
 <p>
 <br>
 <strong>
@@ -13,7 +16,7 @@ SVFormer: Semi-supervised Video Transformer for Action Recognition.
 <br>
   <strong>Zhen Xing</strong>, Qi Dai, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang
 <br>
- Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023, [<a href="https://arxiv.org/abs/2211.13222">Paper</a>]
+  <strong>CVPR</strong>, 2023, [<a href="https://arxiv.org/abs/2211.13222">Paper</a>]
 </p>
 
 <p>
@@ -23,7 +26,7 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
   Zhixin Ling, <strong>Zhen Xing</strong>, Xiangdong Zhou, Manliang Cao
 <br>
- Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023
+ <strong>CVPR</strong>, 2023
 </p>
 
 <p>
@@ -32,7 +35,7 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
   <strong>Zhen Xing</strong>, Hengduo Li, Zuxuan Wu, Yu-Gang Jiang
 <br>
- European Conference on Computer Vision(<strong>ECCV</strong>), 2022, [<a href="https://arxiv.org/abs/2209.15383">Paper</a>]
+  <strong>ECCV</strong>, 2022, [<a href="https://arxiv.org/abs/2209.15383">Paper</a>]
 </p>
 <p>
 <br>
@@ -40,14 +43,14 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
   <strong>Zhen Xing</strong>, Yijiang Chen, Zhixin Ling, Xiangdong Zhou, Yu Xiang
 <br>
- European Conference on Computer Vision(<strong>ECCV</strong>), 2022, [<a href="https://arxiv.org/abs/2208.00183">Paper</a>]
+ <strong>ECCV</strong>, 2022, [<a href="https://arxiv.org/abs/2208.00183">Paper</a>]
 <p>
 <br>
 <strong>Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval.</strong>
 <br>
   Zhixin Ling, <strong>Zhen Xing</strong>, Jian Zhou, Xiangdong Zhou
 <br>
- European Conference on Computer Vision(<strong>ECCV</strong>), 2022, [<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136860708.pdf">Paper</a>]
+ <strong>ECCV</strong>, 2022, [<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136860708.pdf">Paper</a>]
 </p>
 <p>
 <br>
@@ -55,7 +58,7 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
 Zhixin Ling, <strong>Zhen Xing</strong>, Jiangtong Li, Li Niu
 <br>
- ACM International Conference on Multimedia(<strong>MM</strong>), 2022, [<a href="https://www.jiangtongli.me/publication/mlmr/mlmr.pdf">Paper</a>]
+ <strong>ACM MM</strong>, 2022, [<a href="https://www.jiangtongli.me/publication/mlmr/mlmr.pdf">Paper</a>]
 </p>
 <p>
 <br>
@@ -63,7 +66,7 @@ Zhixin Ling, <strong>Zhen Xing</strong>, Jiangtong Li, Li Niu
 <br>
 Zhidan Liu,<strong>Zhen Xing</strong>, Xiangdong Zhou, Yijiang Chen, Guichun Zhou
 <br>
- ACM International Conference on Multimedia Retrieval(<strong>ICMR</strong>), 2022, [<a href="https://arxiv.org/pdf/2206.02531.pdf">Paper</a>]
+ <strong>ICMR</strong>, 2022, [<a href="https://arxiv.org/pdf/2206.02531.pdf">Paper</a>]
 </p>
 <p>
 <br>
@@ -71,7 +74,7 @@ Zhidan Liu,<strong>Zhen Xing</strong>, Xiangdong Zhou, Yijiang Chen, Guichun Zho
 <br>
 Yijiang Chen, Xiangdong Zhou, <strong>Zhen Xing</strong>, Zhidan Liu, Minyang Xu
 <br>
- International Conference on Database Systems for Advanced Applications(<strong>DASFFA</strong>), 2022, [<a href="https://arxiv.org/pdf/2203.04298.pdf">Paper</a>]
+ <strong>DASFFA</strong>, 2022, [<a href="https://arxiv.org/pdf/2203.04298.pdf">Paper</a>]
 </p>
 <p>
 <br>
@@ -79,5 +82,5 @@ Yijiang Chen, Xiangdong Zhou, <strong>Zhen Xing</strong>, Zhidan Liu, Minyang Xu
 <br>
 Wenxu Li, Gang Pan, Chen Wang, <strong>Zhen Xing</strong>, Zhenjun Han
 <br>
- ACM Transactions on Multimedia Computing, Communications, and Applications(<strong>ToMM</strong>), 2022, [<a href="https://dl.acm.org/doi/abs/10.1145/3485472">Paper</a>]
+<strong>TOMM</strong>, 2022, [<a href="https://dl.acm.org/doi/abs/10.1145/3485472">Paper</a>]
 </p>
