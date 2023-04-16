@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year Ph.D student at the Department of Computer Science at [Fudan University](https://www.fudan.edu.cn/en/) , China, where I work at Vision and Learning Lab(FVL) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
+I am a first year Ph.D student at the Department of Computer Science at [Fudan University](https://www.fudan.edu.cn/en/) , China, where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
 
 Since the summer of 2022, I work under the guidance of Researcher. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). 
 
