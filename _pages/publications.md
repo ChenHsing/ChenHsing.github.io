@@ -31,6 +31,16 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 
 <p>
 <br>
+<strong>
+TranSFormer: Slow-Fast Transformer for Machine Translation.</strong>
+<br>
+  Bei Li, Yi Jing, Xu Tan,  <strong>Zhen Xing</strong>, Tong Xiao and Jingbo Zhu
+<br>
+ <strong>Findings of ACL</strong>, 2023
+</p>
+
+<p>
+<br>
 <strong>Semi-supervised Single-view 3D Reconstruction via Prototype Shape Priors.</strong>
 <br>
   <strong>Zhen Xing</strong>, Hengduo Li, Zuxuan Wu, Yu-Gang Jiang
