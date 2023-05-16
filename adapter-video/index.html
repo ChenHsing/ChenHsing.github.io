@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Latent-Shift: Latent Diffusion with Temporal Shift for Efficient Text-to-Video Generation.">
+    <meta name="keywords" content="Latent-Shift, Text-to-Video, Temporal Shift, Diffusion Model">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Latent-Shift: Latent Diffusion with Temporal Shift for Efficient Text-to-Video Generation</title>
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="icon" href="./static/images/favicon.svg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+
+
+
+    <section class="section" id="t2v_comp">
+        <center>
+            <h2 class="title is-3">Text-to-Video Generation Comparison</h2>
+        </center>
+        <center>
+            <table align="center">
+                <div class="large-4 columns">
+                </div>
+                <br>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> Video Diffusion Models [1]</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/000.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/012.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/029.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/011.webp"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> CogVideo [2]</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/Abstract_background.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/Berlin_-_Brandenburg_Gate_at_night.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/fire.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/Forest_in_Autumn.webp"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">Latent-Shift[3] </td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/0_Abstract_background.webp"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/12_Berlin__Brandenburg_Gate_at_night.webp"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/27_fire.webp"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/11_Forest_in_Autumn.webp"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">Ours </td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/Abstract background.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/Berlin-Brandenburg Gate at night.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/fire.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/Forest in Autumn.gif"></td>
+                </tr>
+
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px"></td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">Abstract background.</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">Berlin - Brandenburg Gate at night.
+                    </td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">fire.</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:80px">Forest in Autumn.</td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> Video Diffusion Models [1]</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/002.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/004.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/003.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/015.webp"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> CogVideo [2]</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/Mountain_river.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/path_in_a_tropical_forest.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/snowfall_in_city.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/Traffic_jam_on_23_de_Maio_avenue,_both_directions,_south_of_Sao_Paulo.webp">
+                    </td>
+                </tr>
+ 
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">Latent-Shift[3]</td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/2_Mountain_river.webp"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/4_path_in_a_tropical_forest.webp"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/3_snowfall_in_city.webp"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256"
+                            src="assets/t2v/ours/14_Traffic_jam_on_23_de_Maio_avenue_both_directions_south_of_Sao_Paulo.webp">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">Ours</td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/Mountain river.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/path in a tropical forest.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/snowfall in city..gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256"
+                            src="assets/t2v/adapter/avenue, both directions, south of Sao Paulo.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px"></td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">Mountain river.</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">path in a tropical forest.</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">snowfall in city.</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:100px">avenue, both directions, south of Sao Paulo.</td>
+                </tr>
+
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> Video Diffusion Models [1]</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/4K_Illuminated_Christmas_Tree_at_Night_During_Snowstorm.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/Dramatic_ocean_sunset.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/Irrigation_Canal_in_Western_USA_Water_Sourced_from_the_Colorado_River_4K_Aerial_Video.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/vdm/Star_Time_Lapse_in_Japan.webp"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> CogVideo [2]</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/4K_Illuminated_Christmas_Tree_at_Night_During_Snowstorm (1).webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/Dramatic_ocean_sunset.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/Irrigation_Canal_in_Western_USA_Water_Sourced_from_the_Colorado_River_4K_Aerial_Video.webp"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/t2v/cogvideo/Star_Time_Lapse_in_Japan.webp">
+                    </td>
+                </tr>
+ 
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">Video-Fusion[4]</td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/Chrismas.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/sunset.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/ours/Irrigation.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256"
+                            src="assets/t2v/ours/japan.gif">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">Ours</td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/4K illuminated Christmas Tree at Night During Snowstorm.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/Dramatic ocean sunset.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/t2v/adapter/Irrigation Canal in Western USA Water sourced from the Colorado River 4K Aerial Video.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256"
+                            src="assets/t2v/adapter/Star Time Lapse in Japan.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px"></td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">4K Illuminated Christmas Tree at Night During Snowstorm</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">Dramatic ocean sunset</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">Irrigation Canal in Western USA Water Sourced from the Colorado River 4K Aerial Video</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:100px">Star Time Lapse in Japan</td>
+                </tr>
+                
+            </table>
+        </center>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <a class="icon-link" href="https://arxiv.org/pdf/2304.08477.pdf">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>[1] Jonathan Ho, Tim Salimans, Alexey A Gritsenko, William Chan, Mohammad Norouzi, and David
+                            J Fleet. Video
+                            diffusion models. In
+                            NeurIPS, 2022.</p>
+                        <p>[2] Wenyi Hong, Ming Ding, Wendi Zheng, Xinghan Liu, and Jie Tang. Cogvideo: Large-scale
+                            pretraining for
+                            text-to-video generation
+                            via transformers. In ICLR, 2023.</p>
+                        <p>[3] An, Jie and Zhang, Songyang and Yang, Harry and Gupta, Sonal and Huang, Jia-Bin and Luo, Jiebo and Yin, Xi.
+                             Latent-Shift: Latent Diffusion with Temporal Shift for Efficient Text-to-Video Generation. In Arxiv, 2023.</p>
+
+                        <p>[4] Luo, Zhengxiong and Chen, Dayou and Zhang, Yingya and Huang, Yan and Wang, Liang and Shen, Yujun and Zhao, Deli and Zhou, Jingren and Tan, Tieniu
+                            VideoFusion: Decomposed Diffusion Models for High-Quality Video Generation. In Arxiv, 2023.</p>
+                                                  
+                        <hr>
+                        <p>
+                            Tempolate from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, thanks!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
