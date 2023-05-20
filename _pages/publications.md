@@ -26,7 +26,7 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <br>
   Zhixin Ling, <strong>Zhen Xing</strong>, Xiangdong Zhou, Manliang Cao
 <br>
- <strong>CVPR</strong>, 2023
+ <strong>CVPR</strong>, 2023, [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Ling_PanoSwin_A_Pano-Style_Swin_Transformer_for_Panorama_Understanding_CVPR_2023_paper.pdf">Paper</a>]
 </p>
 
 <p>
