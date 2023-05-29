@@ -36,7 +36,7 @@ TranSFormer: Slow-Fast Transformer for Machine Translation.</strong>
 <br>
   Bei Li, Yi Jing, Xu Tan,  <strong>Zhen Xing</strong>, Tong Xiao and Jingbo Zhu
 <br>
- <strong>Findings of ACL</strong>, 2023
+ <strong>Findings of ACL</strong>, 2023, [<a href="https://arxiv.org/pdf/2305.16982.pdf">Paper</a>]
 </p>
 
 <p>
