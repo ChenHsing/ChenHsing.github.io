@@ -8,9 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year Ph.D student at the Department of Computer Science at [Fudan University](https://www.fudan.edu.cn/en/) , China, where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
+I am a first year Ph.D. Candidate at the Department of Computer Science at [Fudan University](https://www.fudan.edu.cn/en/) , China, where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
 
-Since the summer of 2022, I work under the guidance of Researcher. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). 
+Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). See details about me in **[CV](/cv)**
+
 
 News
 ======
@@ -27,20 +28,20 @@ News
 * [Jan'2022] **One** paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).
 
 
-Education
+<!-- Education
 ======
 * B.S. in TianJin, TianJin University, 2020
 * Ph.D in ShangHai, Fudan University, 2025 (expected)
 
 Research Interest
 ======
-* My research interests lie broadly in **Computer Vision** and **Artificial Intelligence**. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
+* My research interests lie broadly in **Computer Vision** and **Artificial Intelligence**. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth. -->
 
 Publications
 ======
 * See details in **[Publications](/publications)**.
 
-Honors & Awards
+<!-- Honors & Awards
 ======
 * Tencent academic scholarship. (**Rank 1/130, PhD**) [2022]
 * Fudan University excellent academic scholarship. (**Top-5%, Master**) [2021]
@@ -66,7 +67,4 @@ Service
 ======
 * Conference Reviewer: **CVPR**(2022-2023), **ICCV**(2023), **NeurIPS**(2023), **ECCV**(2022), **AAAI**(2022-2023), **MM**(2022)
 * Teaching Assistant: Digital Image Processing, Computer Image Technology in Fudan University
-  
-<!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=4Q0C2hbvOIEMef7kUY89rXg94Lm7HnpASKfrJXfXMZ0&cl=ffffff&w=a"></script>
-
- -->
+   -->
