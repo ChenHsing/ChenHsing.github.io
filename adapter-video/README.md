@@ -1,6 +1,3 @@
-# Latent-Shift
-
-This is the repository that contains source code for the [Latent-Shift website](https://latent-shift.github.io).
 
 <!-- If you find Latent-shift useful for your work please cite: -->
 <!-- ``` -->
