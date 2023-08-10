@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="description"
-        content="PE-VDM">
+        content="SimDA">
     <meta name="keywords" content="Text-to-Video, Diffusion Model">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PE-VDM</title>
+    <title>SimDA</title>
 
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -41,7 +41,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Parameter-Efficient Video Diffusion Models</h1>
+            <h1 class="title is-1 publication-title">SimDA: Simple Diffusion Adapter for Efficient Video Generation</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <a href="https://chenhsing.github.io">Zhen Xing</a><sup>1</sup>,</span>
@@ -236,9 +236,6 @@
                             height="400" src="assets/edit/a jeep car is moving on the road, cartoon style.gif"></td>
                     <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="400"
                             height="400" src="assets/edit/a jeep car is moving in a forest, at Autumn.gif"></td>
-                    <!-- <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/ A teddy bear wearing sunglasses playing the electric guitar high definition 4k.gif"></td> -->
                 </tr>
                 <tr>
                     <td width="400" valign="middle" halign="middle" align="center"
@@ -248,9 +245,7 @@
                     <td width="400" valign="middle" halign="middle" align="center"
                         style="font-size:13px; padding-bottom:20px">a jeep car is moving on the road, <strong>cartoon style</strong> .</td>
                     <td width="400" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px"> a jeep car is moving in a <strong>forest, at Autumn.</strong></td>
-                    <!-- <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">A teddy bear wearing sunglasses playing the electric guitar high definition 4k.</td> -->
+                        style="font-size:13px; padding-bottom:20px"> a jeep car is moving in a <strong>forest, in Autumn.</strong></td>
                 </tr>
 
                 <br>
@@ -264,9 +259,6 @@
                             height="400" src="assets/edit/a jeep car is moving on the road, van Gogh’s style.gif"></td>
                     <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="400"
                             height="400" src="assets/edit/a jeep car is moving on the desert at night.gif"></td>
-                    <!-- <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/ A teddy bear wearing sunglasses playing the electric guitar high definition 4k.gif"></td> -->
                 </tr>
                 <tr>
                     <td width="400" valign="middle" halign="middle" align="center"
@@ -277,8 +269,6 @@
                         style="font-size:13px; padding-bottom:20px">a jeep car is moving on the road,<strong> van Gogh’s style</strong> .</td>
                     <td width="400" valign="middle" halign="middle" align="center"
                         style="font-size:13px; padding-bottom:20px"> a jeep car is moving on the <strong>desert at dark</strong>.</strong></td>
-                    <!-- <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">A teddy bear wearing sunglasses playing the electric guitar high definition 4k.</td> -->
                 </tr>
 
                 <br>
@@ -347,73 +337,9 @@
                 <div class="large-4 columns">
                 </div>
                 <br>
-                <!-- <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:20px; padding-top:110px"> Video Diffusion Models [1]</td>
-                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
-                            src="assets/t2v/vdm/Shinjuku_Time_Lapse_vdm.webp"></td>
-                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
-                            src="assets/t2v/vdm/012.webp"></td>
-                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
-                            src="assets/t2v/vdm/029.webp"></td>
-                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
-                            src="assets/t2v/vdm/011.webp"></td>
-                </tr>
                 <tr>
                     <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:20px; padding-top:110px"> CogVideo [2]</td>
-                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
-                            src="assets/t2v/cogvideo/Shinjuku_Time_Lapse_cog.webp"></td>
-                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
-                            src="assets/t2v/cogvideo/Berlin_-_Brandenburg_Gate_at_night.webp"></td>
-                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
-                            src="assets/t2v/cogvideo/fire.webp"></td>
-                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
-                            src="assets/t2v/cogvideo/Forest_in_Autumn.webp"></td>
-                </tr>
- 
-                <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:20px; padding-top:110px">VideoFusion[3] </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/t2v/videofusion/shinjuku_fusion.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/t2v/videofusion/burg.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/t2v/videofusion/fire.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/t2v/videofusion/autumn.gif"></td>
-                </tr>
-
-                <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:20px; padding-top:110px">Ours </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/t2v/adapter/Shinjuku Time Lapse.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/t2v/adapter/Berlin-Brandenburg Gate at night.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/t2v/adapter/fire.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/t2v/adapter/Forest in Autumn.gif"></td>
-                </tr> -->
-<!-- 
-                <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px"></td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Shinjuku Time Lapse.</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Berlin - Brandenburg Gate at night.
-                    </td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">fire.</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:80px">Forest in Autumn.</td>
-                </tr> -->
-                <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:20px; padding-top:110px"> Video Diffusion Models [1]</td>
+                        style="font-size:20px; padding-top:110px"> VDM[1]</td>
                     <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
                             src="assets/t2v/vdm/002.webp"></td>
                     <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
@@ -425,7 +351,7 @@
                 </tr>
                 <tr>
                     <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:20px; padding-top:110px"> CogVideo [2]</td>
+                        style="font-size:20px; padding-top:110px"> CogVideo[2]</td>
                     <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
                             src="assets/t2v/cogvideo/Mountain_river.webp"></td>
                     <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
@@ -498,7 +424,7 @@
 
                 <tr>
                     <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:20px; padding-top:110px"> Video Diffusion Models [1]</td>
+                        style="font-size:20px; padding-top:110px"> VDM[1]</td>
                     <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
                             src="assets/t2v/vdm/4K_Illuminated_Christmas_Tree_at_Night_During_Snowstorm.webp"></td>
                     <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
@@ -510,7 +436,7 @@
                 </tr>
                 <tr>
                     <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:20px; padding-top:110px"> CogVideo [2]</td>
+                        style="font-size:20px; padding-top:110px"> CogVideo[2]</td>
                     <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
                             src="assets/t2v/cogvideo/4K_Illuminated_Christmas_Tree_at_Night_During_Snowstorm (1).webp"></td>
                     <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
