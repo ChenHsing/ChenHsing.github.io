@@ -6,7 +6,16 @@ author_profile: true
 ---
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</u>
 
-
+<p>
+<br>
+<strong>
+SimDA: Simple Diffusion Adapter for Efficient Video Generation
+</strong>
+<br>
+  <strong>Zhen Xing</strong>, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang
+<br>
+  <strong>Arxiv (Preprint)</strong>, 2023, [<a href="#">Paper</a>]
+</p>
 
 <p>
 <br>
