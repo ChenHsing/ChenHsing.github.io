@@ -20,7 +20,7 @@ SimDA: Simple Diffusion Adapter for Efficient Video Generation
 <p>
 <br>
 <strong>
-SVFormer: Semi-supervised Video Transformer for Action Recognition.
+SVFormer: Semi-supervised Video Transformer for Action Recognition
 </strong>
 <br>
   <strong>Zhen Xing</strong>, Qi Dai, Han Hu, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang
@@ -31,7 +31,7 @@ SVFormer: Semi-supervised Video Transformer for Action Recognition.
 <p>
 <br>
 <strong>
-PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
+PanoSwin: a Pano-style Swin Transformer for Panorama Understanding</strong>
 <br>
   Zhixin Ling, <strong>Zhen Xing</strong>, Xiangdong Zhou, Manliang Cao
 <br>
@@ -41,7 +41,7 @@ PanoSwin: a Pano-style Swin Transformer for Panorama Understanding.</strong>
 <p>
 <br>
 <strong>
-TranSFormer: Slow-Fast Transformer for Machine Translation.</strong>
+TranSFormer: Slow-Fast Transformer for Machine Translation</strong>
 <br>
   Bei Li, Yi Jing, Xu Tan,  <strong>Zhen Xing</strong>, Tong Xiao and Jingbo Zhu
 <br>
@@ -50,7 +50,7 @@ TranSFormer: Slow-Fast Transformer for Machine Translation.</strong>
 
 <p>
 <br>
-<strong>Semi-supervised Single-view 3D Reconstruction via Prototype Shape Priors.</strong>
+<strong>Semi-supervised Single-view 3D Reconstruction via Prototype Shape Priors</strong>
 <br>
   <strong>Zhen Xing</strong>, Hengduo Li, Zuxuan Wu, Yu-Gang Jiang
 <br>
@@ -58,14 +58,14 @@ TranSFormer: Slow-Fast Transformer for Machine Translation.</strong>
 </p>
 <p>
 <br>
-<strong>Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network.</strong>
+<strong>Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network</strong>
 <br>
   <strong>Zhen Xing</strong>, Yijiang Chen, Zhixin Ling, Xiangdong Zhou, Yu Xiang
 <br>
  <strong>ECCV</strong>, 2022, [<a href="https://arxiv.org/abs/2208.00183">Paper</a>]
 <p>
 <br>
-<strong>Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval.</strong>
+<strong>Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval</strong>
 <br>
   Zhixin Ling, <strong>Zhen Xing</strong>, Jian Zhou, Xiangdong Zhou
 <br>
@@ -73,7 +73,7 @@ TranSFormer: Slow-Fast Transformer for Machine Translation.</strong>
 </p>
 <p>
 <br>
-<strong>Multi-Level Region Matching for Fine-Grained Sketch-Based Image Retrieval.</strong>
+<strong>Multi-Level Region Matching for Fine-Grained Sketch-Based Image Retrieval</strong>
 <br>
 Zhixin Ling, <strong>Zhen Xing</strong>, Jiangtong Li, Li Niu
 <br>
@@ -81,7 +81,7 @@ Zhixin Ling, <strong>Zhen Xing</strong>, Jiangtong Li, Li Niu
 </p>
 <p>
 <br>
-<strong>3D-Augmented Contrastive Knowledge Distillation for Image-based Object Pose Estimation.</strong>
+<strong>3D-Augmented Contrastive Knowledge Distillation for Image-based Object Pose Estimation</strong>
 <br>
 Zhidan Liu,<strong>Zhen Xing</strong>, Xiangdong Zhou, Yijiang Chen, Guichun Zhou
 <br>
@@ -89,7 +89,7 @@ Zhidan Liu,<strong>Zhen Xing</strong>, Xiangdong Zhou, Yijiang Chen, Guichun Zho
 </p>
 <p>
 <br>
-<strong>CaSS: A Channel-aware Self-supervised Representation Learning Framework for Multivariate Time Series Classification.</strong>
+<strong>CaSS: A Channel-aware Self-supervised Representation Learning Framework for Multivariate Time Series Classification</strong>
 <br>
 Yijiang Chen, Xiangdong Zhou, <strong>Zhen Xing</strong>, Zhidan Liu, Minyang Xu
 <br>
@@ -97,7 +97,7 @@ Yijiang Chen, Xiangdong Zhou, <strong>Zhen Xing</strong>, Zhidan Liu, Minyang Xu
 </p>
 <p>
 <br>
-<strong>From Coarse to Fine: Hierarchical Structure-aware Video Summarization.</strong>
+<strong>From Coarse to Fine: Hierarchical Structure-aware Video Summarization</strong>
 <br>
 Wenxu Li, Gang Pan, Chen Wang, <strong>Zhen Xing</strong>, Zhenjun Han
 <br>

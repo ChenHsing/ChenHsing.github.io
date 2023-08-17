@@ -35,7 +35,7 @@ Honors & Awards
 
 Work experience
 ======
-* Mar. 2022- Now: Research Intern
+* Mar. 2022 - Aug. 2023: Research Intern
   * MicroSoft Research Asia, Visual Computing
   * Duties included:  Video Action Recognition, Self/Semi Supervised Learning
   * Supervisor: Qi Dai, Han Hu
