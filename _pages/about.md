@@ -15,7 +15,7 @@ Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://ww
 
 News
 ======
-* [Aug'2023] Fineshed the internship and Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
+* [Aug'2023] Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
 * [Apr'2023] Be acted as a reviewer for [NeurIPS 2023](https://neurips.cc/).
 * [Feb'2023] **Two** papers are accepted by [CVPR 2023](https://cvpr2023.thecvf.com/).
 * [Jan'2023] Be acted as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
