@@ -14,7 +14,7 @@ SimDA: Simple Diffusion Adapter for Efficient Video Generation
 <br>
   <strong>Zhen Xing</strong>, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang
 <br>
-  <strong>Arxiv (Preprint)</strong>, 2023, [<a href="#">Paper</a>]
+  <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2308.09710">Paper</a>]
 </p>
 
 <p>
