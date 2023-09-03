@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year Ph.D. Candidate at the Department of Computer Science at [Fudan University](https://www.fudan.edu.cn/en/) , China, where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
+I am a second year Ph.D. Candidate at the Department of Computer Science at [Fudan University](https://www.fudan.edu.cn/en/) , China, where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
 
 Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). See details about me in **[CV](/cv)**
 
 
 News
 ======
+* [Sep'2023] Be acted as a reviewer for [ICLR 2024](https://iclr.cc/).
 * [Aug'2023] Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
 * [Apr'2023] Be acted as a reviewer for [NeurIPS 2023](https://neurips.cc/).
 * [Feb'2023] **Two** papers are accepted by [CVPR 2023](https://cvpr2023.thecvf.com/).
