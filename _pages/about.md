@@ -8,22 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year Ph.D. Candidate at the Department of Computer Science at [Fudan University](https://www.fudan.edu.cn/en/) , China, where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
+I am a second year Ph.D. Candidate at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/), where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm) .
 
 Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). See details about me in **[CV](/cv)**
 
 
 News
 ======
-* [Sep'2023] Be acted as a reviewer for [ICLR 2024](https://iclr.cc/).
+* [Sep'2023] Serving as a reviewer for [ICLR 2024](https://iclr.cc/).
 * [Aug'2023] Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
-* [Apr'2023] Be acted as a reviewer for [NeurIPS 2023](https://neurips.cc/).
+* [Apr'2023] Serving as a reviewer for [NeurIPS 2023](https://neurips.cc/).
 * [Feb'2023] **Two** papers are accepted by [CVPR 2023](https://cvpr2023.thecvf.com/).
-* [Jan'2023] Be acted as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
-* [Nov'2022] Be acted as a reviewer for [CVPR 2023](https://cvpr2023.thecvf.com/).
+* [Jan'2023] Serving as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
+* [Nov'2022] Serving as a reviewer for [CVPR 2023](https://cvpr2023.thecvf.com/).
 * [July'2022] **Three** papers are accepted by [ECCV 2022](https://eccv2022.ecva.net/).
 * [June'2022] **One** paper is accepted by [ACM'MM 2022](https://2022.acmmm.org/).
-* [May'2022] Be acted as a reviewer for [ECCV 2022](https://eccv2022.ecva.net/).
+* [May'2022] Serving as a reviewer for [ECCV 2022](https://eccv2022.ecva.net/).
 * [Apr'2022] **One** paper is accepted to [ACM ICMR 2022](https://www.icmr2022.org/).
 * [Mar'2022] Started my internship at MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)).
 * [Jan'2022] **One** paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).

@@ -16,7 +16,7 @@ Education
 
 Research Interest
 ======
-* My research interests lie broadly in computer vision and artificial intelligence. My current focus majorly is to explore fundamental computer vision research with limited supervision, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
+* My research interests lie broadly in computer vision and artificial intelligence. My current focus majorly is to explore fundamental computer vision research with AIGC, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
 
 Publications
 ======
@@ -49,31 +49,3 @@ Service
 * Conference Reviewer: **CVPR**(2022-2023), **ICCV**(2023), **ICLR**(2024), **NeurIPS**(2023), **ECCV**(2022), **AAAI**(2022-2023), **MM**(2022)
 * Journal Reviewer: **TCSVT**
 * Teaching Assistant: Digital Image Processing, Computer Image Technology in Fudan University
-  
-<!-- Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3 -->
-
-<!-- Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-  
