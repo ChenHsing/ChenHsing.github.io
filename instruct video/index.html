@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="SimDA">
+    <meta name="keywords" content="Text-to-Video, Diffusion Model">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SimDA</title>
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="icon" href="./static/images/favicon.svg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+
+<section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Instruct Video Diffusion Models</h1>
+            <!-- <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://chenhsing.github.io">Zhen Xing</a><sup>1</sup>,</span>
+              <span class="author-block">
+                Qi Dai<sup>2</sup>,</span>
+              <span class="author-block">
+                Han Hu<sup>2</sup>,
+              </span>
+              <span class="author-block">
+                Zuxuan Wu<sup>1</sup>,
+              </span>
+              <span class="author-block">
+                Yu-Gang Jiang<sup>1</sup>
+              </span>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup> Fudan University,</span>
+              <span class="author-block"><sup>2</sup>MicroSoft Research Asia</span>
+            </div> -->
+  
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="#"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="#"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="#"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                    </a>
+                </span>
+
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <!-- <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+                The recent wave of AI-generated content has witnessed the great development and success of Text-to-Image (T2I) technologies.
+                By contrast, Text-to-Video (T2V) still falls short of expectations though attracting increasing interests.
+                Existing works either train from scratch or adapt large T2I model to videos, both of which are computation and resource expensive.
+               
+            </p>
+            <p>
+                In this work, we propose a Simple Diffusion Adapter (SimDA) that fine-tunes only 24M out of 1.1B parameters of a strong T2I model, adapting it to video generation in a parameter-efficient way.
+                In particular, we turn the T2I model for T2V by designing light-weight spatial and temporal adapters for transfer learning. Besides, we change the original spatial attention to the proposed Latent-Shift Attention (LSA) for temporal consistency.
+                 With similar model architecture, we further train a video super-resolution model to generate high-definition (1024x1024) videos.
+            </p>
+            <p>
+                In addition to T2V generation in the wild, 
+                SimDA could also be utilized in one-shot video editing with only 2 minutes tuning. Doing so, our method could minimize the training effort with extremely few tunable parameters for model adaptation.
+            </p>
+          </div>
+        </div>
+      </div> --> 
+
+
+
+
+
+    <section class="section" id="t2v_comp">
+        <center>
+            <h2 class="title is-3">Instruct Video Diffusion</h2>
+        </center>
+        <center>
+            <table align="center">
+                <div class="large-4 columns">
+                </div>
+                <br>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                    style="font-size:20px; padding-top:110px"> Source</td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/visual/car_ori.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/visual/car_mask.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/visual/car_gray.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                            height="256" src="assets/visual/car_haze.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
+                        height="256" src="assets/visual/car_blur.gif"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                    style="font-size:20px; padding-top:20px"> Instruct</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-top:20px">For the car, set its pixels to Green and let the others remain the same.</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-top:20px">Inpaint the missing parts of the video.</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-top:20px">Recolor the gray video.</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-top:20px">Withdraw the applied haze from this video.</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-top:20px">Sharpen this blurry video.</td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> Target</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/For the car, set its pixels to Green and let the others remain the same.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/Inpaint the missing parts of the video.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/Recolor the gray video.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/Withdraw the applied haze from this video.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                        src="assets/visual/Sharpen this blurry video.gif">
+                    </td>
+                </tr>
+
+
+
+             
+            </table>
+        </center>
+    </section>
+
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+          <h2 class="title">BibTeX</h2>
+          <p> If you use our work in your research, please cite: </p>
+          <pre><code>
+            @misc{xing2023simda,
+            title={SimDA: Simple Diffusion Adapter for Efficient Video Generation}, 
+            author={Zhen Xing and Qi Dai and Han Hu and Zuxuan Wu and Yu-Gang Jiang},
+            year={2023},
+            eprint={2308.09710},
+            archivePrefix={arXiv},
+            primaryClass={cs.CV}}
+      </code></pre>
+        </div>
+      </section>
+
+
+    <!-- <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <a class="icon-link" href="#">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>[1] Jonathan Ho, Tim Salimans, Alexey A Gritsenko, William Chan, Mohammad Norouzi, and David
+                            J Fleet. Video
+                            diffusion models. In
+                            ICLR, 2022.</p>
+                        <p>[2] Wenyi Hong, Ming Ding, Wendi Zheng, Xinghan Liu, and Jie Tang. Cogvideo: Large-scale
+                            pretraining for
+                            text-to-video generation
+                            via transformers. In ICLR, 2023.</p>
+                        <p>[3] Luo, Zhengxiong and Chen, Dayou and Zhang, Yingya and Huang, Yan and Wang, Liang and Shen, Yujun and Zhao, Deli and Zhou, Jingren and Tan, Tieniu
+                            VideoFusion: Decomposed Diffusion Models for High-Quality Video Generation. In CVPR, 2023.</p>
+                        <p>[4] He, Yingqing, et al. "Latent video diffusion models for high-fidelity video generation with arbitrary lengths." arXiv preprint(2022).</p>
+                        <hr>
+                        <p>
+                            Tempolate from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, thanks!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+
+
+</body>
