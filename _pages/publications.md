@@ -6,6 +6,19 @@ author_profile: true
 ---
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</u>
 
+
+<p>
+<br>
+<strong>
+A Survey on Video Diffusion Models
+</strong>
+<br>
+  <strong>Zhen Xing</strong>, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu,  Zuxuan Wu, Yu-Gang Jiang
+<br>
+  <strong>Arxiv (Preprint)</strong>, 2023, [<a href="#">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
+</p>
+
+
 <p>
 <br>
 <strong>
