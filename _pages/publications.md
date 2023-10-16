@@ -18,7 +18,6 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
     <br>
       <strong>Arxiv (Preprint)</strong>, 2023, [<a href="Survey_vdm.pdf">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
     </p>
-
   </li>
 
   <li>
@@ -75,7 +74,6 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
   <br>
     <strong>ECCV</strong>, 2022, [<a href="https://arxiv.org/abs/2209.15383">Paper</a>]
   </p>
-  <p>
   </li>
 
   <li>
@@ -138,5 +136,4 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
   <strong>TOMM</strong>, 2022, [<a href="https://dl.acm.org/doi/abs/10.1145/3485472">Paper</a>]
   </p>
   </li>
-
 </ul>
