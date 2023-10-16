@@ -15,7 +15,7 @@ A Survey on Video Diffusion Models
 <br>
   <strong>Zhen Xing</strong>, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu,  Zuxuan Wu, Yu-Gang Jiang
 <br>
-  <strong>Arxiv (Preprint)</strong>, 2023, [<a href="#">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
+  <strong>Arxiv (Preprint)</strong>, 2023, [<a href="files/Survey_vdm.pdf">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
 </p>
 
 
