@@ -16,7 +16,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
     <br>
       <strong>Zhen Xing</strong>, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu,  Zuxuan Wu, Yu-Gang Jiang
     <br>
-      <strong>Arxiv (Under Review for TPAMI)</strong>, 2023, [<a href="https://arxiv.org/abs/2310.10647">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
+      <strong>Under Review of TPAMI</strong>, 2023, [<a href="https://arxiv.org/abs/2310.10647">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
     </p>
   </li>
 
