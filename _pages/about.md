@@ -15,8 +15,10 @@ Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://ww
 
 News
 ======
+* [Oct'2023] Serving as a reviewer for [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024).
 * [Sep'2023] Serving as a reviewer for [ICLR 2024](https://iclr.cc/).
 * [Aug'2023] Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
+* [May'2023] **One** paper is accepted by [ACL 2023](https://2023.aclweb.org/).
 * [Apr'2023] Serving as a reviewer for [NeurIPS 2023](https://neurips.cc/).
 * [Feb'2023] **Two** papers are accepted by [CVPR 2023](https://cvpr2023.thecvf.com/).
 * [Jan'2023] Serving as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
