@@ -8,6 +8,19 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 
 <ul>
 
+
+  <li>
+  <p>
+  <strong>
+    VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models
+  </strong>
+  <br>
+    <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Zuxuan Wu, Yu-Gang Jiang
+  <br>
+    <strong> Preprint</strong>, 2023
+  </p>
+  </li>
+
   <li>
     <p>
     <strong>
@@ -16,7 +29,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
     <br>
       <strong>Zhen Xing</strong>, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu,  Zuxuan Wu, Yu-Gang Jiang
     <br>
-      <strong>Under Review of TPAMI</strong>, 2023, [<a href="https://arxiv.org/abs/2310.10647">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
+      <strong>Under Review of CSUR</strong>, 2023, [<a href="https://arxiv.org/abs/2310.10647">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
     </p>
   </li>
 
