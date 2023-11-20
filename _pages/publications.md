@@ -15,7 +15,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
     VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models
   </strong>
   <br>
-    <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Zuxuan Wu, Yu-Gang Jiang
+    <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang
   <br>
     <strong> Preprint</strong>, 2023
   </p>
