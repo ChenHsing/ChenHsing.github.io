@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="VIDiff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VIDiff</title>
+    <style>
+      .italic-underlined-text {
+        font-style: italic;
+        text-decoration: underline;
+      }
+    </style>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="icon" href="./static/images/favicon.svg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+
+<section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">VIDiff: Translating <span style="color: red;">V</span>ideos via Multi-Modal <span style="color: red;">I</span>nstructions with <span style="color: red;">Diff</span> usion Models</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                Annoymous Submission</span>
+            <div class="is-size-5 publication-authors">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="section" id="t2v_comp">
+    <center>
+      <h2 class="title is-3">Long Video Translation</h2>
+  </center>
+    <center>
+        <table align="center">
+            <div class="large-4 columns">
+            </div>
+            <br>
+            <tr>
+              <td width="150" valign="middle" halign="middle" align="left"
+                  style="font-size:20px; padding-top:0px">  </td>
+              <td align="left" style="padding-left: 200px;">Input</td>
+              <td align="left" style="padding-left: 200px;">Ours</td>
+              <td align="left" style="padding-left: 200px;">w/o LVT</td>                       
+          </tr>
+            <tr>
+              <td width="150" valign="middle" halign="middle" align="left"
+                  style="font-size:20px; padding-top:100px"> Recolor the gray video. </td>
+              <td align="left" style="padding-left: 0px;"><img class="center" width="400" height="360"
+                      src="assets/visual/car_gray.gif"></td>
+              <td align="left" style="padding-left: 0px;"><img class="center" width="400" height="360"
+                        src="assets/visual/car_recolor.gif"></td>
+              <td align="left" style="padding-left: 0px;"><img class="center" width="400" height="360"
+                        src="assets/visual/lvt_color.gif"></td>                       
+          </tr>
+          <tr>
+            <td width="150" valign="middle" halign="middle" align="left"
+                style="font-size:20px; padding-top:100px"> Turn the video to Van Gogh Style. </td>
+            <td align="left" style="padding-left: 0px;"><img class="center" width="400" height="360"
+                    src="assets/visual/car_recolor.gif"></td>
+            <td align="left" style="padding-left: 0px;"><img class="center" width="400" height="360"
+                      src="assets/visual/car_vango.gif"></td>
+            <td align="left" style="padding-left: 0px;"><img class="center" width="400" height="360"
+                      src="assets/visual/lvt_vango.gif"></td>                       
+        </tr>
+        </table>
+    </center>
+</section>
+
+
+    <section class="section" id="t2v_comp">
+        <center>
+            <h2 class="title is-3">Video Instruct Diffusion</h2>
+        </center>
+        <center>
+            <table align="center">
+                <div class="large-4 columns">
+                </div>
+                <br>
+                <tr>
+                  <td width="150" valign="middle" halign="middle" align="left"
+                      style="font-size:20px; padding-top:100px"> Turn the video to Sketch Style. </td>
+                  <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                          src="assets/visual/car_source.gif"></td>
+                  <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                            src="assets/visual/sketch_style.gif"></td>
+              </tr>
+    
+              <tr>
+                <td width="150" valign="middle" halign="middle" align="left"
+                    style="font-size:20px; padding-top:100px"> Turn the video to WaterColor/ Oil Painting Style. </td>
+                <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                        src="assets/visual/watercolor.gif"></td>
+                <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                          src="assets/visual/Oil_painting.gif"></td>
+            </tr>
+  
+
+            <tr>
+              <td width="150" valign="middle" halign="middle" align="left"
+                  style="font-size:20px; padding-top:100px"> Edit the video to reflect the style of the target image. </td>
+              <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                      src="assets/visual/style1.gif"></td>
+              <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                        src="assets/visual/style2.gif"></td>
+            </tr>
+
+
+
+
+                <tr>
+                  <td width="150" valign="middle" halign="middle" align="left"
+                      style="font-size:20px; padding-top:20px"> Apply Green to the pixels of the man holding the bike while maintaining the current state of other pixels. </td>
+                  <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                          src="assets/visual/bike.gif"></td>
+                  <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                            src="assets/visual/bike_mask.gif"></td>
+              </tr>
+
+              <tr>
+                <td width="150" valign="middle" halign="middle" align="left"
+                    style="font-size:20px; padding-top:40px"> Introduce a range of colors to the gray video. </td>
+                <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                        src="assets/visual/dog_gray.gif"></td>
+                <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                        src="assets/visual/dog.gif"></td>
+            </tr>
+
+                <tr>
+                    <td width="150" valign="middle" halign="middle" align="left"
+                    style="font-size:20px; padding-top:100px"> Remove the applied haze from this video. </td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="480"
+                            height="360" src="assets/visual/hazy_grass.gif"></td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="480"
+                              height="360" src="assets/visual/dehaze_grass.gif"></td>
+                </tr>
+
+                <tr>
+                  <td width="150" valign="middle" halign="middle" align="left"
+                      style="font-size:20px; padding-top:40px"> Apply inpainting algorithms to recover the missing video. </td>
+                  <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                          src="assets/visual/girl_mask.gif"></td>
+                  <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                          src="assets/visual/girl_inpaint.gif"></td>
+              </tr>
+
+
+                <tr>
+                    <td width="150" valign="middle" halign="middle" align="left"
+                        style="font-size:20px; padding-top:100px"> Withdraw the applied haze from this video. </td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                            src="assets/visual/haze_monkey.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                            src="assets/visual/dehaze_monkey.gif"></td>
+                </tr>
+
+                <tr>
+                  <td width="150" valign="middle" halign="middle" align="left"
+                      style="font-size:20px; padding-top:20px"> Mark the pixels of<span style="color: red;"> the girl riding the horse</span> in <span style="color: red;">Red</span> and leave the rest unchanged. </td>
+                  <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                          src="assets/visual/horsejump-high.gif"></td>
+                  <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                            src="assets/visual/the girl riding the horse.gif"></td>
+              </tr>
+
+              <tr>
+                <td width="150" valign="middle" halign="middle" align="left"
+                    style="font-size:20px; padding-top:20px"> For the the <span style="color: green;">horse doing high jumps</span>, set its pixels to <span style="color: green;">Green</span>  and let the others remain the same </td>
+                <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                        src="assets/visual/horsejump-high.gif"></td>
+                <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                          src="assets/visual/the horse doing high jumps.gif"></td>
+            </tr>
+
+              <tr>
+                <td width="150" valign="middle" halign="middle" align="left"
+                    style="font-size:20px; padding-top:100px"> Improve the quality of this fuzzy video. </td>
+                <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                        src="assets/visual/blur.gif"></td>
+                <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                          src="assets/visual/deblur.gif"></td>
+            </tr>
+
+            <tr>
+              <td width="150" valign="middle" halign="middle" align="left"
+                  style="font-size:20px; padding-top:40px"> Convert the grayscale clip into a colorful masterpiece. </td>
+              <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                      src="assets/visual/motorbike_gray.gif"></td>
+              <td align="left" style="padding-left: 0px;"><img class="center" width="480" height="360"
+                      src="assets/visual/motorbike.gif"></td>
+          </tr>
+             
+            </table>
+        </center>
+    </section>
+
+
+</body>
