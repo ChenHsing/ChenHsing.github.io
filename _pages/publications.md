@@ -48,6 +48,17 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
   <li>
   <p>
   <strong>
+  AdaDiff: Adaptive Step Selection for Fast Diffusion  </strong>
+  <br>
+    Hui Zhang, Zuxuan Wu, <strong>Zhen Xing</strong>, Jie Shao, Yu-Gang Jiang
+  <br>
+    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.14768">Paper</a>]
+  </p>
+  </li>
+
+  <li>
+  <p>
+  <strong>
   SVFormer: Semi-supervised Video Transformer for Action Recognition
   </strong>
   <br>
