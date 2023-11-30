@@ -7,55 +7,6 @@ author_profile: true
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</u>
 
 <ul>
-
-
-  <li>
-  <p>
-  <strong>
-    VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models
-  </strong>
-  <br>
-    <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang
-  <br>
-    <strong> Preprint</strong>, 2023
-  </p>
-  </li>
-
-  <li>
-    <p>
-    <strong>
-    A Survey on Video Diffusion Models
-    </strong>
-    <br>
-      <strong>Zhen Xing</strong>, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu,  Zuxuan Wu, Yu-Gang Jiang
-    <br>
-      <strong>Under Review of CSUR</strong>, 2023, [<a href="https://arxiv.org/abs/2310.10647">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
-    </p>
-  </li>
-
-  <li>
-  <p>
-  <strong>
-  SimDA: Simple Diffusion Adapter for Efficient Video Generation
-  </strong>
-  <br>
-    <strong>Zhen Xing</strong>, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang
-  <br>
-    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2308.09710">Paper</a>], [<a href="https://chenhsing.github.io/SimDA/">Project</a>]
-  </p>
-  </li>
-
-  <li>
-  <p>
-  <strong>
-  AdaDiff: Adaptive Step Selection for Fast Diffusion  </strong>
-  <br>
-    Hui Zhang, Zuxuan Wu, <strong>Zhen Xing</strong>, Jie Shao, Yu-Gang Jiang
-  <br>
-    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.14768">Paper</a>]
-  </p>
-  </li>
-
   <li>
   <p>
   <strong>
@@ -158,6 +109,58 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
   Wenxu Li, Gang Pan, Chen Wang, <strong>Zhen Xing</strong>, Zhenjun Han
   <br>
   <strong>TOMM</strong>, 2022, [<a href="https://dl.acm.org/doi/abs/10.1145/3485472">Paper</a>]
+  </p>
+  </li>
+</ul>
+
+
+PrePrints(Arxiv)
+
+<ul>
+  <li>
+  <p>
+  <strong>
+    VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models
+  </strong>
+  <br>
+    <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang
+  <br>
+    <strong> Preprint</strong>, 2023, [<a href="https://chenhsing.github.io/VIDiff/">Project</a>]
+  </p>
+  </li>
+
+  <li>
+    <p>
+    <strong>
+    A Survey on Video Diffusion Models
+    </strong>
+    <br>
+      <strong>Zhen Xing</strong>, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu,  Zuxuan Wu, Yu-Gang Jiang
+    <br>
+      <strong>Under Review of CSUR</strong>, 2023, [<a href="https://arxiv.org/abs/2310.10647">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
+    </p>
+  </li>
+
+  <li>
+  <p>
+  <strong>
+  SimDA: Simple Diffusion Adapter for Efficient Video Generation
+  </strong>
+  <br>
+    <strong>Zhen Xing</strong>, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang
+  <br>
+    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2308.09710">Paper</a>], [<a href="https://chenhsing.github.io/SimDA/">Project</a>]
+  </p>
+  </li>
+
+  <li>
+  <p>
+  <strong>
+  AdaDiff: Adaptive Step Selection for Fast Diffusion  </strong>
+  <br>
+    Hui Zhang, Zuxuan Wu, <strong>Zhen Xing</strong>, Jie Shao, Yu-Gang Jiang
+  <br>
+    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.14768">Paper</a>]
   </p>
   </li>
 </ul>
