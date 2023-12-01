@@ -126,7 +126,7 @@ PrePrints(Arxiv)
   <br>
     <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang
   <br>
-    <strong> Preprint</strong>, 2023, [<a href="https://chenhsing.github.io/VIDiff/">Project</a>]
+    <strong> Preprint</strong>, 2023, [<a href="https://arxiv.org/abs/2311.18837">Paper</a>], [<a href="https://chenhsing.github.io/VIDiff/">Project</a>]
   </p>
   </li>
 
