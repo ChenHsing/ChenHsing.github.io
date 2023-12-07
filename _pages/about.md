@@ -15,7 +15,7 @@ Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://ww
 
 News
 ======
-* [Nov'2023] Invited talk at Kunlun Research, "A Survey on Video Diffusion Models".
+* [Dec'2023] Invited talk at Kunlun Research, "A Survey on Video Diffusion Models".
 * [Oct'2023] Serve as a reviewer for [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024).
 * [Sep'2023] Serve as a reviewer for [ICLR 2024](https://iclr.cc/).
 * [Aug'2023] Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
