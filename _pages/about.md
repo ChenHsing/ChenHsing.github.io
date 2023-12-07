@@ -18,7 +18,6 @@ News
 * [Nov'2023] Invited talk at KUNLUN TECH, "A Survey on Video Diffusion Models".
 * [Oct'2023] Serve as a reviewer for [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024).
 * [Sep'2023] Serve as a reviewer for [ICLR 2024](https://iclr.cc/).
-* [Aug'2023] Invited talk at MSRA, "A Simple Diffusion Adapter for Efficient Video Generation".
 * [Aug'2023] Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
 * [May'2023] **One** paper is accepted by [ACL 2023](https://2023.aclweb.org/).
 * [Apr'2023] Serve as a reviewer for [NeurIPS 2023](https://neurips.cc/).
@@ -31,6 +30,9 @@ News
 * [Apr'2022] **One** paper is accepted to [ACM ICMR 2022](https://www.icmr2022.org/).
 * [Mar'2022] Start my internship at MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)).
 * [Jan'2022] **One** paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).
+
+
+<!-- * [Aug'2023] Invited talk at MSRA, "A Simple Diffusion Adapter for Efficient Video Generation". -->
 
 
 <!-- Education
