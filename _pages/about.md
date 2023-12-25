@@ -17,6 +17,7 @@ My research interests lie broadly in computer vision and deep learning. I mainly
 
 News
 ======
+* [Dec'2023] Serve as a reviewer for [ICML 2024](https://icml.cc/).
 * [Dec'2023] Invited talk at Kunlun Research, "A Survey on Video Diffusion Models".
 * [Oct'2023] Serve as a reviewer for [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024).
 * [Sep'2023] Serve as a reviewer for [ICLR 2024](https://iclr.cc/).
