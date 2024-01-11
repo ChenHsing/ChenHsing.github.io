@@ -19,17 +19,17 @@ News
 ======
 * [Dec'2023] Serve as a reviewer for [ICML 2024](https://icml.cc/).
 * [Dec'2023] Invited talk at Kunlun Research, "A Survey on Video Diffusion Models".
-* [Oct'2023] Serve as a reviewer for [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024).
-* [Sep'2023] Serve as a reviewer for [ICLR 2024](https://iclr.cc/).
+<!-- * [Oct'2023] Serve as a reviewer for [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024).
+* [Sep'2023] Serve as a reviewer for [ICLR 2024](https://iclr.cc/). -->
 * [Aug'2023] Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
 * [May'2023] **One** paper is accepted by [ACL 2023](https://2023.aclweb.org/).
-* [Apr'2023] Serve as a reviewer for [NeurIPS 2023](https://neurips.cc/).
+<!-- * [Apr'2023] Serve as a reviewer for [NeurIPS 2023](https://neurips.cc/). -->
 * [Feb'2023] **Two** papers are accepted by [CVPR 2023](https://cvpr2023.thecvf.com/).
-* [Jan'2023] Serve as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
-* [Nov'2022] Serve as a reviewer for [CVPR 2023](https://cvpr2023.thecvf.com/).
+<!-- * [Jan'2023] Serve as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
+* [Nov'2022] Serve as a reviewer for [CVPR 2023](https://cvpr2023.thecvf.com/). -->
 * [July'2022] **Three** papers are accepted by [ECCV 2022](https://eccv2022.ecva.net/).
 * [June'2022] **One** paper is accepted by [ACM'MM 2022](https://2022.acmmm.org/).
-* [May'2022] Serve as a reviewer for [ECCV 2022](https://eccv2022.ecva.net/).
+<!-- * [May'2022] Serve as a reviewer for [ECCV 2022](https://eccv2022.ecva.net/). -->
 * [Apr'2022] **One** paper is accepted to [ACM ICMR 2022](https://www.icmr2022.org/).
 * [Mar'2022] Start my internship at MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)).
 * [Jan'2022] **One** paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).
