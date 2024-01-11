@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year Ph.D. Candidate at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/), where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm).  
+I am a second year Ph.D. Candidate at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/), where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/)(IEEE Fellow) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm).  
 
 My research interests lie broadly in computer vision and deep learning. I mainly focus on video understanding, especially video generation, editing and recognition. I am also open and willing to explore other vision tasks, e.g., 3D understanding,  AIGC. If you are interested in my topics, please do not hestitae to reach out. See details about me in **[CV](/cv)**.
 
@@ -19,17 +19,11 @@ News
 ======
 * [Dec'2023] Serve as a reviewer for [ICML 2024](https://icml.cc/).
 * [Dec'2023] Invited talk at Kunlun Research, "A Survey on Video Diffusion Models".
-<!-- * [Oct'2023] Serve as a reviewer for [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024).
-* [Sep'2023] Serve as a reviewer for [ICLR 2024](https://iclr.cc/). -->
 * [Aug'2023] Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
 * [May'2023] **One** paper is accepted by [ACL 2023](https://2023.aclweb.org/).
-<!-- * [Apr'2023] Serve as a reviewer for [NeurIPS 2023](https://neurips.cc/). -->
 * [Feb'2023] **Two** papers are accepted by [CVPR 2023](https://cvpr2023.thecvf.com/).
-<!-- * [Jan'2023] Serve as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
-* [Nov'2022] Serve as a reviewer for [CVPR 2023](https://cvpr2023.thecvf.com/). -->
 * [July'2022] **Three** papers are accepted by [ECCV 2022](https://eccv2022.ecva.net/).
 * [June'2022] **One** paper is accepted by [ACM'MM 2022](https://2022.acmmm.org/).
-<!-- * [May'2022] Serve as a reviewer for [ECCV 2022](https://eccv2022.ecva.net/). -->
 * [Apr'2022] **One** paper is accepted to [ACM ICMR 2022](https://www.icmr2022.org/).
 * [Mar'2022] Start my internship at MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)).
 * [Jan'2022] **One** paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).
@@ -42,6 +36,12 @@ News
 ======
 * B.S. in TianJin, TianJin University, 2020
 * Ph.D in ShangHai, Fudan University, 2025 (expected)
+* [Oct'2023] Serve as a reviewer for [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024).
+* [Sep'2023] Serve as a reviewer for [ICLR 2024](https://iclr.cc/).
+* [Apr'2023] Serve as a reviewer for [NeurIPS 2023](https://neurips.cc/).
+* [Jan'2023] Serve as a reviewer for [ICCV 2023](https://iccv2023.thecvf.com/).
+* [Nov'2022] Serve as a reviewer for [CVPR 2023](https://cvpr2023.thecvf.com/).
+* [May'2022] Serve as a reviewer for [ECCV 2022](https://eccv2022.ecva.net/).
 
 Research Interest
 ======
