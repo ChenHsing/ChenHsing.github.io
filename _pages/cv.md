@@ -48,8 +48,8 @@ Work experience
 Service
 ======
 * Program Committee: 
-  * **CVPR**(2022-2024), **ICCV**(2023), **ECCV**(2022)
+  * **CVPR**(2022-2024), **ICCV**(2023), **ECCV**(2022-2024)
   * **ICML**(2024), **ICLR**(2024), **NeurIPS**(2023)
   * **AAAI**(2022-2023), **MM**(2022)
-* Journal Reviewer: **TCSVT**, **TMM**
+* Journal Reviewer:  **TMM**, **TCSVT**, **KBS**
 * Teaching Assistant: Digital Image Processing, Computer Image Technology in Fudan University
