@@ -7,6 +7,19 @@ author_profile: true
 You can also find my articles on <a href="https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao">[Google Scholar]</a> <a href="https://www.semanticscholar.org/author/Zhen-Xing/2099118205">[Semantic Scholar]</a>
 
 <ul>
+
+  <li>
+  <p>
+  <strong>
+  SimDA: Simple Diffusion Adapter for Efficient Video Generation
+  </strong>
+  <br>
+    <strong>Zhen Xing</strong>, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang
+  <br>
+    <strong>CVPR</strong>, 2024, [<a href="https://arxiv.org/abs/2308.09710">Paper</a>], [<a href="https://chenhsing.github.io/SimDA/">Project</a>]
+  </p>
+  </li>
+
   <li>
   <p>
   <strong>
@@ -142,17 +155,6 @@ PrePrints(Arxiv)
     </p>
   </li>
 
-  <li>
-  <p>
-  <strong>
-  SimDA: Simple Diffusion Adapter for Efficient Video Generation
-  </strong>
-  <br>
-    <strong>Zhen Xing</strong>, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang
-  <br>
-    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2308.09710">Paper</a>], [<a href="https://chenhsing.github.io/SimDA/">Project</a>]
-  </p>
-  </li>
 
   <li>
   <p>

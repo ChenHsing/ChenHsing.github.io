@@ -17,6 +17,7 @@ My research interests lie broadly in computer vision and deep learning. I mainly
 
 News
 ======
+* [Feb'2024] SimDA is accepted by [CVPR 2024](https://cvpr.thecvf.com/).
 * [Dec'2023] Serve as a reviewer for [ICML 2024](https://icml.cc/).
 * [Dec'2023] Invited talk at Kunlun Research, "A Survey on Video Diffusion Models".
 * [Aug'2023] Awarded a certificate of "Star of Tomorrow" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
@@ -57,10 +58,10 @@ Selected Publications:
 </th>
 </tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/vidiff.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">arXiv preprint, 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2311.18837">Paper</a>][<a href="https://chenhsing.github.io/VIDiff/">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/670615911">Zhihu</a>]
+<table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/simda.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">SimDA: A Simple Diffusion Adapter for Efficient Video Generation</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2308.09710">Paper</a>][<a href="https://chenhsing.github.io/SimDA/">HomePage</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/simda.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">SimDA: A Simple Diffusion Adapter for Efficient Video Generation</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">arXiv preprint, 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2308.09710">Paper</a>][<a href="https://chenhsing.github.io/SimDA/">HomePage</a>]
+<table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/vidiff.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">arXiv preprint, 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2311.18837">Paper</a>][<a href="https://chenhsing.github.io/VIDiff/">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/670615911">Zhihu</a>]
 </span></th></tr></tbody></table>
 
 <table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/svformer.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">SVFormer: Semi-supervised Video Transformer for Action Recognition </span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2211.13222">Paper</a>][<a href="https://github.com/ChenHsing/SVFormer">Code</a>]
