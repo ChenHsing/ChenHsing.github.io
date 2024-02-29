@@ -17,7 +17,7 @@ My research interests lie broadly in computer vision and deep learning. I mainly
 
 News
 ======
-* [Feb'2024] Invited talk at Openmmlab about Video Generation Models, [slides](_talk/VideoGenerationModel.pdf).
+* [Feb'2024] Invited talk at Openmmlab about Video Generation Models, [[slides](/VideoGenerationModel.pdf)].
 * [Feb'2024] SimDA is accepted by [CVPR 2024](https://cvpr.thecvf.com/).
 * [Dec'2023] Serve as a reviewer for [ICML 2024](https://icml.cc/).
 * [Dec'2023] Invited talk at Kunlun Research, "A Survey on Video Diffusion Models".
