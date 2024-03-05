@@ -10,7 +10,7 @@ redirect_from:
 
 I am a second year Ph.D. Candidate at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/), where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/)(IEEE Fellow) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm).  
 
-My research interests lie broadly in computer vision and deep learning. I mainly focus on video understanding, especially video generation, editing and recognition. I am also open and willing to explore other vision tasks, e.g., 3D understanding,  AIGC. If you are interested in my topics, please do not hestitae to reach out. See details about me in **[CV](/cv)**.
+My research interests lie broadly in computer vision and deep learning. I mainly focus on video understanding, especially video generation, editing and recognition. I am also open and willing to explore other vision tasks, e.g., AIGC, 3D understanding. If you are interested in my topics, please do not hestitae to reach out. See details about me in **[CV](/cv)**.
 
 <!-- Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). See details about me in **[CV](/cv)** -->
 
