@@ -131,6 +131,20 @@ PrePrints(Arxiv)
 ======
 
 <ul>
+
+
+  <li>
+    <p>
+    <strong>
+    FDGaussian: Fast Gaussian Splatting via Geometric-aware Diffusion Model
+    </strong>
+    <br>
+      Qijun Feng, <strong>Zhen Xing</strong>, Zuxuan Wu, Yu-Gang Jiang
+    <br>
+      <strong>Preprint</strong>, 2024, [<a href="https://arxiv.org/pdf/2403.10242.pdf">Paper</a>], [<a href="https://qjfeng.net/FDGaussian/">HomePage</a>]
+    </p>
+  </li>
+
   <li>
   <p>
   <strong>
