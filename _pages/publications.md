@@ -50,7 +50,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <br>
     Bei Li, Yi Jing, Xu Tan,  <strong>Zhen Xing</strong>, Tong Xiao and Jingbo Zhu
   <br>
-  <strong>Findings of ACL</strong>, 2023, [<a href="https://arxiv.org/pdf/2305.16982.pdf">Paper</a>]
+  <strong>ACL (Findings)</strong>, 2023, [<a href="https://arxiv.org/pdf/2305.16982.pdf">Paper</a>]
   </p>
   </li>
 
@@ -141,7 +141,7 @@ PrePrints(Arxiv)
     <br>
       Qijun Feng, <strong>Zhen Xing</strong>, Zuxuan Wu, Yu-Gang Jiang
     <br>
-      <strong>Preprint</strong>, 2024, [<a href="https://arxiv.org/pdf/2403.10242.pdf">Paper</a>], [<a href="https://qjfeng.net/FDGaussian/">HomePage</a>]
+      <strong>Arxiv (Preprint)</strong>, 2024, [<a href="https://arxiv.org/pdf/2403.10242.pdf">Paper</a>], [<a href="https://qjfeng.net/FDGaussian/">HomePage</a>]
     </p>
   </li>
 
@@ -153,7 +153,7 @@ PrePrints(Arxiv)
   <br>
     <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang
   <br>
-    <strong> Preprint</strong>, 2023, [<a href="https://arxiv.org/abs/2311.18837">Paper</a>], [<a href="https://chenhsing.github.io/VIDiff/">Project</a>]
+    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.18837">Paper</a>], [<a href="https://chenhsing.github.io/VIDiff/">Project</a>]
   </p>
   </li>
 
