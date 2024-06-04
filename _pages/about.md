@@ -12,7 +12,7 @@ I am a second year Ph.D. Candidate at the School of Computer Science, [Fudan Uni
 
 My research interests lie broadly in computer vision and deep learning. I mainly focus on video understanding, especially video generation, editing and recognition. I am also open and willing to explore other vision tasks, e.g., AIGC, 3D understanding. See details about me in **[CV](/cv)**.
 
-I am set to graduate in 2025 and am actively <span style="color:red">exploring job opportunities in both industry and academia</span>. If you are interested in discussing potential collaborations or positions, please feel free to email me at zhenxingfd@gmail.com.
+I am set to graduate in 2025 and am actively <span style="color:red; font-weight:bold">exploring job opportunities in both industry and academia</span>. If you are interested in discussing potential collaborations or positions, please feel free to email me at [zhenxingfd@gmail.com](mailto:zhenxingfd@gmail.com).
 
 <!-- Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). See details about me in **[CV](/cv)** -->
 
