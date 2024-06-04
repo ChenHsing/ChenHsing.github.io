@@ -131,6 +131,17 @@ PrePrints(Arxiv)
 ======
 
 <ul>
+  <li>
+    <p>
+    <strong>
+    AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction
+    </strong>
+    <br>
+       <strong>Zhen Xing</strong>, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang
+    <br>
+      <strong>Arxiv (Preprint)</strong>, 2024, [<a href="#">Paper (Coming Soon)</a>], [<a href="https://chenhsing.github.io/AID/">HomePage</a>]
+    </p>
+  </li>
 
 
   <li>
@@ -153,7 +164,7 @@ PrePrints(Arxiv)
   <br>
     <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang
   <br>
-    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.18837">Paper</a>], [<a href="https://chenhsing.github.io/VIDiff/">Project</a>]
+    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.18837">Paper</a>], [<a href="https://chenhsing.github.io/VIDiff/">Homepage</a>]
   </p>
   </li>
 

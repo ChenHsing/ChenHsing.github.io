@@ -1,0 +1,479 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0045)http://6.869.csail.mit.edu/fa19/schedule.html -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="https://fonts.cdnfonts.com/css/chalkduster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+<link rel="stylesheet" href="./sm/assets/css/bulma.min.css">
+<link rel="stylesheet" href="./sm/assets/css/bulma-carousel.min.css">
+<link rel="stylesheet" href="./sm/assets/css/bulma-slider.min.css">
+<link rel="stylesheet" href="./sm/assets/css/fontawesome.all.min.css">
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="./sm/assets/css/index.css">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/chalkduster');
+</style>
+<script src="./sm/assets/teaser-data.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script defer src="./sm/assets/js/fontawesome.all.min.js"></script>
+<script src="./sm/assets/js/bulma-carousel.min.js"></script>
+<script src="./sm/assets/js/bulma-slider.min.js"></script>
+<script src="./sm/assets/js/index.js"></script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="Project page for &#39;AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction.&#39;">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="Project page for &#39;AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction.&#39;">
+</head>
+
+<body>
+    <p class="title">AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</p>
+    <div style="text-align: center; font-size: 20pt; margin-bottom: 15px">
+        <span>Technical Report (Paper & Code Comming Soon)</span>
+    </div>
+
+
+
+    <p class="author">
+        <span class="author"><a target="_blank" href="https://chenhsing.github.io/">Zhen Xing</a>&nbsp;<sup>1</sup></span>
+        <span class="author">Qi Dai&nbsp;<sup>2</sup></span>
+        <span class="author">Zejia Weng&nbsp;<sup>1</sup></span>
+        <span class="author">Zuxuan Wu&nbsp;<sup>1</sup></span>
+        <span class="author">Yu-Gang Jiang <sup>1</sup></span>
+    </p>
+
+    <p class="author">
+        <span class="author">&nbsp;<sup>1</sup>&nbsp;Fudan University</span>
+        <span class="author">&nbsp;<sup>2</sup>&nbsp;Microsoft Research Asia</span>
+    </p>
+
+
+
+    <br />
+
+    <div class="container">
+        &nbsp;
+        &nbsp;
+
+        <p><span class="section"><b>Abstract</b></span> </p>
+        <p> Text-guided video prediction (TVP) involves predicting the motion of future frames from the initial frame according to an instruction, which has wide applications in virtual reality, robotics, and content creation. Previous TVP methods make significant breakthroughs by adapting Stable Diffusion for this task. However, they struggle with frame consistency and temporal stability primarily due to the limited scale of video datasets.
+            We observe that pretrained Image2Video diffusion models possess good priors for video dynamics but they lack textual control.
+            Hence, transferring Image2Video models to leverage their video dynamic priors while injecting instruction control to generate controllable videos is both a meaningful and challenging task.
+            To achieve this, we introduce the Multi-Modal Large Language Model (MLLM) to predict future video states based on initial frames and text instructions. More specifically, we design a dual query transformer (DQFormer) architecture, which integrates the instructions and frames into the conditional embeddings for future frame prediction. Additionally, we develop Long-Short Term Temporal Adapters and Spatial Adapters that can quickly transfer general video diffusion models to specific scenarios with minimal training costs. Experimental results show that our method significantly outperforms state-of-the-art techniques on four datasets: Something Something V2, Epic Kitchen-100, Bridge Data, and UCF-101. Notably, AID achieves 91.2% and 55.5% FVD improvements on Bridge and SSv2 respectively, demonstrating its effectiveness in various domains. </p>
+        <br />
+        <br />
+        <p><span class="section"><b>Method</b></span> </p>
+        <img id="pipeline" width="100%" src="./img/pipeline.png" />
+        <p>The pipeline includes a 3D U-Net for diffusion and a DQFormer for text conditioning. The parameters of the original 3D U-Net are frozen, we only fine-tune the parameters of the newly added adapter during training.</p>
+
+        <br />
+        <br />
+        <div class="topbar"></div>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <p><span class="section"><b>Text-conditioned Video Prediction (SSthV2)</b></span></p>
+
+        <table  width="1200" border="0" align="center">
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <!-- <th style="font-size: 16px">Seer Method</th> -->
+                    <th style="font-size: 16px">Synthesized Video (Ours)</th>
+
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_lifting flashlight up completely without letting it drop down.jpg"> <img width="448" src="./img/ref_lifting flashlight up completely without letting it drop down.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Lifting flashlight  <br> up completely  <br> without letting <br> it drop down"</th>
+                    <th><a href="./img/gt_lifting flashlight up completely without letting it drop down.gif"> <a href="./img/gt_lifting flashlight up completely without letting it drop down.gif"> <img width="224" src="img/gt_lifting flashlight up completely without letting it drop down.gif" /> </a> </a></th>
+                    <!-- <th><a href="./img/seer_lifting flashlight up completely without letting it drop down.gif"> <a href="./img/seer_lifting flashlight up completely without letting it drop down.gif"> <img width="224" src="img/seer_lifting flashlight up completely without letting it drop down.gif"/> </a> </a></th> -->
+                    <th><a href="./img/our_lifting flashlight up completely without letting it drop down.gif"> <a href="./img/our_lifting flashlight up completely without letting it drop down.gif"> <img width="224" src="img/our_lifting flashlight up completely without letting it drop down.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">Synthesized Video (Ours)</th>
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_moving camera closer to dry erase board.jpg"> <img width="448" src="./img/ref_moving camera closer to dry erase board.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Moving camera closer   <br> to dry erase board" </th>
+                    <th><a href="./img/gt_moving camera closer to dry erase board.gif"> <a href="./img/gt_moving camera closer to dry erase board.gif"> <img width="224" src="img/gt_moving camera closer to dry erase board.gif" /> </a> </a></th>
+                    <th><a href="./img/our_moving camera closer to dry erase board.gif"> <a href="./img/our_moving camera closer to dry erase board.gif"> <img width="224" src="img/our_moving camera closer to dry erase board.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <!-- <th style="font-size: 16px">Seer Method</th> -->
+                    <th style="font-size: 16px">Synthesized Video (Ours)</th>
+
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_taking remote out of pen stand.jpg"> <img width="448" src="./img/ref_taking remote out of pen stand.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Taking remote <br> out of pen stand"</th>
+                    <th><a href="./img/gt_taking remote out of pen stand.gif"> <a href="./img/gt_taking remote out of pen stand.gif"> <img width="224" src="img/gt_taking remote out of pen stand.gif" /> </a> </a></th>
+                    <!-- <th><a href="./img/seer_lifting flashlight up completely without letting it drop down.gif"> <a href="./img/seer_lifting flashlight up completely without letting it drop down.gif"> <img width="224" src="img/seer_lifting flashlight up completely without letting it drop down.gif"/> </a> </a></th> -->
+                    <th><a href="./img/our_taking remote out of pen stand.gif"> <a href="./img/our_taking remote out of pen stand.gif"> <img width="224" src="img/our_taking remote out of pen stand.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">Synthesized Video (Ours)</th>
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_moving glue stick and diskette away from each other.jpg"> <img width="448" src="./img/ref_moving glue stick and diskette away from each other.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Moving glue stick <br>  and diskette away <br> from each other"  </th>
+                    <th><a href="./img/gt_moving glue stick and diskette away from each other.gif"> <a href="./img/gt_moving glue stick and diskette away from each other.gif"> <img width="224" src="img/gt_moving glue stick and diskette away from each other.gif" /> </a> </a></th>
+                    <th><a href="./img/our_moving glue stick and diskette away from each other.gif"> <a href="./img/our_moving glue stick and diskette away from each other.gif"> <img width="224" src="img/our_moving glue stick and diskette away from each other.gif"/> </a> </a></th>
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">Synthesized Video (Ours)</th>
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_showing lemon to the camera.jpg"> <img width="448" src="./img/ref_showing lemon to the camera.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Showing lemon <br> to the camera"  </th>
+                    <th><a href="./img/gt_showing lemon to the camera.gif"> <a href="./img/gt_showing lemon to the camera.gif"> <img width="224" src="img/gt_showing lemon to the camera.gif" /> </a> </a></th>
+                    <th><a href="./img/our_showing lemon to the camera.gif"> <a href="./img/our_showing lemon to the camera.gif"> <img width="224" src="img/our_showing lemon to the camera.gif"/> </a> </a></th>
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">Synthesized Video (Ours)</th>
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_moving charger up.jpg"> <img width="448" src="./img/ref_moving charger up.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Moving charger up"  </th>
+                    <th><a href="./img/gt_moving charger up.gif"> <a href="./img/gt_moving charger up.gif"> <img width="224" src="img/gt_moving charger up.gif" /> </a> </a></th>
+                    <th><a href="./img/our_moving charger up.gif"> <a href="./img/our_moving charger up.gif"> <img width="224" src="img/our_moving charger up.gif"/> </a> </a></th>
+                </tr>
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">Synthesized Video (Ours)</th>
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_pretending or failing to wipe ink off of a dry erase board.jpg"> <img width="448" src="./img/ref_pretending or failing to wipe ink off of a dry erase board.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Pretending or failing <br> to wipe ink off of <br> a dry erase board"  </th>
+                    <th><a href="./img/gt_pretending or failing to wipe ink off of a dry erase board.gif"> <a href="./img/gt_pretending or failing to wipe ink off of a dry erase board.gif"> <img width="224" src="img/gt_pretending or failing to wipe ink off of a dry erase board.gif" /> </a> </a></th>
+                    <th><a href="./img/our_pretending or failing to wipe ink off of a dry erase board.gif"> <a href="./img/our_pretending or failing to wipe ink off of a dry erase board.gif"> <img width="224" src="img/our_pretending or failing to wipe ink off of a dry erase board.gif"/> </a> </a></th>
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            
+        </table>
+
+
+
+        &nbsp;
+        <hr>
+        <p><span class="section"><b>Text-conditioned Video Prediction (BridgeData)</b></span></p>
+
+        <table  width="1200" border="0" align="center">
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+                    <th style="font-size: 16px">Seer Method</th>
+
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_put can in pot.jpg"> <img width="224" height="224" src="./img/ref_put can in pot.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Put can in pot"</th>
+                    <th><a href="./img/gt_put can in pot.gif"> <a href="./img/gt_put can in pot.gif"> <img width="224" height="224" src="img/gt_put can in pot.gif" /> </a> </a></th>
+                    <th><a href="./img/our_put can in pot.gif"> <a href="./img/our_put can in pot.gif"> <img width="224" height="224" src="img/our_put can in pot.gif"/> </a> </a></th>
+                    <th><a href="./img/seer_put can in pot.gif"> <a href="./img/seer_put can in pot.gif"> <img width="224" height="224" src="img/seer_put can in pot.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+                    <th style="font-size: 16px">Seer Method</th>
+
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_open brown1fbox flap.jpg"> <img width="224" height="224" src="./img/ref_open brown1fbox flap.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Open brown1fbox <br> flap"</th>
+                    <th><a href="./img/gt_open brown1fbox flap.gif"> <a href="./img/gt_open brown1fbox flap.gif"> <img width="224" height="224" src="img/gt_open brown1fbox flap.gif" /> </a> </a></th>
+                    <th><a href="./img/our_open brown1fbox flap.gif"> <a href="./img/our_open brown1fbox flap.gif"> <img width="224" height="224" src="img/our_open brown1fbox flap.gif"/> </a> </a></th>
+                    <th><a href="./img/seer_open brown1fbox flap.gif"> <a href="./img/seer_open brown1fbox flap.gif"> <img width="224" height="224" src="img/seer_open brown1fbox flap.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+                    <th style="font-size: 16px">Seer Method</th>
+
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_put corn in pot which is in sink distractors.jpg"> <img width="224" height="224" src="./img/ref_put corn in pot which is in sink distractors.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Open brown1fbox <br> flap"</th>
+                    <th><a href="./img/gt_put corn in pot which is in sink distractors.gif"> <a href="./img/gt_put corn in pot which is in sink distractors.gif"> <img width="224" height="224" src="img/gt_put corn in pot which is in sink distractors.gif" /> </a> </a></th>
+                    <th><a href="./img/our_put corn in pot which is in sink distractors.gif"> <a href="./img/our_put corn in pot which is in sink distractors.gif"> <img width="224" height="224" src="img/our_put corn in pot which is in sink distractors.gif"/> </a> </a></th>
+                    <th><a href="./img/seer_put corn in pot which is in sink distractors.gif"> <a href="./img/seer_put corn in pot which is in sink distractors.gif"> <img width="224" height="224" src="img/seer_put corn in pot which is in sink distractors.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+        </table>
+ 
+        &nbsp;
+        <hr>
+        <p><span class="section"><b>Text-conditioned Video Prediction (Epic-kitchen)</b></span></p>
+
+        <table  width="1200" border="0" align="center">
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+                    <th style="font-size: 16px">Seer Method</th>
+
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_open fridge.jpg"> <img width="224" height="224" src="./img/ref_open fridge.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Open fridge"</th>
+                    <th><a href="./img/gt_open fridge.gif"> <a href="./img/gt_open fridge.gif"> <img width="224" height="224" src="img/gt_open fridge.gif" /> </a> </a></th>
+                    <th><a href="./img/our_open fridge.gif"> <a href="./img/our_open fridge.gif"> <img width="224" height="224" src="img/our_open fridge.gif"/> </a> </a></th>
+                    <th><a href="./img/seer_open fridge.gif"> <a href="./img/seer_open fridge.gif"> <img width="224" height="224" src="img/seer_open fridge.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+                    <th style="font-size: 16px">Seer Method</th>
+
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_wash meat.jpg"> <img width="224" height="224" src="./img/ref_wash meat.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Wash meat <br> flap"</th>
+                    <th><a href="./img/gt_wash meat.gif"> <a href="./img/gt_wash meat.gif"> <img width="224" height="224" src="img/gt_wash meat.gif" /> </a> </a></th>
+                    <th><a href="./img/our_wash meat.gif"> <a href="./img/our_wash meat.gif"> <img width="224" height="224" src="img/our_wash meat.gif"/> </a> </a></th>
+                    <th><a href="./img/seer_wash meat.gif"> <a href="./img/seer_wash meat.gif"> <img width="224" height="224" src="img/seer_wash meat.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+                    <th style="font-size: 16px">Seer Method</th>
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_put plate on counter.jpg"> <img width="224" height="224" src="./img/ref_put plate on counter.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Put plate on counter"</th>
+                    <th><a href="./img/gt_put plate on counter.gif"> <a href="./img/gt_put plate on counter.gif"> <img width="224" height="224" src="img/gt_put plate on counter.gif" /> </a> </a></th>
+                    <th><a href="./img/our_put plate on counter.gif"> <a href="./img/our_put plate on counter.gif"> <img width="224" height="224" src="img/our_put plate on counter.gif"/> </a> </a></th>
+                    <th><a href="./img/seer_put plate on counter.gif"> <a href="./img/seer_put plate on counter.gif"> <img width="224" height="224" src="img/seer_put plate on counter.gif"/> </a> </a></th>
+                </tr>
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+                    <th style="font-size: 16px">Seer Method</th>
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_continue stirring food.jpg"> <img width="224" height="224" src="./img/ref_continue stirring food.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"Continue stirring food"</th>
+                    <th><a href="./img/gt_continue stirring food.gif"> <a href="./img/gt_continue stirring food.gif"> <img width="224" height="224" src="img/gt_continue stirring food.gif" /> </a> </a></th>
+                    <th><a href="./img/our_continue stirring food.gif"> <a href="./img/our_continue stirring food.gif"> <img width="224" height="224" src="img/our_continue stirring food.gif"/> </a> </a></th>
+                    <th><a href="./img/seer_continue stirring food.gif"> <a href="./img/seer_continue stirring food.gif"> <img width="224" height="224" src="img/seer_continue stirring food.gif"/> </a> </a></th>
+                </tr>
+                <tr> <td><br /></td> </tr>
+            </tbody>
+        </table>
+
+        &nbsp;
+        <hr>
+        <p><span class="section"><b>Text-conditioned Video Prediction (UCF-101)</b></span></p>
+
+        <table  width="1200" border="0" align="center">
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_hair.jpg"> <img width="224" height="224" src="./img/ref_hair.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"A person is <br> blow-drying hair"</th>
+                    <th><a href="./img/gt_ A person is blow-drying hair.gif"> <a href="./img/gt_A person is blow-drying hair.gif"> <img width="224" height="224" src="img/gt_A person is blow-drying hair.gif" /> </a> </a></th>
+                    <th><a href="./img/our_A person is blow-drying hair.gif"> <a href="./img/our_A person is blow-drying hair.gif"> <img width="224" height="224" src="img/our_A person is blow-drying hair.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_A person is applying eye makeup.jpg"> <img width="224" height="224" src="./img/ref_A person is applying eye makeup.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"A person is <br> applying eye makeup"</th>
+                    <th><a href="./img/gt_A person is applying eye makeup.gif"> <a href="./img/gt_A person is applying eye makeup.gif"> <img width="224" height="224" src="img/gt_A person is applying eye makeup.gif" /> </a> </a></th>
+                    <th><a href="./img/our_A person is applying eye makeup.gif"> <a href="./img/our_A person is applying eye makeup.gif"> <img width="224" height="224" src="img/our_A person is applying eye makeup.gif"/> </a> </a></th>
+
+                </tr>
+
+                <tr> <td><br /></td> </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th style="font-size: 16px">Input frames</th>
+                    <th style="font-size: 16px">Text instruction</th>
+                    <th style="font-size: 16px">Real Video</th>
+                    <th style="font-size: 16px">AID (Ours)</th>
+                </tr>
+                <tr>
+                    <th><a href="./"> <a href="./img/ref_A person is doing push-ups.jpg"> <img width="224" height="224" src="./img/ref_A person is doing push-ups.jpg" /> </a> </a></th>
+                    <th style="font-size: 16px; font-family: Chalkboard SE;">"A person is <br> doing push-ups."</th>
+                    <th><a href="./img/gt_A person is doing push-ups.gif"> <a href="./img/gt_A person is doing push-ups.gif"> <img width="224" height="224" src="img/gt_A person is doing push-ups.gif" /> </a> </a></th>
+                    <th><a href="./img/our_A person is doing push-ups.gif"> <a href="./img/our_A person is doing push-ups.gif"> <img width="224" height="224" src="img/our_A person is doing push-ups.gif"/> </a> </a></th>
+                </tr>
+                <tr> <td><br /></td> </tr>
+            </tbody>
+
+        </table>
+
+</body>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WLX2Z5QLG8');
+ </script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script type="text/javascript">
+    $(document).ready(function () {
+
+        if (localStorage.getItem("my_app_name_here-quote-scroll") != null) {
+            $(window).scrollTop(localStorage.getItem("my_app_name_here-quote-scroll"));
+        }
+
+        $(window).on("scroll", function() {
+            localStorage.setItem("my_app_name_here-quote-scroll", $(window).scrollTop());
+        });
+
+      });
+ </script>
+    
+ <script>
+    function prompt_on(prompt_element) {
+        prompt_element.classList.add("caption-active");
+    }
+
+    function prompt_off(prompt_element) {
+        prompt_element.classList.remove("caption-active");
+    }
+
+    function toggle_prompt(active_prompt_id, inactive_prompt_ids, result_id) {
+        let active_prompt = document.getElementById(active_prompt_id);
+        prompt_on(active_prompt);
+        for (let i = 0; i < inactive_prompt_ids.length; i++) {
+            let inactive_prompt = document.getElementById(inactive_prompt_ids[i]);
+            prompt_off(inactive_prompt);
+        }
+
+        let result = document.getElementById(result_id);
+        result.src = file_paths[active_prompt_id];
+    }
+ </script>
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
