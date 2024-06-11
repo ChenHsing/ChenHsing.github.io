@@ -139,7 +139,7 @@ PrePrints(Arxiv)
     <br>
        <strong>Zhen Xing</strong>, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang
     <br>
-      <strong>Arxiv (Preprint)</strong>, 2024, [<a href="#">Paper (Coming Soon)</a>], [<a href="https://chenhsing.github.io/AID/">HomePage</a>]
+      <strong>Arxiv (Preprint)</strong>, 2024, [<a href="https://arxiv.org/pdf/2406.06465.pdf">Paper</a>], [<a href="https://chenhsing.github.io/AID/">HomePage</a>]
     </p>
   </li>
 
