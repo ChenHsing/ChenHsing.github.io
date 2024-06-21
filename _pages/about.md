@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Ph.D. Candidate at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/), where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/)(IEEE Fellow) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm).  
 
-My research interests lie broadly in computer vision and deep learning. I mainly focus on video understanding, especially video generation, editing and recognition. I am also open and willing to explore other vision tasks, e.g., AIGC, 3D understanding. See details about me in **[CV](/cv)**.
+My research interests lie broadly in computer vision and deep learning. I mainly focus on <span style="color:red; font-weight:bold">video generation, editing and recognition</span>. I am also open and willing to explore other vision tasks, e.g., AIGC, 3D understanding. See details about me in **[CV](/cv)**.
 
 I am set to graduate in 2025 and am actively <span style="color:red; font-weight:bold">exploring job opportunities in both industry and academia</span>. If you are interested in discussing potential collaborations or positions, please feel free to email me at [zhenxingfd@gmail.com](mailto:zhenxingfd@gmail.com).
 
@@ -56,7 +56,7 @@ Selected Publications:
 ======
 * See the full publication list at **[Publications](/publications)**.
 
-<table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/videogen.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">A Survey on Video Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Under Review of ACM Computing Survey (<strong>CSUR</strong>), 2023</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2310.10647">Paper</a>][<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/661860981">Zhihu</a>]</span><br> <span style="color: red;"> Surveying 100+ recent literatures on video generation and editing with diffusion models.
+<table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/videogen.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">A Survey on Video Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">  ACM Computing Survey (<strong>CSUR</strong>) [Minor Revision], 2023</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2310.10647">Paper</a>][<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/661860981">Zhihu</a>]</span><br> <span style="color: red;"> Surveying 100+ recent literatures on video generation and editing with diffusion models.
 </span>
 </th>
 </tr></tbody></table>
