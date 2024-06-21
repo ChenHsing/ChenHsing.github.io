@@ -61,6 +61,7 @@ Selected Publications:
 </th>
 </tr></tbody></table>
 
+
 <table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/simda.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">SimDA: A Simple Diffusion Adapter for Efficient Video Generation</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2308.09710">Paper</a>][<a href="https://chenhsing.github.io/SimDA/">HomePage</a>]
 </span></th></tr></tbody></table>
 
