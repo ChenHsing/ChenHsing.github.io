@@ -27,10 +27,10 @@ Honors & Awards
 * Fudan University excellent academic scholarship. (**Top-5%, PhD**) [2023]
 * Tencent academic scholarship. (**Rank 1/130, PhD**) [2022]
 * Fudan University excellent academic scholarship. (**Top-5%, Master**) [2021]
-* CCKS 2021 National knowledge graph and semantic computing competition (**Rank 6/431**). [2021]
-* MangoTV International audio and video algorithm competition (**Rank 6/193**). [2021]
+<!-- * CCKS 2021 National knowledge graph and semantic computing competition (**Rank 6/431**). [2021]
+* MangoTV International audio and video algorithm competition (**Rank 6/193**). [2021] -->
 * Outstanding graduates of TianJin University. (**Top-5%**) [2020]
-* Second prize of virtual scene group of automatic driving challenge of International Intelligent Conference. [2019]
+<!-- * Second prize of virtual scene group of automatic driving challenge of International Intelligent Conference. [2019] -->
 * Excellent monitor of Tianjin University. (**Top-10**) [2018]
 * Academic scholarship of Tianjin University. (**Top-10%**) [2017-2020]
 
