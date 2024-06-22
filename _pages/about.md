@@ -27,11 +27,7 @@ News
 * [May'2023] **One** paper is accepted by [ACL 2023](https://2023.aclweb.org/).
 * [Feb'2023] **Two** papers are accepted by [CVPR 2023](https://cvpr2023.thecvf.com/).
 * [July'2022] **Three** papers are accepted by [ECCV 2022](https://eccv2022.ecva.net/).
-* [June'2022] **One** paper is accepted by [ACM'MM 2022](https://2022.acmmm.org/).
-* [Apr'2022] **One** paper is accepted to [ACM ICMR 2022](https://www.icmr2022.org/).
 * [Mar'2022] Start my internship at MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)).
-* [Jan'2022] **One** paper is accepted by [DASFAA 2022](https://www.dasfaa2022.org/).
-
 
 <!-- * [Aug'2023] Invited talk at MSRA, "A Simple Diffusion Adapter for Efficient Video Generation". -->
 
