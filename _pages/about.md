@@ -8,7 +8,29 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. Candidate at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/), at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)(IEEE Fellow) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm).  
+
+<style>
+    .image-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .label {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 4px 8px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    img {
+        display: block;
+    }
+</style>
+
+I am a Ph.D. Candidate at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/), where I work at [Vision and Learning Lab(FVL)](https://fvl.fudan.edu.cn/main.htm) under the supervision of Prof. [Yu-Gang Jiang](https://fvl.fudan.edu.cn/people/yugangjiang/)(IEEE Fellow) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my BS degree from [TianJin University](http://www.tju.edu.cn/english/index.htm).  
 
 My research interests lie broadly in computer vision and deep learning. I mainly focus on <span style="color:red; font-weight:bold">video generation, editing and recognition</span>. I am also open and willing to explore other vision tasks, e.g., AIGC, 3D understanding. See details about me in **[CV](/cv)**.
 
@@ -52,14 +74,23 @@ Selected Publications:
 ======
 * See the full publication list at **[Publications](/publications)**.
 
-<table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/videogen.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">[Video Generation] A Survey on Video Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">  ACM Computing Survey (<strong>CSUR</strong>) [Minor Revision], 2023</span><br>
- <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2310.10647">Paper</a>][<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/661860981">Zhihu</a>]</span><br> <span style="color: red;"> Surveying 100+ recent literatures on video generation and editing with diffusion models.
+<table style="width:100%"><tbody><tr><th width="30%">     <div class="image-container">
+        <img src="../images/videogen.jpg" width="350">
+        <div class="label">Video Generation</div>
+    </div>
+</th><th style="text-align:left" width="70%"> <span style="font-size:18px">A Survey on Video Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">  ACM Computing Survey (<strong>CSUR</strong>) [Minor Revision], 2023</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2310.10647">Paper</a>][<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/661860981">Zhihu</a>]</span><br> <span style="color: red;"> Surveying 100+ recent literatures on video generation and editing with diffusion models.
 </span>
 </th>
 </tr></tbody></table>
 
 
-<table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/simda.jpg" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">[Video Generation] SimDA: A Simple Diffusion Adapter for Efficient Video Generation</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2308.09710">Paper</a>][<a href="https://chenhsing.github.io/SimDA/">HomePage</a>]
+<table style="width:100%">
+<tbody><tr><th width="30%"> 
+<img src="../images/simda.jpg" width="350"></th><th style="text-align:left" width="70%"> 
+<span style="font-size:18px">SimDA: A Simple Diffusion Adapter for Efficient Video Generation</span><br> 
+<span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br>
+ <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2024 </span><br> 
+ <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2308.09710">Paper</a>][<a href="https://chenhsing.github.io/SimDA/">HomePage</a>]
 </span></th></tr></tbody></table>
 
 <table style="width:100%"><tbody><tr><th width="30%"> <img src="../images/aid.png" width="350"></th><th style="text-align:left" width="70%"> <span style="font-size:18px">AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Technique Report, 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2406.06465">Paper</a>][<a href="https://chenhsing.github.io/AID/">HomePage</a>]
