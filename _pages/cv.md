@@ -51,5 +51,5 @@ Service
   * **CVPR**(2022-2024), **ICCV**(2023), **ECCV**(2022-2024)
   * **ICML**(2024), **ICLR**(2024), **NeurIPS**(2023-2024)
   * **AAAI**(2022-2023), **MM**(2022)
-* Journal Reviewer: **IJCV**, **TMM**, **TCSVT**, **KBS**
+* Journal Reviewer: **TPAMI**, **IJCV**, **TMM**, **TCSVT**, **KBS**
 * Teaching Assistant: Digital Image Processing, Computer Image Technology in Fudan University
