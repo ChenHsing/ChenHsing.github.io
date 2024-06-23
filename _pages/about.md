@@ -17,9 +17,9 @@ redirect_from:
 
     .label {
         position: absolute;
-        top: 8px;
-        left: 8px;
-        background-color: rgba(0, 0, 0, 0.5);
+        top: 4px;
+        left: 4px;
+        background-color: rgba(0, 0, 255, 0.7); /* 蓝色背景，透明度为0.7 */
         color: white;
         padding: 4px 8px;
         font-size: 12px;
