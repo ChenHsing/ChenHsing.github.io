@@ -15,6 +15,17 @@ redirect_from:
         display: inline-block;
     }
 
+    .badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .2em;
+    margin-left: -.5em;
+    color: white;
+        background-color: rgba(0, 0, 255, 0.7); /* 蓝色背景，透明度为0.7 */
+    font-size: 12px
+    }
+
     .label {
         position: absolute;
         top: 4px;
@@ -57,7 +68,10 @@ Selected Publications:
 ======
 * See the full publication list at **[Publications](/publications)**.
 
-<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/videogen.jpg" width="350"> <div class="label">Video Generation</div></div>
+<table style="width:100%"><tbody><tr><th width="30%">
+
+<div class="image-container">  <div class="badge">Video Generation</div> <img src="../images/videogen.jpg" width="350">
+</div>
 </th><th style="text-align:left" width="70%"> <span style="font-size:18px">A Survey on Video Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">  ACM Computing Survey (<strong>CSUR</strong>) [Minor Revision], 2024</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2310.10647">Paper</a>][<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/661860981">Zhihu</a>]</span><br> <span style="color: red;"> Surveying 100+ recent literatures on video generation and editing with diffusion models.
 </span>
 </th>
@@ -65,7 +79,7 @@ Selected Publications:
 
 
 <table style="width:100%">
-<tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/simda.jpg" width="350"> <div class="label">Video Generation</div></div>
+<tbody><tr><th width="30%"> <div class="image-container"> <div class="badge">Video Generation</div><img src="../images/simda.jpg" width="350"> </div>
 </th><th style="text-align:left" width="70%"> 
 <span style="font-size:18px">SimDA: A Simple Diffusion Adapter for Efficient Video Generation</span><br> 
 <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br>
@@ -73,26 +87,26 @@ Selected Publications:
  <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2308.09710">Paper</a>][<a href="https://chenhsing.github.io/SimDA/">HomePage</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/aid.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Technique Report, 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2406.06465">Paper</a>][<a href="https://chenhsing.github.io/AID/">HomePage</a>]
+<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <div class="badge">Video Generation</div> <img src="../images/aid.png" width="350"> </div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Technique Report, 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2406.06465">Paper</a>][<a href="https://chenhsing.github.io/AID/">HomePage</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/vidiff.jpg" width="350"> <div class="label">Video Editing</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">arXiv preprint, 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2311.18837">Paper</a>][<a href="https://chenhsing.github.io/VIDiff/">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/670615911">Zhihu</a>]
+<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <div class="badge">Video Editing</div> <img src="../images/vidiff.jpg" width="350"></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">arXiv preprint, 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2311.18837">Paper</a>][<a href="https://chenhsing.github.io/VIDiff/">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/670615911">Zhihu</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/svformer.jpg" width="350"> <div class="label">Video Recongnition</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">SVFormer: Semi-supervised Video Transformer for Action Recognition </span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2211.13222">Paper</a>][<a href="https://github.com/ChenHsing/SVFormer">Code</a>]
+<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <div class="badge">Video Recongnition</div> <img src="../images/svformer.jpg" width="350"> </div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">SVFormer: Semi-supervised Video Transformer for Action Recognition </span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2211.13222">Paper</a>][<a href="https://github.com/ChenHsing/SVFormer">Code</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/panoswin.png" width="350"> <div class="label">Panorama Understanding</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">PanoSwin: a Pano-style Swin Transformer for Panorama Understanding </span><br> <span style="font-weight:normal;font-size:16px">Zhixin Ling</span>, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Manliang Cao, Xiangdong Zhou</span></span><br> <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Ling_PanoSwin_A_Pano-Style_Swin_Transformer_for_Panorama_Understanding_CVPR_2023_paper.pdf">Paper</a>][<a href="https://github.com/1069066484/PanoSwinTransformerObjectDetection">Code</a>]
+<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <div class="badge">Panorama Understanding</div> <img src="../images/panoswin.png" width="350"> </div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">PanoSwin: a Pano-style Swin Transformer for Panorama Understanding </span><br> <span style="font-weight:normal;font-size:16px">Zhixin Ling</span>, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Manliang Cao, Xiangdong Zhou</span></span><br> <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Ling_PanoSwin_A_Pano-Style_Swin_Transformer_for_Panorama_Understanding_CVPR_2023_paper.pdf">Paper</a>][<a href="https://github.com/1069066484/PanoSwinTransformerObjectDetection">Code</a>]
 </span></th></tr></tbody></table>
 
 
-<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/ssp3d.jpg" width="350"> <div class="label">3D Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">Semi-supervised Single-view 3D Reconstruction via Prototype Shape Priors </span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Hengduo Li, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">European Conference on Computer Vision (<strong>ECCV</strong>), 2022 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2209.15383">Paper</a>][<a href="https://github.com/ChenHsing/SSP3D">Code</a>]
+<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <div class="badge">3D Generation</div><img src="../images/ssp3d.jpg" width="350"> </div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">Semi-supervised Single-view 3D Reconstruction via Prototype Shape Priors </span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Hengduo Li, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">European Conference on Computer Vision (<strong>ECCV</strong>), 2022 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2209.15383">Paper</a>][<a href="https://github.com/ChenHsing/SSP3D">Code</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/mpcn.jpg" width="350"> <div class="label">3D Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network </span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Yijiang Chen, Zhixin Ling, Xiangdong Zhou, Yu Xiang</span></span><br> <span style="font-weight:normal;font-size:16px">European Conference on Computer Vision (<strong>ECCV</strong>), 2022 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2208.00183">Paper</a>][<a href="#">Code</a>]
+<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <div class="badge">3D Generation</div> <img src="../images/mpcn.jpg" width="350"> </div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network </span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Yijiang Chen, Zhixin Ling, Xiangdong Zhou, Yu Xiang</span></span><br> <span style="font-weight:normal;font-size:16px">European Conference on Computer Vision (<strong>ECCV</strong>), 2022 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2208.00183">Paper</a>][<a href="#">Code</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/csr.jpg" width="350"> <div class="label">Image Retrieval</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval </span><br> <span style="font-weight:normal;font-size:16px">Zhixin Ling</span>, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">,Jian Zhou, Xiangdong Zhou</span></span><br> <span style="font-weight:normal;font-size:16px">European Conference on Computer Vision (<strong>ECCV</strong>), 2022 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136860708.pdf">Paper</a>][<a href="https://github.com/1069066484/CSR-ECCV2022">Code</a>]
+<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"><div class="badge">Image Retrieval</div> <img src="../images/csr.jpg" width="350"> </div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval </span><br> <span style="font-weight:normal;font-size:16px">Zhixin Ling</span>, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">,Jian Zhou, Xiangdong Zhou</span></span><br> <span style="font-weight:normal;font-size:16px">European Conference on Computer Vision (<strong>ECCV</strong>), 2022 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136860708.pdf">Paper</a>][<a href="https://github.com/1069066484/CSR-ECCV2022">Code</a>]
 </span></th></tr></tbody></table>
 
 
