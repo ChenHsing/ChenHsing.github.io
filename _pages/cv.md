@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in TianJin, TianJin University, 2020
+* B.S. in TianJin, Tianjin University, 2020
 * Ph.D in ShangHai, Fudan University, 2025 (expected)
 
 Research Interest
