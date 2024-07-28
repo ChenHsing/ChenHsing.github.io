@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in TianJin, Tianjin University, 2020
-* Ph.D in ShangHai, Fudan University, 2025 (expected)
+* Ph.D. in ShangHai, Fudan University, 2025 (expected)
 
 Research Interest
 ======
@@ -39,15 +39,12 @@ Work experience
   * Duties included:  Video Diffusion Model,  Video Understanding
   * Supervisor: Qi Dai, Han Hu
 
-* Apr. 2019 - July. 2019: Algorithm Engineer Intern
+<!-- * Apr. 2019 - July. 2019: Algorithm Engineer Intern
   * China Automotic Technology and Research Center
-  * Duties included: Object Detection, Path Planning
+  * Duties included: Object Detection, Path Planning -->
 
 Service
 ======
-* Program Committee: 
-  * **CVPR**(2022-2024), **ICCV**(2023), **ECCV**(2022-2024)
-  * **ICML**(2024), **ICLR**(2024), **NeurIPS**(2023-2024)
-  * **AAAI**(2022-2023), **MM**(2022)
+* Program Committee:  **CVPR**, **ICCV**, **ECCV**, **ICML**, **ICLR**, **NeurIPS**, **AAAI**
 * Journal Reviewer: **TPAMI**, **IJCV**, **TMM**, **TCSVT**, **KBS**
 * Teaching Assistant: Digital Image Processing, Computer Image Technology in Fudan University
