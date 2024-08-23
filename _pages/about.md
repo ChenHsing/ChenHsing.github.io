@@ -43,7 +43,7 @@ I am set to graduate in 2025 and am actively <span style="color:red; font-weight
 
 News
 ======
-* [Aug'2024] "A Survey on Video Diffusion Models" is accepted by ACM Computing Surveys (IF=23.8).
+* [Aug'2024] "A Survey on Video Diffusion Models" is accepted by ACM Computing Surveys.
 * [Feb'2024] Invited talk at Openmmlab about Video Generation Models, [[slides](/VideoGenerationModel.pdf)].
 * [Feb'2024] SimDA is accepted by [CVPR 2024](https://cvpr.thecvf.com/).
 * [Dec'2023] Serve as a reviewer for [ICML 2024](https://icml.cc/).
@@ -61,7 +61,7 @@ Selected Publications:
 * See the full publication list at **[Publications](/publications)**.
 
 <table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/videogen.jpg" width="350"> <div class="label">Video Generation</div></div>
-</th><th style="text-align:left" width="70%"> <span style="font-size:18px">A Survey on Video Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">  ACM Computing Survey (<strong>CSUR</strong>), 2024</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2310.10647">Paper</a>][<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/661860981">Zhihu</a>]</span><br> <span style="color: red;"> Surveying 100+ recent literatures on video generation and editing with diffusion models.
+</th><th style="text-align:left" width="70%"> <span style="font-size:18px">A Survey on Video Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">  ACM Computing Survey (<strong>CSUR, IF=23.8</strong>), 2024</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2310.10647">Paper</a>][<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/661860981">Zhihu</a>]</span><br> <span style="color: red;"> Surveying 100+ recent literatures on video generation and editing with diffusion models.
 </span>
 </th>
 </tr></tbody></table>
