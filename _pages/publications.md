@@ -16,7 +16,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
     <br>
       <strong>Zhen Xing</strong>, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu,  Zuxuan Wu, Yu-Gang Jiang
     <br>
-      <strong> ACM CSUR</strong>[Minor Revision], 2024, [<a href="https://arxiv.org/abs/2310.10647">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
+      <strong> ACM CSUR</strong>, 2024, [<a href="https://arxiv.org/abs/2310.10647">Paper</a>], [<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>]
     </p>
   </li>
 
