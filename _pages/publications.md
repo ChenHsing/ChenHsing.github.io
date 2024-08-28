@@ -142,7 +142,22 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
 PrePrints(Arxiv)
 ======
 
+
+
 <ul>
+
+  <li>
+    <p>
+    <strong>
+    GenRec: Unifying Video Generation and Recognition with Diffusion Models
+    </strong>
+    <br>
+        Zejia Weng, Xitong Yang, <strong>Zhen Xing</strong>,  Zuxuan Wu, Yu-Gang Jiang
+    <br>
+      <strong>Arxiv (Preprint)</strong>, 2024, [<a href="https://arxiv.org/pdf/2408.15241">Paper</a>]
+    </p>
+  </li>
+
   <li>
     <p>
     <strong>
@@ -188,7 +203,7 @@ PrePrints(Arxiv)
   <br>
     <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang
   <br>
-    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.18837">Paper</a>], [<a href="https://chenhsing.github.io/VIDiff/">Homepage</a>]
+    <strong>IJCV (Under Review)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.18837">Paper</a>], [<a href="https://chenhsing.github.io/VIDiff/">Homepage</a>]
   </p>
   </li>
 
