@@ -33,6 +33,31 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   </li>
 
   <li>
+    <p>
+    <strong>
+    GenRec: Unifying Video Generation and Recognition with Diffusion Models
+    </strong>
+    <br>
+        Zejia Weng, Xitong Yang, <strong>Zhen Xing</strong>,  Zuxuan Wu, Yu-Gang Jiang
+    <br>
+      <strong>NeurIPS</strong>, 2024, [<a href="https://arxiv.org/pdf/2408.15241">Paper</a>]
+    </p>
+  </li>
+
+  <li>
+    <p>
+    <strong>
+    Aligning Vision Models with Human Aesthetics in Retrieval: Benchmarks and Algorithms
+    </strong>
+    <br>
+    Miaosen Zhang, Yixuan Wei, <strong> Zhen Xing</strong>, Yifei Ma, Zuxuan Wu, Ji Li, Zheng Zhang, Qi Dai, Chong Luo, Xin Geng, Baining Guo
+    <br>
+      <strong>NeurIPS</strong>, 2024, [<a href="https://arxiv.org/pdf/2406.06465.pdf">Paper</a>], [<a href="https://chenhsing.github.io/AID/">HomePage</a>]
+    </p>
+  </li>
+
+
+  <li>
   <p>
   <strong>
   SVFormer: Semi-supervised Video Transformer for Action Recognition
@@ -146,17 +171,7 @@ PrePrints(Arxiv)
 
 <ul>
 
-  <li>
-    <p>
-    <strong>
-    GenRec: Unifying Video Generation and Recognition with Diffusion Models
-    </strong>
-    <br>
-        Zejia Weng, Xitong Yang, <strong>Zhen Xing</strong>,  Zuxuan Wu, Yu-Gang Jiang
-    <br>
-      <strong>Arxiv (Preprint)</strong>, 2024, [<a href="https://arxiv.org/pdf/2408.15241">Paper</a>]
-    </p>
-  </li>
+
 
   <li>
     <p>
@@ -170,17 +185,6 @@ PrePrints(Arxiv)
     </p>
   </li>
 
-  <li>
-    <p>
-    <strong>
-    Aligning Vision Models with Human Aesthetics in Retrieval: Benchmarks and Algorithms
-    </strong>
-    <br>
-    Miaosen Zhang, Yixuan Wei, <strong> Zhen Xing</strong>, Yifei Ma, Zuxuan Wu, Ji Li, Zheng Zhang, Qi Dai, Chong Luo, Xin Geng, Baining Guo
-    <br>
-      <strong>Arxiv (Preprint)</strong>, 2024, [<a href="https://arxiv.org/pdf/2406.06465.pdf">Paper</a>], [<a href="https://chenhsing.github.io/AID/">HomePage</a>]
-    </p>
-  </li>
 
 
   <li>

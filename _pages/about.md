@@ -43,6 +43,7 @@ I am set to graduate in 2025 and am actively <span style="color:red; font-weight
 
 News
 ======
+* [Sep'2024] **Two** papers are accepted by [NeruIPS 2024](https://neurips.cc/Conferences/2024).
 * [Aug'2024] "A Survey on Video Diffusion Models" is accepted by ACM Computing Surveys.
 * [Feb'2024] Invited talk at Openmmlab about Video Generation Models, [[slides](/VideoGenerationModel.pdf)].
 * [Feb'2024] SimDA is accepted by [CVPR 2024](https://cvpr.thecvf.com/).
@@ -76,11 +77,15 @@ Selected Publications:
  <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2308.09710">Paper</a>][<a href="https://chenhsing.github.io/SimDA/">HomePage</a>]
 </span></th></tr></tbody></table>
 
+<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/genrec.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">GenRec: Unifying Video Generation and Recognition with Diffusion Models </span><br> Zejia Weng, Xitong Yang, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2408.15241">Paper</a>]
+</span></th></tr></tbody></table>
+
 <table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/aid.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Technique Report, 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2406.06465">Paper</a>][<a href="https://chenhsing.github.io/AID/">HomePage</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/vidiff.jpg" width="350"> <div class="label">Video Editing</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">IJCV (Under Review) </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2311.18837">Paper</a>][<a href="https://chenhsing.github.io/VIDiff/">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/670615911">Zhihu</a>]
+<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/vidiff.jpg" width="350"> <div class="label">Video Editing</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px"> <strong>IJCV</strong> (Under Review) </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2311.18837">Paper</a>][<a href="https://chenhsing.github.io/VIDiff/">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/670615911">Zhihu</a>]
 </span></th></tr></tbody></table>
+
 
 <table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/svformer.jpg" width="350"> <div class="label">Video Recongnition</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">SVFormer: Semi-supervised Video Transformer for Action Recognition </span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Han Hu, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2023 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2211.13222">Paper</a>][<a href="https://github.com/ChenHsing/SVFormer">Code</a>]
 </span></th></tr></tbody></table>
