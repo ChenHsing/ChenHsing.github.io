@@ -56,6 +56,16 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
     </p>
   </li>
 
+  <li>
+  <p>
+  <strong>
+  AdaDiff: Adaptive Step Selection for Fast Diffusion  </strong>
+  <br>
+    Hui Zhang, Zuxuan Wu, <strong>Zhen Xing</strong>, Jie Shao, Yu-Gang Jiang
+  <br>
+    <strong>AAAI </strong>, 2025, [<a href="https://arxiv.org/abs/2311.14768">Paper</a>]
+  </p>
+  </li>
 
   <li>
   <p>
@@ -207,21 +217,12 @@ PrePrints(Arxiv)
   <br>
     <strong>Zhen Xing</strong>, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang
   <br>
-    <strong>IJCV (Under Review)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.18837">Paper</a>], [<a href="https://chenhsing.github.io/VIDiff/">Homepage</a>]
+    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.18837">Paper</a>], [<a href="https://chenhsing.github.io/VIDiff/">Homepage</a>]
   </p>
   </li>
 
 
 
 
-  <li>
-  <p>
-  <strong>
-  AdaDiff: Adaptive Step Selection for Fast Diffusion  </strong>
-  <br>
-    Hui Zhang, Zuxuan Wu, <strong>Zhen Xing</strong>, Jie Shao, Yu-Gang Jiang
-  <br>
-    <strong>Arxiv (Preprint)</strong>, 2023, [<a href="https://arxiv.org/abs/2311.14768">Paper</a>]
-  </p>
-  </li>
+
 </ul>
