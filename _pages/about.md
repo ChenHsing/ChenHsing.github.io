@@ -36,7 +36,7 @@ I am a Ph.D. Candidate at the School of Computer Science, [Fudan University](htt
 
 My research interests lie broadly in computer vision and deep learning. I mainly focus on <span style="color:red; font-weight:bold">video generation, editing and recognition</span>. I am also open and willing to explore other vision tasks, e.g., AIGC, 3D understanding. See details about me in **[CV](/cv)**.
 
-I am set to graduate in 2025 and am actively <span style="color:red; font-weight:bold">exploring job opportunities in both industry and academia</span>. If you are interested in discussing potential collaborations or positions, please feel free to email me at [zhenxingfd@gmail.com](mailto:zhenxingfd@gmail.com).
+I am set to graduate in 2025 and am actively <span style="color:red; font-weight:bold">seeking job opportunities in both industry and academia</span>. If you are interested in discussing potential collaborations or positions, please feel free to email me at [zhenxingfd@gmail.com](mailto:zhenxingfd@gmail.com).
 
 <!-- Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). See details about me in **[CV](/cv)** -->
 
@@ -84,7 +84,7 @@ Selected Publications:
 
 <table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/stableanimator.jpg" width="350"> <div class="label">Video Generation</div></div>
 </th><th style="text-align:left" width="70%"> <span style="font-size:18px">StableAnimator: High-Quality Identity-Preserving Human Image Animation
-</span><br> Shuyuan Tu, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu</span></span><br> <span style="font-weight:normal;font-size:16px"> Technical Report, 2024</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2411.17697">Paper</a>][<a href="https://github.com/Francis-Rings/StableAnimator">Code</a>][<a href="https://francis-rings.github.io/StableAnimator/">Homepage</a>]</span><br> <span style="color: red;"> Acheving Github 1000+ stars.
+</span><br> <span style="font-weight:normal;font-size:16px">Shuyuan Tu, </span> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu</span></span><br> <span style="font-weight:normal;font-size:16px"> Technical Report, 2024</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2411.17697">Paper</a>][<a href="https://github.com/Francis-Rings/StableAnimator">Code</a>][<a href="https://francis-rings.github.io/StableAnimator/">Homepage</a>]</span><br> <span style="color: red;"> Acheving Github 1000+ stars.
 </span>
 </th>
 </tr></tbody></table>
