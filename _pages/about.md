@@ -43,7 +43,8 @@ I am set to graduate in 2025 and am actively <span style="color:red; font-weight
 
 News
 ======
-* [Oct 2024] Achieved over **300+** citations on Google Scholar and an h-index of **10**.
+* [Dec'2024] StableAnimator achieved over **1000+** Github stars.
+* [Oct'2024] Achieved over **300+** citations on Google Scholar and an h-index of **10**.
 * [Sep'2024] **Two** papers are accepted by [NeurIPS 2024](https://neurips.cc/Conferences/2024).
 * [Aug'2024] "A Survey on Video Diffusion Models" is accepted by ACM Computing Surveys.
 * [Feb'2024] Invited talk at Openmmlab about Video Generation Models, [[slides](/VideoGenerationModel.pdf)].
@@ -81,10 +82,17 @@ Selected Publications:
 <table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/genrec.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">GenRec: Unifying Video Generation and Recognition with Diffusion Models </span><br> <span style="font-weight:normal;font-size:16px">Zejia Weng, Xitong Yang</span>, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2408.15241">Paper</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/aid.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Technique Report, 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2406.06465">Paper</a>][<a href="https://chenhsing.github.io/AID/">HomePage</a>]
+<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/stableanimator.jpg" width="350"> <div class="label">Video Generation</div></div>
+</th><th style="text-align:left" width="70%"> <span style="font-size:18px">StableAnimator: High-Quality Identity-Preserving Human Image Animation
+</span><br> Shuyuan Tu, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu</span></span><br> <span style="font-weight:normal;font-size:16px"> Technical Report, 2024</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2411.17697">Paper</a>][<a href="https://github.com/Francis-Rings/StableAnimator">Code</a>][<a href="https://francis-rings.github.io/StableAnimator/">Homepage</a>]</span><br> <span style="color: red;"> Acheving Github 1000+ stars.
+</span>
+</th>
+</tr></tbody></table>
+
+<table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/aid.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Technical Report, 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2406.06465">Paper</a>][<a href="https://chenhsing.github.io/AID/">HomePage</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/vidiff.jpg" width="350"> <div class="label">Video Editing</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px"> <strong>IJCV</strong> (Under Review) </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2311.18837">Paper</a>][<a href="https://chenhsing.github.io/VIDiff/">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/670615911">Zhihu</a>]
+<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/vidiff.jpg" width="350"> <div class="label">Video Editing</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zihao Zhang, Hui Zhang, Han Hu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Technical Report, 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2311.18837">Paper</a>][<a href="https://chenhsing.github.io/VIDiff/">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/670615911">Zhihu</a>]
 </span></th></tr></tbody></table>
 
 

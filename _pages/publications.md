@@ -182,6 +182,18 @@ PrePrints(Arxiv)
 <ul>
 
 
+  <li>
+    <p>
+    <strong>
+    StableAnimator: High-Quality Identity-Preserving Human Image Animation
+    </strong>
+    <br>
+      Shuyuan Tu, <strong>Zhen Xing</strong>, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu
+    <br>
+      <strong>Arxiv (Preprint)</strong>, 2024, [<a href="https://arxiv.org/abs/2411.17697">Paper</a>], [<a href="https://francis-rings.github.io/StableAnimator/">HomePage</a>]
+    </p>
+  </li>
+
 
   <li>
     <p>
@@ -208,6 +220,9 @@ PrePrints(Arxiv)
       <strong>Arxiv (Preprint)</strong>, 2024, [<a href="https://arxiv.org/pdf/2403.10242.pdf">Paper</a>], [<a href="https://qjfeng.net/FDGaussian/">HomePage</a>]
     </p>
   </li>
+
+
+
 
   <li>
   <p>
