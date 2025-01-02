@@ -11,12 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in TianJin, Tianjin University, 2020
 * Ph.D. in ShangHai, Fudan University, 2025 (expected)
-
-Research Interest
-======
-* My research interests lie broadly in computer vision and artificial intelligence. My current focus majorly is to explore fundamental computer vision research with AIGC, with a goal to conduct research and design products benefiting humanity. I am excited to be part of this fast-evolving and fascinating field, and I hope to contribute to its growth.
+* B.S. in TianJin, Tianjin University, 2020
 
 Publications
 ======
@@ -24,6 +20,7 @@ Publications
 
 Honors & Awards
 ====== 
+* Tencent academic scholarship. (**Top-3%, PhD**) [2024]
 * Fudan University excellent academic scholarship. (**Top-5%, PhD**) [2023]
 * "Star of Tomorrow" intern of MicroSoft Research Asia. (**Top 10%, PhD**)[2023]
 * Tencent academic scholarship. (**Rank 1/130, PhD**) [2022]
