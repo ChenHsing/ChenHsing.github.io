@@ -43,8 +43,8 @@ I am set to graduate in 2025 and am actively <span style="color:red; font-weight
 
 News
 ======
+* [Jan'2025] Achieved over **400+** citations on Google Scholar and an h-index of **10**.
 * [Dec'2024] StableAnimator achieved over **1000+** Github stars.
-* [Oct'2024] Achieved over **300+** citations on Google Scholar and an h-index of **10**.
 * [Sep'2024] **Two** papers are accepted by [NeurIPS 2024](https://neurips.cc/Conferences/2024).
 * [Aug'2024] "A Survey on Video Diffusion Models" is accepted by ACM Computing Surveys.
 * [Feb'2024] Invited talk at Openmmlab about Video Generation Models, [[slides](/VideoGenerationModel.pdf)].
