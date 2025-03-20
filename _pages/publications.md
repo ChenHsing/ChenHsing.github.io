@@ -21,6 +21,18 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   </li>
 
   <li>
+    <p>
+    <strong>
+    StableAnimator: High-Quality Identity-Preserving Human Image Animation
+    </strong>
+    <br>
+      Shuyuan Tu, <strong>Zhen Xing</strong>, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu
+    <br>
+      <strong>CVPR</strong>, 2025, [<a href="https://arxiv.org/abs/2411.17697">Paper</a>], [<a href="https://francis-rings.github.io/StableAnimator/">HomePage</a>]
+    </p>
+  </li>
+
+  <li>
   <p>
   <strong>
   SimDA: Simple Diffusion Adapter for Efficient Video Generation
@@ -182,17 +194,7 @@ PrePrints(Arxiv)
 <ul>
 
 
-  <li>
-    <p>
-    <strong>
-    StableAnimator: High-Quality Identity-Preserving Human Image Animation
-    </strong>
-    <br>
-      Shuyuan Tu, <strong>Zhen Xing</strong>, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu
-    <br>
-      <strong>Arxiv (Preprint)</strong>, 2024, [<a href="https://arxiv.org/abs/2411.17697">Paper</a>], [<a href="https://francis-rings.github.io/StableAnimator/">HomePage</a>]
-    </p>
-  </li>
+
 
 
   <li>

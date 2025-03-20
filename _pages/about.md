@@ -43,8 +43,8 @@ I am set to graduate in 2025 and am actively <span style="color:red; font-weight
 
 News
 ======
+* [Feb'2025] StableAnimator is accepted by [CVPR 2025](https://cvpr.thecvf.com/) and achieved over **1200+** Github stars.
 * [Jan'2025] Achieved over **400+** citations on Google Scholar and an h-index of **10**.
-* [Dec'2024] StableAnimator achieved over **1000+** Github stars.
 * [Sep'2024] **Two** papers are accepted by [NeurIPS 2024](https://neurips.cc/Conferences/2024).
 * [Aug'2024] "A Survey on Video Diffusion Models" is accepted by ACM Computing Surveys.
 * [Feb'2024] Invited talk at Openmmlab about Video Generation Models, [[slides](/VideoGenerationModel.pdf)].
@@ -64,7 +64,7 @@ Selected Publications:
 * See the full publication list at **[Publications](/publications)**.
 
 <table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/videogen.jpg" width="350"> <div class="label">Video Generation</div></div>
-</th><th style="text-align:left" width="70%"> <span style="font-size:18px">A Survey on Video Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">  ACM Computing Survey (<strong>CSUR, IF=23.8</strong>), 2024</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2310.10647">Paper</a>][<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/661860981">Zhihu</a>]</span><br> <span style="color: red;"> Surveying 100+ recent literatures on video generation and editing with diffusion models. Acheving Github 1900+ stars.
+</th><th style="text-align:left" width="70%"> <span style="font-size:18px">A Survey on Video Diffusion Models</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">  ACM Computing Survey (<strong>CSUR, IF=23.8</strong>), 2024</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2310.10647">Paper</a>][<a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">HomePage</a>][<a href="https://zhuanlan.zhihu.com/p/661860981">Zhihu</a>][<a href="https://mp.weixin.qq.com/s/qes6C8UbEYArnVKU3eu9QQ">机器之心</a>][<a href="https://mp.weixin.qq.com/s/viC_J08bVIVRzvRYxRyQTw">量子位</a>]</span><br> <span style="color: red;"> Surveying 300+ recent literatures on video generation and editing with diffusion models. Acheving Github 2000+ stars.
 </span>
 </th>
 </tr></tbody></table>
@@ -79,15 +79,17 @@ Selected Publications:
  <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2308.09710">Paper</a>][<a href="https://chenhsing.github.io/SimDA/">HomePage</a>]
 </span></th></tr></tbody></table>
 
-<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/genrec.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">GenRec: Unifying Video Generation and Recognition with Diffusion Models </span><br> <span style="font-weight:normal;font-size:16px">Zejia Weng, Xitong Yang</span>, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2408.15241">Paper</a>]
-</span></th></tr></tbody></table>
-
 <table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/stableanimator.jpg" width="350"> <div class="label">Video Generation</div></div>
 </th><th style="text-align:left" width="70%"> <span style="font-size:18px">StableAnimator: High-Quality Identity-Preserving Human Image Animation
-</span><br> <span style="font-weight:normal;font-size:16px">Shuyuan Tu, </span> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu</span></span><br> <span style="font-weight:normal;font-size:16px"> Technical Report, 2024</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2411.17697">Paper</a>][<a href="https://github.com/Francis-Rings/StableAnimator">Code</a>][<a href="https://francis-rings.github.io/StableAnimator/">Homepage</a>]</span><br> <span style="color: red;"> Acheving Github 1000+ stars.
+</span><br> <span style="font-weight:normal;font-size:16px">Shuyuan Tu, </span> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu</span></span><br> <span style="font-weight:normal;font-size:16px"> IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2025</span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2411.17697">Paper</a>][<a href="https://github.com/Francis-Rings/StableAnimator">Code</a>][<a href="https://francis-rings.github.io/StableAnimator/">Homepage</a>][<a href="https://mp.weixin.qq.com/s/qK3s-us2XeDv7phW83W5BQ">机器之心</a>]</span><br> <span style="color: red;"> Acheving Github 1200+ stars.
 </span>
 </th>
 </tr></tbody></table>
+
+<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/genrec.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">GenRec: Unifying Video Generation and Recognition with Diffusion Models </span><br> <span style="font-weight:normal;font-size:16px">Zejia Weng, Xitong Yang</span>, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2408.15241">Paper</a>]
+</span></th></tr></tbody></table>
+
+
 
 <table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../images/aid.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">AID: Adapting Image2Video Diffusion Models for Instruction-based Video Prediction</span><br> <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Technical Report, 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2406.06465">Paper</a>][<a href="https://chenhsing.github.io/AID/">HomePage</a>]
 </span></th></tr></tbody></table>
