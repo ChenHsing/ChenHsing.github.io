@@ -38,11 +38,10 @@ My research interests lie broadly in computer vision and deep learning. I mainly
 
 I am set to graduate in 2025 and am actively <span style="color:red; font-weight:bold">seeking job opportunities in both industry and academia</span>. If you are interested in discussing potential collaborations or positions, please feel free to email me at [zhenxingfd@gmail.com](mailto:zhenxingfd@gmail.com).
 
-<!-- Since the summer of 2022, I work under the guidance of Ph.D. [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), as a research intern in MicroSoft Research Asia([MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)). See details about me in **[CV](/cv)** -->
-
 
 News
 ======
+* [Mar'2025] Released [MagicMotion](https://quanhaol.github.io/magicmotion-site/), an open-sourced trajectory-guided video generation model.
 * [Feb'2025] StableAnimator is accepted by [CVPR 2025](https://cvpr.thecvf.com/) and achieved over **1200+** Github stars.
 * [Jan'2025] Achieved over **400+** citations on Google Scholar and an h-index of **10**.
 * [Sep'2024] **Two** papers are accepted by [NeurIPS 2024](https://neurips.cc/Conferences/2024).
@@ -85,6 +84,10 @@ Selected Publications:
 </span>
 </th>
 </tr></tbody></table>
+
+
+<table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/magicmotion.jpg" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">MagicMotion: Controllable Video Generation with Dense-to-Sparse Trajectory Guidance </span><br> <span style="font-weight:normal;font-size:16px">Quanhao Li*</span>, <span style="font-size:16px">Zhen Xing*<span style="font-weight:normal">, Rui Wang, Hui Zhang, Zuxuan Wu</span></span><br> <span style="font-weight:normal;font-size:16px">Technical Report, 2025 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/pdf/2503.16421">Paper</a>][<a href="https://quanhaol.github.io/magicmotion-site/">HomePage</a>]
+</span></th></tr></tbody></table>
 
 <table style="width:100%"><tbody><tr><th width="30%"><div class="image-container"> <img src="../images/genrec.png" width="350"> <div class="label">Video Generation</div></div></th><th style="text-align:left" width="70%"> <span style="font-size:18px">GenRec: Unifying Video Generation and Recognition with Diffusion Models </span><br> <span style="font-weight:normal;font-size:16px">Zejia Weng, Xitong Yang</span>, <span style="font-size:16px">Zhen Xing<span style="font-weight:normal">, Zuxuan Wu, Yu-Gang Jiang</span></span><br> <span style="font-weight:normal;font-size:16px">Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2408.15241">Paper</a>]
 </span></th></tr></tbody></table>
