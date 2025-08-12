@@ -143,6 +143,11 @@ A full publication list is available on <a href="https://scholar.google.com/cita
   Shuyuan Tu, ​**​Zhen Xing​**​, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang  
   <img alt="Static Badge" src="https://img.shields.io/badge/Arixv-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/abs/2507.15064)]
 
+
+- ​**StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation​**​  
+  Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, **Zhen Xing**, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang  
+  <img alt="Static Badge" src="https://img.shields.io/badge/Arixv-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/abs/2508.08248)]
+
 - ​**​AdaDiff: Adaptive Step Selection for Fast Diffusion​**​  
   Hui Zhang, Zuxuan Wu, ​**​Zhen Xing​**​, Jie Shao, Yu-Gang Jiang  
   <img alt="Static Badge" src="https://img.shields.io/badge/AAAI-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/abs/2311.14768)]
