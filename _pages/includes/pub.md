@@ -140,50 +140,50 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 </div></div>
 
 - ​**StableAnimator++: Overcoming Pose Misalignment and Face Distortion for Human Image Animation​**​  
-  Shuyuan Tu, <u>​**​Zhen Xing​**​</u>, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang  
+  Shuyuan Tu, **<u>​​Zhen Xing​</u>**, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang  
   <img alt="Static Badge" src="https://img.shields.io/badge/Arixv-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/abs/2507.15064)]
 
 
 - ​**StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation​**​  
-  Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, <u>​**​Zhen Xing​**​</u>, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang  
+  Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, **<u>​​Zhen Xing​</u>**, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang  
   <img alt="Static Badge" src="https://img.shields.io/badge/Arixv-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/abs/2508.08248)]
 
 - ​**​AdaDiff: Adaptive Step Selection for Fast Diffusion​**​  
-  Hui Zhang, Zuxuan Wu, <u>​**​Zhen Xing​**​</u>​, Jie Shao, Yu-Gang Jiang  
+  Hui Zhang, Zuxuan Wu, **<u>​​Zhen Xing​</u>**​, Jie Shao, Yu-Gang Jiang  
   <img alt="Static Badge" src="https://img.shields.io/badge/AAAI-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/abs/2311.14768)]
 
 - ​**​Advancing Dark Action Recognition via Modality Fusion and Dark-to-Light Diffusion Model​**​  
-  Yuxuan Wang, <u>​**​Zhen Xing​**​</u>​, Zuxuan Wu  
+  Yuxuan Wang, **<u>​​Zhen Xing​</u>**​, Zuxuan Wu  
   <img alt="Static Badge" src="https://img.shields.io/badge/ICASSP-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://ieeexplore.ieee.org/abstract/document/10890723)]
 
 - ​**​Human2Robot: Learning Robot Actions from Paired Human-Robot Videos​**​  
-  Sicheng Xie, Haidong Cao, Zejia Weng, <u>​**​Zhen Xing​**​</u>​, Shiwei Shen, Jiaqi Leng, Xipeng Qiu, Yanwei Fu, Zuxuan Wu, Yu-Gang Jiang  
+  Sicheng Xie, Haidong Cao, Zejia Weng, **<u>​​Zhen Xing​</u>**​, Shiwei Shen, Jiaqi Leng, Xipeng Qiu, Yanwei Fu, Zuxuan Wu, Yu-Gang Jiang  
   <img alt="Static Badge" src="https://img.shields.io/badge/Arxiv-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2502.16587)]
 
 - ​**​Aligning Vision Models with Human Aesthetics in Retrieval: Benchmarks and Algorithms​**​  
-  Miaosen Zhang, Yixuan Wei, <u>​**​Zhen Xing​**​</u>​, Yifei Ma, Zuxuan Wu, Ji Li, Zheng Zhang, Qi Dai, Chong Luo, Xin Geng, Baining Guo  
+  Miaosen Zhang, Yixuan Wei, **<u>​​Zhen Xing​</u>**​, Yifei Ma, Zuxuan Wu, Ji Li, Zheng Zhang, Qi Dai, Chong Luo, Xin Geng, Baining Guo  
   <img alt="Static Badge" src="https://img.shields.io/badge/NeurIPS-2024-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2406.06465.pdf)], [[HomePage](https://chenhsing.github.io/AID/)]
 
 - ​**​FDGaussian: Fast Gaussian Splatting via Geometric-aware Diffusion Model​**​  
-  Qijun Feng, ​<u>​**​Zhen Xing​**​</u>​, Zuxuan Wu, Yu-Gang Jiang  
+  Qijun Feng, **<u>​​Zhen Xing​</u>**​, Zuxuan Wu, Yu-Gang Jiang  
   <img alt="Static Badge" src="https://img.shields.io/badge/Arxiv-2024-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2403.10242.pdf)], [[HomePage](https://qjfeng.net/FDGaussian/)]
 
 - ​**​TranSFormer: Slow-Fast Transformer for Machine Translation​**​  
-  Bei Li, Yi Jing, Xu Tan, <u>​**​Zhen Xing​**​</u>​, Tong Xiao, Jingbo Zhu  
+  Bei Li, Yi Jing, Xu Tan, **<u>​​Zhen Xing​</u>**​, Tong Xiao, Jingbo Zhu  
   <img alt="Static Badge" src="https://img.shields.io/badge/ACL-2023-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2305.16982.pdf)]
 
 - ​**​Multi-Level Region Matching for Fine-Grained Sketch-Based Image Retrieval​**​  
-  Zhixin Ling, <u>​**​Zhen Xing​**​</u>​, Jiangtong Li, Li Niu  
+  Zhixin Ling, **<u>​​Zhen Xing​</u>**​, Jiangtong Li, Li Niu  
   <img alt="Static Badge" src="https://img.shields.io/badge/MM-2022-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://www.jiangtongli.me/publication/mlmr/mlmr.pdf)]
 
 - ​**​3D-Augmented Contrastive Knowledge Distillation for Image-based Object Pose Estimation​**​  
-  Zhidan Liu, ​<u>​**​Zhen Xing​**​</u>​, Xiangdong Zhou, Yijiang Chen, Guichun Zhou  
+  Zhidan Liu, **<u>​​Zhen Xing​</u>**​, Xiangdong Zhou, Yijiang Chen, Guichun Zhou  
   ​<img alt="Static Badge" src="https://img.shields.io/badge/ICMR-2022-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;"> [[Paper](https://arxiv.org/pdf/2206.02531.pdf)]
 
 - ​**​CaSS: A Channel-aware Self-supervised Representation Learning Framework for Multivariate Time Series Classification​**​  
-  Yijiang Chen, Xiangdong Zhou, <u>​**​Zhen Xing​**​</u>​, Zhidan Liu, Minyang Xu  
+  Yijiang Chen, Xiangdong Zhou, **<u>​​Zhen Xing​</u>**​, Zhidan Liu, Minyang Xu  
   ​<img alt="Static Badge" src="https://img.shields.io/badge/DASFFA-2022-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2203.04298.pdf)]
 
 - ​**​From Coarse to Fine: Hierarchical Structure-aware Video Summarization​**​  
-  Wenxu Li, Gang Pan, Chen Wang, <u>​**​Zhen Xing​**​</u>​, Zhenjun Han  
+  Wenxu Li, Gang Pan, Chen Wang, **<u>​​Zhen Xing​</u>**​, Zhenjun Han  
   <img alt="Static Badge" src="https://img.shields.io/badge/TOMM-2022-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://dl.acm.org/doi/abs/10.1145/3485472)]
