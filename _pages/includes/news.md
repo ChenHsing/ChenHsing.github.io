@@ -1,5 +1,5 @@
 # 🔥 News
-- [Jul'2025] Achieved **600+** citations on Google Scholar and an h-index of **12**.
+- [Sep'2025] Achieved **700** citations on Google Scholar and an h-index of **13**.
 - [Jun'2025] AID and MagicMotion accepted to [ICCV 2025](https://iccv.thecvf.com/).
 - [May'2025] Defended Ph.D. thesis and awarded Outstanding Graduates of Shanghai!
 - [Apr'2025] Released [MagicMotion](https://quanhaol.github.io/magicmotion-site/) and achieved **100+** Github stars.
