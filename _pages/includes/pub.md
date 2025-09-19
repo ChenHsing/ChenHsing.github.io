@@ -73,11 +73,11 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Video Generation</div><img src='../../images/stableanimator.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Video Generation</div><img src='../../images/stableavatar.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-<img alt="Static Badge" src="https://img.shields.io/badge/CVPR-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">
+<img alt="Static Badge" src="https://img.shields.io/badge/Arxiv-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">
  <strong style="font-size:18px">StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation
-</strong><br> <span style="font-weight:normal;font-size:16px">Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han</span> <strong style="font-size:16px; text-decoration: underline;">Zhen Xing</strong><span style="font-weight:normal">, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang</span><br> <span style="font-weight:normal;font-size:16px"> Technical Report, 2025 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2508.08248">Paper</a>][<a href="https://github.com/Francis-Rings/StableAvatar">Code</a>][<a href="https://francis-rings.github.io/StableAvatar/">Homepage</a>][<a href="https://mp.weixin.qq.com/s/BoHk9XZRdaSGMSK-9_PpGA">机器之心</a>]</span><br> <span style="color: red;"> Acheving Github 1000+ stars.
+</strong><br> <span style="font-weight:normal;font-size:16px">Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han,</span> <strong style="font-size:16px; text-decoration: underline;">Zhen Xing</strong><span style="font-weight:normal">, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang</span><br> <span style="font-weight:normal;font-size:16px"> Technical Report, 2025 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2508.08248">Paper</a>][<a href="https://github.com/Francis-Rings/StableAvatar">Code</a>][<a href="https://francis-rings.github.io/StableAvatar/">Homepage</a>][<a href="https://mp.weixin.qq.com/s/BoHk9XZRdaSGMSK-9_PpGA">机器之心</a>]</span><br> <span style="color: red;"> Acheving Github 1000+ stars.
 </span>
 </div>
 </div>
