@@ -1,6 +1,6 @@
 # 🔥 News
+- [Oct'2025] Achieved **800+** citations on Google Scholar and an h-index of **14**.
 - [Sep'2025] Wan Team released [Wan 2.5](https://create.wan.video/generate/video/image-to-video?model=wan2.5).
-- [Sep'2025] Achieved **700+** citations on Google Scholar and an h-index of **13**.
 - [Aug'2025] Released [StableAvatar](https://francis-rings.github.io/StableAvatar/) and achieved **1000+** Github stars.
 - [Jun'2025] AID and MagicMotion accepted to [ICCV 2025](https://iccv.thecvf.com/).
 - [May'2025] Defended Ph.D. thesis and awarded Outstanding Graduates of Shanghai!
