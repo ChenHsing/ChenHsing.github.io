@@ -83,11 +83,6 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 </div>
 
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Video Generation</div><img src='../../images/animatemaster.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-<strong style="font-size:18px">AnimateMaster: Overcoming Misalignment for High-Quality Human Image Animation</strong><br> <span style="font-weight:normal;font-size:16px">Shuyuan Tu, </span> <strong style="font-size:16px">Zhen Xing†<span style="font-weight:normal">, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu</span><br> <span style="font-weight:normal;font-size:16px">International Conference on Computer Vision (<strong>ICCV</strong>), 2025 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="#">Paper</a>][<a href="#">HomePage</a>]
-</span>
-</div></div> -->
 
 
 
@@ -131,7 +126,6 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 </span>
 </div></div>
 
-<!-- <table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../../images/mpcn.jpg" width="350"> <div class="label">3D Generation</div></div></th><th style="text-align:left" width="70%">  -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">3D Generation</div><img src='../../images/mpcn.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <img alt="Static Badge" src="https://img.shields.io/badge/ECCV-2022-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">
@@ -139,7 +133,6 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 </span>
 </div></div>
 
-<!-- <table style="width:100%"><tbody><tr><th width="30%"> <div class="image-container"> <img src="../../images/csr.jpg" width="350"> <div class="label">Image Retrieval</div></div></th><th style="text-align:left" width="70%"> -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Image Retrieval </div><img src='../../images/csr.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <img alt="Static Badge" src="https://img.shields.io/badge/ECCV-2022-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">
@@ -151,10 +144,10 @@ A full publication list is available on <a href="https://scholar.google.com/cita
   Shuyuan Tu, **<u>​​Zhen Xing​</u>**, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang  
   <img alt="Static Badge" src="https://img.shields.io/badge/Arixv-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/abs/2507.15064)]
 
+- ​**ProLongVid: A Simple but Strong Baseline for Long-context Video Instruction Tuning​**​  
+  Rui Wang, Bohao Li, Xiyang Dai, Jianwei Yang, Yi-Ling Chen, **<u>​​Zhen Xing​</u>**, Yifan Yang, Dongdong Chen, Xipeng Qiu, Zuxuan Wu, Yu-Gang Jiang  
+  <img alt="Static Badge" src="https://img.shields.io/badge/EMNLP-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://aclanthology.org/2025.emnlp-main.1570.pdf)]
 
-- ​**StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation​**​  
-  Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, **<u>​​Zhen Xing​</u>**, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang  
-  <img alt="Static Badge" src="https://img.shields.io/badge/Arixv-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/abs/2508.08248)]
 
 - ​**​AdaDiff: Adaptive Step Selection for Fast Diffusion​**​  
   Hui Zhang, Zuxuan Wu, **<u>​​Zhen Xing​</u>**​, Jie Shao, Yu-Gang Jiang  
