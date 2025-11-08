@@ -159,7 +159,7 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 
 - ​**​Human2Robot: Learning Robot Actions from Paired Human-Robot Videos​**​  
   Sicheng Xie, Haidong Cao, Zejia Weng, **<u>​​Zhen Xing​</u>**​, Shiwei Shen, Jiaqi Leng, Xipeng Qiu, Yanwei Fu, Zuxuan Wu, Yu-Gang Jiang  
-  <img alt="Static Badge" src="https://img.shields.io/badge/Arxiv-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2502.16587)]
+  <img alt="Static Badge" src="https://img.shields.io/badge/AAAI-2026-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2502.16587)]
 
 - ​**​Aligning Vision Models with Human Aesthetics in Retrieval: Benchmarks and Algorithms​**​  
   Miaosen Zhang, Yixuan Wei, **<u>​​Zhen Xing​</u>**​, Yifei Ma, Zuxuan Wu, Ji Li, Zheng Zhang, Qi Dai, Chong Luo, Xin Geng, Baining Guo  
