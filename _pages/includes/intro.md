@@ -1,14 +1,7 @@
 <!-- 加点表情包,直接复制图片即可  https://github.com/guodongxiaren/README/blob/master/emoji.md?tdsourcetag=s_pcqq_aiomsg -->
 
 
-I have joined Alibaba Tongyi Lab as a Research Scientist, focusing on the video-generation model <a href="https://github.com/Wan-Video/Wan2.1"><img
-    alt="Wan"
-    src="../../images/wanlogo.png"
-    style="display: inline-block;
-      height: 1em;
-      width: auto;
-      vertical-align: text-bottom;"></a>. I also hold a research position at Zhejiang University, working with Prof. [Yi Yang](https://scholar.google.com/citations?hl=en&user=RMSuNFwAAAAJ). I obtained my Ph.D. degree in Computer Science from [Fudan University](https://www.fudan.edu.cn/en/), supervised by Prof. [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en) (IEEE Fellow) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/). Before this, I received my B.S. degree from [Tianjin University](https://en.tju.edu.cn/).  
-
+I'm a Research Scientist at Alibaba **Wan Team**, where I serve as a core contributor of Wan2.5 and Wan2.6. I also hold a research position at Zhejiang University, working closely with Prof. [Yi Yang](https://scholar.google.com/citations?hl=en&user=RMSuNFwAAAAJ). I obtained my Ph.D. in Computer Science from [Fudan University](https://www.fudan.edu.cn/en/), supervised by Prof. [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en) (IEEE Fellow) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/).
 
 I have published 20+ papers <a href='https://scholar.google.com/citations?user=yuiXa5EAAAAJ'><img alt="Google citations"  src="https://raw.githubusercontent.com/ChenHsing/Citation_Parser/main/scholar_badge.svg" style="display: inline;"></a> <a href="https://github.com/ChenHsing">
     <img alt="GitHub User's stars" 
