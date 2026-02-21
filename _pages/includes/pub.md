@@ -141,12 +141,12 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 </div></div>
 
 - ​**FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance​**​  
-  Quanhao Li, **<u>​​Zhen Xing​</u>**, Rui Wang, Haidong Cao, Qi Dai, Daoguo Dong, Zuxuan Wu
+  Quanhao Li, **<u>​​Zhen Xing​</u>**, Rui Wang, Haidong Cao, Qi Dai, Daoguo Dong, Zuxuan Wu  
   <img alt="Static Badge" src="https://img.shields.io/badge/CVPR-2026-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](#)]
 
 
 - ​**FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction​**​  
-  Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, **<u>​​Zhen Xing​</u>**, Qi Dai, Kai Qiu, Chong Luo, Zuxuan Wu
+  Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, **<u>​​Zhen Xing​</u>**, Qi Dai, Kai Qiu, Chong Luo, Zuxuan Wu  
   <img alt="Static Badge" src="https://img.shields.io/badge/CVPR-2026-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/abs/2512.16900)]
 
 
