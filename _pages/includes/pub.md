@@ -175,7 +175,7 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 
 - ​**​Aligning Vision Models with Human Aesthetics in Retrieval: Benchmarks and Algorithms​**​  
   Miaosen Zhang, Yixuan Wei, **<u>​​Zhen Xing​</u>**​, Yifei Ma, Zuxuan Wu, Ji Li, Zheng Zhang, Qi Dai, Chong Luo, Xin Geng, Baining Guo  
-  <img alt="Static Badge" src="https://img.shields.io/badge/NeurIPS-2024-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2406.06465.pdf)], [[HomePage](https://chenhsing.github.io/AID/)]
+  <img alt="Static Badge" src="https://img.shields.io/badge/NeurIPS-2024-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2406.06465.pdf)]
 
 - ​**​FDGaussian: Fast Gaussian Splatting via Geometric-aware Diffusion Model​**​  
   Qijun Feng, **<u>​​Zhen Xing​</u>**​, Zuxuan Wu, Yu-Gang Jiang  

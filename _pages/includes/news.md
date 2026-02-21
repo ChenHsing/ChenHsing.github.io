@@ -1,5 +1,5 @@
 # 🔥 News
-- [Feb'2026] FlashPortrait and FlashMotion accepted to [CVPR 2026](https://cvpr.thecvf.com/).
+- [Feb'2026] FlashMotion and FlashPortrait accepted to [CVPR 2026](https://cvpr.thecvf.com/).
 - [Dec'2025] Wan Team released [Wan 2.6](https://create.wan.video/generate/video/starring-roles?model=wan2.6). Feel free to try it out!
 - [Oct'2025] Achieved **800+** citations on Google Scholar and an h-index of **14**.
 - [Sep'2025] Wan Team released [Wan 2.5](https://create.wan.video/generate/video/image-to-video?model=wan2.5).
