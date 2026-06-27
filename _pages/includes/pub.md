@@ -141,7 +141,7 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 </div></div>
 
 - ​**DeRA: Decoupled Representation Alignment for Video Tokenization​**​  
-  Pengbo Guo, Junke Wang, **<u>​​Zhen Xing​</u>**, Chengxu Liu, Daoguo Dong, Xueming Qian, Zuxuan Wu less
+  Pengbo Guo, Junke Wang, **<u>​​Zhen Xing​</u>**, Chengxu Liu, Daoguo Dong, Xueming Qian, Zuxuan Wu  
   <img alt="Static Badge" src="https://img.shields.io/badge/ECCV-2026-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">, [[Paper](https://arxiv.org/pdf/2512.04483)]
 
 
