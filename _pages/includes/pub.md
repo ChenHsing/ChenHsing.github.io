@@ -27,6 +27,16 @@ A full publication list is available on <a href="https://scholar.google.com/cita
 
 (*: equal contribution; †: project leader)
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Video Generation</div><img src='../../images/videogen.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+<img alt="Static Badge" src="https://img.shields.io/badge/SiggraphAsia-2026-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">
+<strong style="font-size:18px" >DiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models</strong><br>Quanhao Li, Junqiu Yu, Kaixun Jiang, Yujie Wei, <strong style="font-size:16px; text-decoration: underline;">Zhen Xing† </strong>, Pandeng Li, Ruihang Chu, Shiwei Zhang, Yu Liu, Zuxuan Wu  </span><br> <span style="font-weight:normal;font-size:16px"> ACM Siggraph Asia, 2026 </span><br> <span style="font-weight:normal;font-size:16px">[<a href="https://arxiv.org/abs/2605.15055">Paper</a>][<a href="https://quanhaol.github.io/DiffusionOPD-site/">HomePage</a>][<a href="https://mp.weixin.qq.com/s/S3SNEw3UDLIG_v6K5FgNyg">机器之心</a>]</span><br> 
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Video Generation</div><img src='../../images/videogen.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <img alt="Static Badge" src="https://img.shields.io/badge/CSUR-2025-8A2BE2?style=plastic&labelColor=fbbc05&color=615ced" style="display: inline;">
