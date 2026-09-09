@@ -1,0 +1,38 @@
+<section class="home-section" id="about-me">
+<header class="section-head">
+  <h2>👋 About Me</h2>
+</header>
+
+<div class="prose prose--lead">
+  {{ site.data.profile.intro | markdownify }}
+</div>
+
+{% if site.data.profile.interests %}
+<h3 class="sub-heading">Research Interests</h3>
+<ul class="interest-list">
+  {% for item in site.data.profile.interests %}
+  <li class="interest-list__item">
+    <span class="interest-list__label">{{ item.label }}</span>
+    <span class="interest-list__desc">{{ item.desc }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if site.data.profile.contact or site.data.profile.badges %}
+<div class="about-connect">
+  {% if site.data.profile.contact %}
+  <a class="about-connect__cta" href="mailto:zhenxingfd@gmail.com" aria-label="Email me">
+    <span class="about-connect__cta-icon">✉</span>
+    <span class="about-connect__cta-label">Email me</span>
+  </a>
+  {% endif %}
+  {% if site.data.profile.badges %}
+  <p class="badge-row">
+    {% for b in site.data.profile.badges %}<a href="{{ b.url }}"><img src="{{ b.image }}" alt="{{ b.alt }}"></a>
+    {% endfor %}
+  </p>
+  {% endif %}
+</div>
+{% endif %}
+</section>

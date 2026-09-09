@@ -231,8 +231,8 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: mix(#fff, $primary-color, 50%);
+        height: 3px;
+        background: var(--c-accent);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -257,17 +257,18 @@
     padding: 5px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    background: var(--c-surface);
+    box-shadow: 0 4px 16px var(--c-shadow);
 
     a {
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+      color: var(--c-text);
 
       &:hover {
-        color: $masthead-link-color-hover;
-        background: mix(#fff, $primary-color, 75%);
+        color: var(--c-accent);
+        background: var(--c-accent-soft);
       }
     }
 

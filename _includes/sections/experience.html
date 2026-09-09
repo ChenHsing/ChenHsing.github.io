@@ -1,0 +1,21 @@
+<section class="home-section" id="internships">
+<header class="section-head">
+<h2>💻 Internships</h2>
+</header>
+<ul class="job-list">
+{% for job in site.data.experience.items %}
+<li class="job">
+<div class="job__head"><span class="job__org">{{ job.org }}</span><span class="job__period">{{ job.period }}</span></div>
+{% if job.team %}<div class="job__team">{{ job.team }}</div>{% endif %}
+{% if job.duties %}
+<ul class="job__duties">
+{% for d in job.duties %}<li>{{ d }}</li>{% endfor %}
+</ul>
+{% endif %}
+{% if job.advisors %}
+<div class="job__advisors">Advisor: {% for a in job.advisors %}{% unless forloop.first %}, {% endunless %}<a href="{{ a.url }}">{{ a.name }}</a>{% endfor %}</div>
+{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>

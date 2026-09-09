@@ -1,0 +1,16 @@
+# ============================================================
+#  Internships —— 新增一段：- period / org / team / duties / advisors
+# ============================================================
+
+items:
+  - period: "2022.03 - 2023.08"
+    org: "MicroSoft Research Asia"
+    team: "Visual Computing Group"
+    duties:
+      - "Video Diffusion Model"
+      - "Video Understanding"
+    advisors:
+      - name: "Qi Dai"
+        url: "https://scholar.google.com/citations?user=NSJY12IAAAAJ&hl=en"
+      - name: "Han Hu"
+        url: "https://scholar.google.com/citations?user=Jkss014AAAAJ&hl=en"

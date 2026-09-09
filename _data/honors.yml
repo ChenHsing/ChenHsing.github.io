@@ -1,0 +1,45 @@
+# ============================================================
+#  Honors and Awards —— 新增一条：- title / note / year
+# ============================================================
+
+intro: "Below, I exhaustively list some of my Honors and Awards that inspire me a lot."
+
+items:
+  - title: "Outstanding graduates of Shanghai"
+    note: "Top-1%, PhD"
+    year: "2025"
+
+  - title: "Alibaba Star Program and Tencent Qingyun Plan"
+    year: "2025"
+
+  - title: "Tencent academic scholarship"
+    note: "Top-3%, PhD"
+    year: "2024"
+
+  - title: "Fudan University excellent academic scholarship"
+    note: "Top-5%, PhD"
+    year: "2023"
+
+  - title: "\"Star of Tomorrow\" intern of MicroSoft Research Asia"
+    note: "Top 10%, PhD"
+    year: "2023"
+
+  - title: "Tencent academic scholarship"
+    note: "Rank 1/130, PhD"
+    year: "2022"
+
+  - title: "Fudan University excellent academic scholarship"
+    note: "Top-5%, Master"
+    year: "2021"
+
+  - title: "Outstanding graduates of TianJin University"
+    note: "Top-5%"
+    year: "2020"
+
+  - title: "Excellent monitor of Tianjin University"
+    note: "Top-10"
+    year: "2018"
+
+  - title: "Academic scholarship of Tianjin University"
+    note: "Top-10%"
+    year: "2017-2020"

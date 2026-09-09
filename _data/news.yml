@@ -1,0 +1,62 @@
+# ============================================================
+#  News —— 新增一条 news：在 items 下加两行即可（- date / text）
+#  date 支持任意展示格式，如 "Jul 2026"；text 支持 Markdown 加粗与链接
+# ============================================================
+
+items:
+  - date: "Sep 2026"
+    text: "🎈Achieved **1400+** citations on Google Scholar and an h-index of **18**."
+
+  - date: "Aug 2026"
+    text: "Wan Team released [Wan 3.0](https://create.wan.video/). Feel free to try it out!"
+
+  - date: "Jul 2026"
+    text: "DiffusionOPD accepted to [SIGGRAPH ASIA 2026](https://asia.siggraph.org/2026/)."
+
+  - date: "Feb 2026"
+    text: "FlashMotion and FlashPortrait accepted to [CVPR 2026](https://cvpr.thecvf.com/)."
+
+  - date: "Dec 2025"
+    text: "Wan Team released [Wan 2.6](https://create.wan.video/generate/video/starring-roles?model=wan2.6). Feel free to try it out!"
+
+  - date: "Sep 2025"
+    text: "Wan Team released [Wan 2.5](https://create.wan.video/generate/video/image-to-video?model=wan2.5)."
+
+  - date: "Aug 2025"
+    text: "Released [StableAvatar](https://francis-rings.github.io/StableAvatar/) and achieved **1000+** GitHub stars."
+
+  - date: "Jun 2025"
+    text: "AID and MagicMotion accepted to [ICCV 2025](https://iccv.thecvf.com/)."
+
+  - date: "May 2025"
+    text: "Defended Ph.D. thesis and awarded Outstanding Graduates of Shanghai!"
+
+  - date: "Apr 2025"
+    text: "Released [MagicMotion](https://quanhaol.github.io/magicmotion-site/) and achieved **100+** GitHub stars."
+
+  - date: "Feb 2025"
+    text: "StableAnimator accepted to [CVPR 2025](https://cvpr.thecvf.com/) and achieved **1300+** GitHub stars."
+
+  - date: "Sep 2024"
+    text: "**Two** papers accepted to [NeurIPS 2024](https://neurips.cc/Conferences/2024)."
+
+  - date: "Aug 2024"
+    text: "\"A Survey on Video Diffusion Models\" accepted to ACM Computing Surveys."
+
+  - date: "Feb 2024"
+    text: "Invited talk at Openmmlab about Video Generation Models, [[slides](/files/VideoGenerationModel.pdf)]."
+
+  - date: "Feb 2024"
+    text: "SimDA accepted to [CVPR 2024](https://cvpr.thecvf.com/)."
+
+  - date: "Dec 2023"
+    text: "Invited talk at Kunlun Research, \"A Survey on Video Diffusion Models\"."
+
+  - date: "Aug 2023"
+    text: "Awarded certificate of \"Star of Tomorrow\" at [MSRA](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)."
+
+  - date: "Feb 2023"
+    text: "**Two** papers accepted to [CVPR 2023](https://cvpr2023.thecvf.com/)."
+
+  - date: "Jul 2022"
+    text: "**Three** papers accepted to [ECCV 2022](https://eccv2022.ecva.net/)."

@@ -1,0 +1,31 @@
+# ============================================================
+#  Academic Service
+#  两个分组：conferences（会议 Program Committee）/ journals（期刊审稿人）
+#  新增一条：在对应分组下加 "- name: ..."（years 可选）
+# ============================================================
+
+conferences:
+  - name: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    years: "2022-2025"
+  - name: "IEEE/CVF International Conference on Computer Vision (ICCV)"
+    years: "2023-2025"
+  - name: "European Conference on Computer Vision (ECCV)"
+    years: "2022-2024"
+  - name: "International Conference on Learning Representations (ICLR)"
+    years: "2024-2025"
+  - name: "ACM SIGGRAPH Conference (SIGGRAPH)"
+    years: "2025"
+  - name: "International Conference on Machine Learning (ICML)"
+    years: "2024-2025"
+  - name: "Conference on Neural Information Processing Systems (NeurIPS)"
+    years: "2024-2025"
+  - name: "AAAI Conference on Artificial Intelligence (AAAI)"
+    years: "2023-2025"
+
+journals:
+  - name: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+  - name: "International Journal of Computer Vision (IJCV)"
+  - name: "IEEE Transactions on Multimedia (TMM)"
+  - name: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)"
+  - name: "Knowledge-Based Systems (KBS)"
+  - name: "Pattern Recognition (PR)"

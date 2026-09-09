@@ -1,0 +1,10 @@
+<section class="home-section" id="invited-talks">
+<header class="section-head">
+<h2>💬 Invited Talks</h2>
+</header>
+<ul class="entry-list">
+{% for t in site.data.talks.items %}
+<li class="entry"><span class="entry__year">{{ t.date }}</span><span class="entry__body"><span class="entry__title">{{ t.kind }} at <strong>{{ t.org }}</strong></span><span class="entry__note">{{ t.title }}</span>{% if t.slides %}<span class="entry__links"><a class="pub-link" href="{{ t.slides }}">Slides</a></span>{% endif %}</span></li>
+{% endfor %}
+</ul>
+</section>

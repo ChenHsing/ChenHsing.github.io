@@ -1,0 +1,191 @@
+/* ==========================================================================
+   THEME —— 浅色 / 深色双主题
+   --------------------------------------------------------------------------
+   · 所有颜色只在下面的 palette 里定义，改配色只需改这里
+   · 默认浅色；跟随系统 prefers-color-scheme；用户手动切换后写入 data-theme
+   ========================================================================== */
+
+@mixin palette-light {
+  --c-bg            : #ffffff;
+  --c-bg-alt        : #f6f7f9;
+  --c-surface       : #ffffff;
+  --c-surface-2     : #f1f3f7;
+  --c-code-bg       : #f4f6f9;
+
+  --c-text          : #171a1f;
+  --c-text-strong   : #000000;
+  --c-text-muted    : #5b6472;
+  --c-text-faint    : #868f9e;
+
+  --c-border        : #e4e7ec;
+  --c-border-strong : #d3d8e0;
+
+  --c-accent        : #2f5bd0;
+  --c-accent-strong : #1d3f9b;
+  --c-accent-soft   : rgba(47, 91, 208, 0.09);
+  --c-highlight     : #b2401f;
+
+  --c-shadow        : rgba(16, 24, 40, 0.10);
+  --c-shadow-sm     : rgba(16, 24, 40, 0.06);
+
+  --badge-core-bg     : #e9efff;
+  --badge-core-fg     : #1d3f9b;
+  --badge-graphics-bg : #f4e9ff;
+  --badge-graphics-fg : #6d28a8;
+  --badge-journal-bg  : #e5f6ee;
+  --badge-journal-fg  : #106b45;
+  --badge-preprint-bg : #f1f3f7;
+  --badge-preprint-fg : #5b6472;
+  --badge-neutral-bg  : #f1f3f7;
+  --badge-neutral-fg  : #5b6472;
+}
+
+@mixin palette-dark {
+  --c-bg            : #0f1116;
+  --c-bg-alt        : #14171d;
+  --c-surface       : #171a21;
+  --c-surface-2     : #1e222b;
+  --c-code-bg       : #1a1e26;
+
+  --c-text          : #e3e7ec;
+  --c-text-strong   : #ffffff;
+  --c-text-muted    : #98a1b0;
+  --c-text-faint    : #6f7885;
+
+  --c-border        : #262b35;
+  --c-border-strong : #333a46;
+
+  --c-accent        : #7aa2f7;
+  --c-accent-strong : #a5c0ff;
+  --c-accent-soft   : rgba(122, 162, 247, 0.14);
+  --c-highlight     : #ff9c86;
+
+  --c-shadow        : rgba(0, 0, 0, 0.45);
+  --c-shadow-sm     : rgba(0, 0, 0, 0.30);
+
+  --badge-core-bg     : rgba(122, 162, 247, 0.16);
+  --badge-core-fg     : #a5c0ff;
+  --badge-graphics-bg : rgba(192, 132, 252, 0.16);
+  --badge-graphics-fg : #d8b4fe;
+  --badge-journal-bg  : rgba(52, 211, 153, 0.14);
+  --badge-journal-fg  : #6ee7b7;
+  --badge-preprint-bg : rgba(255, 255, 255, 0.07);
+  --badge-preprint-fg : #98a1b0;
+  --badge-neutral-bg  : rgba(255, 255, 255, 0.07);
+  --badge-neutral-fg  : #98a1b0;
+}
+
+:root {
+  @include palette-light;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  @include palette-dark;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include palette-dark;
+    color-scheme: dark;
+  }
+}
+
+/* ==========================================================================
+   主题衔接：把主题自带的硬编码颜色改为变量
+   ========================================================================== */
+
+html {
+  background-color: var(--c-bg);
+}
+
+::selection {
+  background: var(--c-accent-soft);
+  color: var(--c-text-strong);
+}
+
+.masthead {
+  background-color: var(--c-surface);
+  border-bottom: 1px solid var(--c-border);
+  box-shadow: 0 1px 2px var(--c-shadow-sm);
+}
+
+.greedy-nav {
+  background: transparent;
+
+  .visible-links a {
+    color: var(--c-text-muted);
+
+    &:hover {
+      color: var(--c-accent);
+    }
+  }
+
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background-color: var(--c-text-muted);
+  }
+}
+
+.author__urls,
+.author__urls-wrapper {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+}
+
+.author__urls:after {
+  border-color: var(--c-surface) transparent;
+}
+
+.page__footer {
+  color: var(--c-text-muted);
+  background-color: var(--c-bg-alt);
+  border-top: 1px solid var(--c-border);
+
+  a {
+    color: var(--c-text-muted);
+
+    &:hover {
+      color: var(--c-accent);
+    }
+  }
+}
+
+.page__content {
+  hr {
+    border-color: var(--c-border);
+  }
+
+  code,
+  kbd,
+  pre {
+    background-color: var(--c-code-bg);
+    border: 1px solid var(--c-border);
+  }
+
+  blockquote {
+    color: var(--c-text-muted);
+    border-left-color: var(--c-accent);
+  }
+
+  table {
+    border-color: var(--c-border);
+  }
+
+  th,
+  td {
+    border-color: var(--c-border);
+  }
+
+  thead,
+  tfoot {
+    background-color: var(--c-surface-2);
+  }
+}
+
+.notice {
+  background-color: var(--c-surface-2);
+  color: var(--c-text);
+}

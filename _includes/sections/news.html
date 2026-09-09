@@ -1,0 +1,18 @@
+<section class="home-section" id="news">
+<header class="section-head">
+<h2>🔥 News</h2>
+</header>
+<ul class="timeline" id="news-timeline">
+{% for item in site.data.news.items %}
+<li class="timeline__item{% if forloop.index > 5 %} is-hidden{% endif %}"><time class="timeline__date">{{ item.date }}</time><div class="timeline__body">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}</div></li>
+{% endfor %}
+</ul>
+{% if site.data.news.items.size > 5 %}
+<div class="timeline__more-wrap">
+<button type="button" class="timeline__more" data-more aria-expanded="false">
+<span class="timeline__more-label">More</span>
+<span class="timeline__more-icon">▾</span>
+</button>
+</div>
+{% endif %}
+</section>

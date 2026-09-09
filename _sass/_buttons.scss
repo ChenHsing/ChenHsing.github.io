@@ -68,10 +68,10 @@
   /* information */
 
   &--info {
-    background-color: $info-color;
+    background-color: var(--c-accent);
 
     &:hover {
-      background-color: mix(#000, $info-color, 20%);
+      background-color: var(--c-accent-strong);
     }
   }
 

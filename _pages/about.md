@@ -3,22 +3,21 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<span class='anchor' id='about-me'></span>
+{% include sections/intro.html %}
 
-{% include_relative includes/intro.md %}
+{% include sections/news.html %}
 
-{% include_relative includes/news.md %}
+{% include sections/publications.html %}
 
-{% include_relative includes/pub.md %}
+{% include sections/honors.html %}
 
-{% include_relative includes/honors.md %}
+{% include sections/talks.html %}
 
-{% include_relative includes/talk.md %}
+{% include sections/experience.html %}
 
-{% include_relative includes/others.md %}
-
+{% include sections/service.html %}

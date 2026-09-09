@@ -1,0 +1,19 @@
+<!--
+  Venue badge —— 根据会议/期刊名自动配色
+  用法（Jekyll include 语法）：include venue-badge.html venue=pub.venue year=pub.year
+-->
+{%- assign v = include.venue | default: "" -%}
+{%- if v != "" -%}
+  {%- assign lv = v | downcase -%}
+  {%- assign tone = "neutral" -%}
+  {%- if lv contains "cvpr" or lv contains "iccv" or lv contains "eccv" or lv contains "neurips" or lv contains "iclr" or lv contains "icml" or lv contains "aaai" -%}
+    {%- assign tone = "core" -%}
+  {%- elsif lv contains "siggraph" -%}
+    {%- assign tone = "graphics" -%}
+  {%- elsif lv contains "csur" or lv contains "tpami" or lv contains "ijcv" or lv contains "tomm" or lv contains "acl" or lv contains "emnlp" or lv contains "icassp" or lv contains "icmr" or lv contains "mm" -%}
+    {%- assign tone = "journal" -%}
+  {%- elsif lv contains "arxiv" -%}
+    {%- assign tone = "preprint" -%}
+  {%- endif -%}
+  <span class="badge badge--{{ tone }}">{{ v }}{% if include.year %} {{ include.year }}{% endif %}</span>
+{%- endif -%}

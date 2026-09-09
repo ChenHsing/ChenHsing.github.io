@@ -1,0 +1,69 @@
+<section class="home-section" id="publications">
+<header class="section-head">
+<h2>📝 Publications</h2>
+</header>
+{% if site.data.profile.external_lists %}
+<p class="section-lead">A full publication list is available on {% for l in site.data.profile.external_lists %}{% unless forloop.first %} {% endunless %}<a href="{{ l.url }}">[{{ l.name }}]</a>{% endfor %}</p>
+{% endif %}
+<p class="section-note">(*: equal contribution; †: project leader)</p>
+<h3 class="sub-heading">Selected Publications</h3>
+<div class="pub-list">
+{% for pub in site.data.publications.selected %}
+<article class="pub-card">
+{% if pub.image %}
+<div class="pub-card__media">
+{% if pub.tags %}<span class="pub-card__tag">{{ pub.tags.first }}</span>{% endif %}
+<img src="{{ pub.image }}" alt="{{ pub.title | strip_html }}" loading="lazy">
+</div>
+{% endif %}
+<div class="pub-card__body">
+<p class="pub-card__meta">{% include venue-badge.html venue=pub.venue year=pub.year %}{% unless pub.image %}{% for tag in pub.tags %}<span class="tag">{{ tag }}</span>{% endfor %}{% endunless %}</p>
+<h4 class="pub-card__title">{{ pub.title }}</h4>
+<p class="pub-card__authors">{{ pub.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+<p class="pub-card__venue">{{ pub.venue_full }}{% if pub.year %}<span class="pub-card__year">, {{ pub.year }}</span>{% endif %}</p>
+{% if pub.note %}<p class="pub-card__note">{{ pub.note }}</p>{% endif %}
+{% include pub-links.html links=pub.links %}
+</div>
+</article>
+{% endfor %}
+</div>
+{% if site.data.publications.other %}
+{% assign top_tiers = "ECCV,CVPR,EMNLP,NeurIPS,ACL" | split: "," %}
+<h3 class="sub-heading">Other Publications</h3>
+<ul class="pub-list pub-list--compact" id="pub-list-other">
+{% for pub in site.data.publications.other %}
+{% if top_tiers contains pub.venue %}
+<li class="pub-row">
+<p class="pub-card__meta">{% include venue-badge.html venue=pub.venue year=pub.year %}</p>
+<div class="pub-row__body"><span class="pub-row__title">{{ pub.title }}</span><span class="pub-card__authors">{{ pub.authors | markdownify | remove: "<p>" | remove: "</p>" }}</span>{% include pub-links.html links=pub.links %}</div>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+{% assign has_more = false %}
+{% for pub in site.data.publications.other %}
+{% unless top_tiers contains pub.venue %}
+{% assign has_more = true %}
+{% endunless %}
+{% endfor %}
+
+{% if has_more %}
+<ul class="pub-list pub-list--compact pub-list--more is-hidden" id="pub-list-more">
+{% for pub in site.data.publications.other %}
+{% unless top_tiers contains pub.venue %}
+<li class="pub-row">
+<p class="pub-card__meta">{% include venue-badge.html venue=pub.venue year=pub.year %}</p>
+<div class="pub-row__body"><span class="pub-row__title">{{ pub.title }}</span><span class="pub-card__authors">{{ pub.authors | markdownify | remove: "<p>" | remove: "</p>" }}</span>{% include pub-links.html links=pub.links %}</div>
+</li>
+{% endunless %}
+{% endfor %}
+</ul>
+<div class="timeline__more-wrap">
+  <button class="timeline__more" data-more-pubs aria-expanded="false">
+    <span class="timeline__more-label">More</span><span class="timeline__more-icon">▾</span>
+  </button>
+</div>
+{% endif %}
+{% endif %}
+</section>

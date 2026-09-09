@@ -1,0 +1,8 @@
+<!-- 论文链接组，用法（Jekyll include 语法）：include pub-links.html links=pub.links -->
+{%- if include.links and include.links.size > 0 -%}
+  <p class="pub-links">
+    {%- for l in include.links -%}
+      <a class="pub-link{% if l.name == "Paper" %} pub-link--primary{% endif %}" href="{{ l.url }}">{{ l.name }}</a>
+    {%- endfor -%}
+  </p>
+{%- endif -%}

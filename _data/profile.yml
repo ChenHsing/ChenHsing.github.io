@@ -1,0 +1,54 @@
+# ============================================================
+#  Profile —— 首页「About Me」区 + 左侧个人信息卡
+#  intro 支持 Markdown（链接、加粗）；interests 为研究兴趣列表
+# ============================================================
+
+# 侧栏个人信息卡上的链接（增删改只动这里）
+# icon 用 Font Awesome / academicons 的 class，例如：
+#   fas fa-fw fa-envelope（信封）  fab fa-fw fa-github（品牌图标）
+#   ai ai-fw ai-google-scholar / ai-dblp / ai-orcid（学术图标）
+links:
+  - name: "Email"
+    url: "mailto:zhenxingfd@gmail.com"
+    icon: "fas fa-fw fa-envelope"
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao"
+    icon: "ai ai-fw ai-google-scholar"
+  - name: "Semantic Scholar"
+    url: "https://www.semanticscholar.org/author/Zhen-Xing/2099118205"
+    icon: "fas fa-fw fa-book"
+  - name: "GitHub"
+    url: "https://github.com/ChenHsing"
+    icon: "fab fa-fw fa-github"
+
+intro: |
+  I'm a Research Scientist at Alibaba **Wan Team**, where I serve as a core contributor of Wan3.0, Wan2.7, Wan2.6 and Wan2.5. I also hold a research position at Zhejiang University, working closely with Prof. [Yi Yang](https://scholar.google.com/citations?hl=en&user=RMSuNFwAAAAJ). I obtained my Ph.D. in Computer Science from [Fudan University](https://www.fudan.edu.cn/en/), supervised by Prof. [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en) (IEEE Fellow) and Prof. [Zuxuan Wu](https://zxwu.azurewebsites.net/).
+
+contact: "If you are interested in discussing potential collaborations, please feel free to email me at [zhenxingfd@gmail.com](mailto:zhenxingfd@gmail.com)."
+
+interests:
+  - label: "Alignment"
+    desc: "reinforcement learning alignment for visual generation (RLHF, preference optimization, reward modeling)"
+  - label: "Generative models"
+    desc: "text-to-video generation, controllable visual generation, video editing"
+  - label: "Representation learning"
+    desc: "video understanding, 3D understanding, image retrieval"
+
+# 侧栏/头部展示的统计徽章（使用 shields.io，可自行增删）
+badges:
+  - alt: "Google citations"
+    image: "https://raw.githubusercontent.com/ChenHsing/Citation_Parser/main/scholar_badge.svg"
+    url: "https://scholar.google.com/citations?user=yuiXa5EAAAAJ"
+  - alt: "GitHub User's stars"
+    image: "https://img.shields.io/github/stars/chenhsing?affiliations=OWNER%2CCOLLABORATOR&style=flat&logo=github&logoColor=%23000000&labelColor=%23fbbc05&color=%23615ced"
+    url: "https://github.com/ChenHsing"
+
+# 完整 publication 列表外链
+external_lists:
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao"
+  - name: "Semantic Scholar"
+    url: "https://www.semanticscholar.org/author/Zhen-Xing/2099118205"
+
+# 访问统计（clustrmaps），不需要可整段删除
+clustrmaps_id: "4Q0C2hbvOIEMef7kUY89rXg94Lm7HnpASKfrJXfXMZ0"

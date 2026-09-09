@@ -13,8 +13,8 @@ body {
   padding-bottom: 0em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
-  background-color: #060606;
+  line-height: 1.6;
+  background-color: var(--c-bg);
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -33,7 +33,7 @@ h1 {
   // margin: 4em 0 0.5em;
   margin-top: 1em;
   font-size: $type-size-3;
-  color: #615ced;
+  color: var(--c-accent);
 }
 
 h2 {
@@ -245,7 +245,7 @@ figure {
 
 figcaption {
   margin-bottom: 0.5em;
-  color: mix(#fff, $text-color, 25%);
+  color: var(--c-text-muted);
   font-family: $caption-font-family;
   font-size: $type-size-6;
 

@@ -1,0 +1,17 @@
+<section class="home-section" id="honors-and-awards">
+<header class="section-head">
+<h2>🎖 Honors and Awards</h2>
+</header>
+{% if site.data.honors.intro %}
+<p class="section-lead">{{ site.data.honors.intro }}</p>
+{% endif %}
+<ul class="honor-list">
+{% for h in site.data.honors.items %}
+<li class="honor-chip">
+  <span class="honor-chip__year">{{ h.year }}</span>
+  <span class="honor-chip__title">{{ h.title }}</span>
+  {% if h.note %}<span class="honor-chip__note">{{ h.note }}</span>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>

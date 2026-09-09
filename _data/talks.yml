@@ -1,0 +1,22 @@
+# ============================================================
+#  Invited Talks —— 新增一条：- date / org / title / slides(可选)
+# ============================================================
+
+items:
+  - date: "2024.04"
+    org: "ByteDance"
+    kind: "Talk"
+    title: "SimDA: Simple Diffusion Adapter for Efficient Video Generation"
+    slides: "/files/simda_slides.pdf"
+
+  - date: "2024.02"
+    org: "Openmmlab"
+    kind: "Tutorial"
+    title: "The Past and Present of Video Diffusion Models"
+    slides: "/files/VideoGenerationModel.pdf"
+
+  - date: "2023.12"
+    org: "Kunlun Research"
+    kind: "Tutorial"
+    title: "The Tutorial of Video Generative Models"
+    slides: "/files/vdm_2312.pdf"

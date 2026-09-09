@@ -1,7 +1,6 @@
 # Site Settings
 title                    : "Zhen Xing (邢桢)"
-description              : #"Research Scientist in Alibaba Tongyi Lab"
-                         # "An AI researcher, but more precisely, a realistic idealist searching for the purpose of life."
+description              : "Research Scientist at Alibaba Wan Team. Ph.D. from Fudan University. Working on generative models and video understanding."
 repository               : "ChenHsing/chenhsing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -15,43 +14,13 @@ bing_site_verification   : #DC10214F99BADCE5A6F7367670FB4360  # In this website:
 baidu_site_verification  : # code-ZxFK3f4pfb
 
 # Site Author
+# 只保留个人信息卡需要的基础字段；
+# 学者主页 / 邮箱 / GitHub 等链接统一放在 _data/profile.yml 的 links 里
 author:
-  name             : "Zhen Xing" # (xingzhen)
+  name             : "Zhen Xing (邢桢)"
   avatar           : "images/xz.jpg"
-  bio              : "Research Scientist in Alibaba Tongyi Lab"
+  bio              : "Research Scientist at Alibaba Wan Team"
   location         : "China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=yuiXa5EAAAAJ&hl=en&oi=ao"
-  email            : "zhenxingfd@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "ChenHsing"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # "rayeren"
-  dblp             : # "https://dblp.org/pid/75/6568-6.html"
-  orcid            : # "https://orcid.org/0000-0002-9160-3848"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files
@@ -83,8 +52,6 @@ exclude:
   - package.json
   - tmp
   - vendor
-  - google_scholar_crawler
-  - github_myprofile_updater
 keep_files:
   - .git
   - .svn

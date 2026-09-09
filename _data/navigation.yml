@@ -1,26 +1,22 @@
-# main links links
+# Main navigation —— url 里的 # 锚点需与 _includes/sections/*.html 中的 id 对应
 main:
   - title: "About Me"
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/#honors-and-awards"
 
   - title: "Invited Talks"
-    url: "/#-invited-talks"
+    url: "/#invited-talks"
 
   - title: "Internships"
-    url: "/#-internships"
+    url: "/#internships"
 
   - title: "Academic Service"
-    url: "/#-academic-service"
-
-  # - title: "Invited Talks"
-    # url: "/#-invited-talks"
-
+    url: "/#academic-service"

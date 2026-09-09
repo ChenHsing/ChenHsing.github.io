@@ -79,14 +79,14 @@ select {
   width: 100%;
   padding: 0.25em;
   margin-bottom: 0.5em;
-  color: $text-color;
-  background-color: #fff;
-  border: 1px solid mix(#fff, #000, 80%);
+  color: var(--c-text);
+  background-color: var(--c-surface);
+  border: 1px solid var(--c-border);
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  box-shadow: none;
 
   &:hover {
-    border-color: mix(#fff, $primary-color, 50%);
+    border-color: var(--c-accent);
   }
 }
 
