@@ -639,6 +639,11 @@
   @media (max-width: 37.5em) {
     grid-template-columns: 1fr;
     gap: 1rem;
+
+    /* 手机单列时封面接近原始视频截帧比例（素材多为 2.2–2.8:1），避免 16:10 裁切过多 */
+    &__media img {
+      aspect-ratio: 2 / 1;
+    }
   }
 }
 
@@ -978,5 +983,61 @@
   :root:not([data-theme="light"]) .masthead__menu .theme-toggle {
     .icon-sun  { display: none; }
     .icon-moon { display: block; }
+  }
+}
+
+/* 汉堡按钮：贴在主题切换按钮左侧，避免重叠；样式与主题切换按钮统一 */
+.greedy-nav > button {
+  right: 2.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  color: var(--c-text-muted);
+  background: transparent;
+  border: 1px solid var(--c-border);
+  border-radius: 999px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: var(--c-accent);
+    border-color: var(--c-accent);
+    background: var(--c-accent-soft);
+  }
+
+  /* 三横线图标（模板里 .navicon 没有样式，这里补齐） */
+  .navicon {
+    position: relative;
+    display: block;
+    width: 0.95rem;
+    height: 2px;
+    margin: 0 auto;
+    background: currentColor;
+    border-radius: 1px;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: currentColor;
+      border-radius: 1px;
+    }
+
+    &::before { top: -5px; }
+    &::after  { top: 5px; }
+  }
+}
+
+/* 下拉菜单与汉堡按钮对齐 */
+.greedy-nav .hidden-links {
+  right: 2.75rem;
+
+  &:before,
+  &:after {
+    right: calc(2.75rem + 10px);
   }
 }
