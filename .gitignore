@@ -1,9 +1,7 @@
 _site/
 .jekyll-cache/
 .jekyll-metadata
-push.sh
 .DS_Store
-/github_myprofile_updater/README.md
 vendor/
 .bundle/
 _preview/

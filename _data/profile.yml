@@ -50,5 +50,3 @@ external_lists:
   - name: "Semantic Scholar"
     url: "https://www.semanticscholar.org/author/Zhen-Xing/2099118205"
 
-# 访问统计（clustrmaps），不需要可整段删除
-clustrmaps_id: "4Q0C2hbvOIEMef7kUY89rXg94Lm7HnpASKfrJXfXMZ0"

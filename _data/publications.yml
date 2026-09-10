@@ -264,7 +264,7 @@ other:
   year: 2022
   links:
   - name: Paper
-    url: https://www.jiangtongli.me/publication/mlmr/mlmr.pdf
+    url: https://dl.acm.org/doi/10.1145/3503161.3548147
 - title: 3D-Augmented Contrastive Knowledge Distillation for Image-based Object Pose Estimation
   authors: Zhidan Liu, **Zhen Xing**, Xiangdong Zhou, Yijiang Chen, Guichun Zhou
   venue: ICMR

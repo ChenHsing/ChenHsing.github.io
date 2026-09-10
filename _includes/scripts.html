@@ -2,5 +2,7 @@
 <script src="assets/js/theme.js"></script>
 <script src="assets/js/site.js"></script>
 
+{% if site.google_analytics_id %}
 {% include analytics.html %}
+{% endif %}
 {% include fetch_google_scholar_stats.html %}
