@@ -50,3 +50,7 @@ external_lists:
   - name: "Semantic Scholar"
     url: "https://www.semanticscholar.org/author/Zhen-Xing/2099118205"
 
+# 访问统计地图（ClustrMaps）。widget: globe（3D 地球仪）或 map（平面地图）
+# hash 来自 clustrmaps.com 账户里为该站点生成的代码，可在官网 My Websites 里重新获取
+clustrmaps_id: "4Q0C2hbvOIEMef7kUY89rXg94Lm7HnpASKfrJXfXMZ0"
+clustrmaps_widget: "globe"

@@ -916,6 +916,13 @@
   width: 150px;
   height: 160px;
   overflow: hidden;
+
+  /* ClustrMaps 平面地图控件需要更宽的容器 */
+  &--map {
+    width: 100%;
+    max-width: 22rem;
+    height: auto;
+  }
 }
 
 /* --------------------------------------------------------------------------
