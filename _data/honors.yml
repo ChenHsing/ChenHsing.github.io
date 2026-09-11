@@ -16,11 +16,7 @@ items:
     note: "Top-3%, PhD"
     year: "2024"
 
-  - title: "Fudan University excellent academic scholarship"
-    note: "Top-5%, PhD"
-    year: "2023"
-
-  - title: "\"Star of Tomorrow\" intern of MicroSoft Research Asia"
+  - title: "\"Star of Tomorrow\" intern of Microsoft Research Asia"
     note: "Top 10%, PhD"
     year: "2023"
 
@@ -28,18 +24,10 @@ items:
     note: "Rank 1/130, PhD"
     year: "2022"
 
-  - title: "Fudan University excellent academic scholarship"
-    note: "Top-5%, Master"
-    year: "2021"
-
-  - title: "Outstanding graduates of TianJin University"
+  - title: "Outstanding graduates of Tianjin University"
     note: "Top-5%"
     year: "2020"
 
   - title: "Excellent monitor of Tianjin University"
     note: "Top-10"
     year: "2018"
-
-  - title: "Academic scholarship of Tianjin University"
-    note: "Top-10%"
-    year: "2017-2020"

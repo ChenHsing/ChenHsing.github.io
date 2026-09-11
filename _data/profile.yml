@@ -28,7 +28,7 @@ contact: "If you are interested in discussing potential collaborations, please f
 
 interests:
   - label: "Alignment"
-    desc: "reinforcement learning alignment for visual generation (RLHF, preference optimization, reward modeling)"
+    desc: "reinforcement learning alignment for visual generation (RLHF, reward modeling)"
   - label: "Generative models"
     desc: "text-to-video generation, controllable visual generation, video editing"
   - label: "Representation learning"

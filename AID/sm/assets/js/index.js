@@ -5,6 +5,8 @@ var NUM_INTERP_FRAMES = 240;
 
 var interp_images = [];
 function preloadInterpolationImages() {
+  // 页面上没有插值滑块时直接跳过，避免无谓的图片请求
+  if (!$('#interpolation-image-wrapper').length) return;
   for (var i = 0; i < NUM_INTERP_FRAMES; i++) {
     var path = INTERP_BASE + '/' + String(i).padStart(6, '0') + '.jpg';
     interp_images[i] = new Image();
@@ -14,6 +16,7 @@ function preloadInterpolationImages() {
 
 function setInterpolationImage(i) {
   var image = interp_images[i];
+  if (!image) return;   // 未预加载（页面无滑块）时直接返回
   image.ondragstart = function() { return false; };
   image.oncontextmenu = function() { return false; };
   $('#interpolation-image-wrapper').empty().append(image);
