@@ -15,6 +15,7 @@
 # ============================================================
 
 selected:
+
 - title: 'DiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models'
   authors: Quanhao Li, Junqiu Yu, Kaixun Jiang, Yujie Wei, **Zhen Xing**<sup>†</sup>, Pandeng Li, Ruihang Chu, Shiwei Zhang,
     Yu Liu, Zuxuan Wu
@@ -132,6 +133,19 @@ selected:
 # ------------------------------------------------------------
 
 other:
+- title: 'StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation'
+  authors: Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, **Zhen Xing**, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang
+  venue: NeurIPS
+  year: 2026
+  links:
+  - name: Paper
+    url: https://arxiv.org/abs/2508.08248
+  - name: Code
+    url: https://github.com/Francis-Rings/StableAvatar
+  - name: HomePage
+    url: https://francis-rings.github.io/StableAvatar/
+  - name: 机器之心
+    url: https://mp.weixin.qq.com/s/BoHk9XZRdaSGMSK-9_PpGA
 - title: 'DeRA: Decoupled Representation Alignment for Video Tokenization'
   authors: Pengbo Guo, Junke Wang, **Zhen Xing**, Chengxu Liu, Daoguo Dong, Xueming Qian, Zuxuan Wu
   venue: ECCV
@@ -190,20 +204,7 @@ other:
   links:
   - name: Paper
     url: https://ieeexplore.ieee.org/abstract/document/10890723
-- title: 'StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation'
-  authors: Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, **Zhen Xing**, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang
-  venue: arXiv
-  venue_full: Technical Report
-  year: 2025
-  links:
-  - name: Paper
-    url: https://arxiv.org/abs/2508.08248
-  - name: Code
-    url: https://github.com/Francis-Rings/StableAvatar
-  - name: HomePage
-    url: https://francis-rings.github.io/StableAvatar/
-  - name: 机器之心
-    url: https://mp.weixin.qq.com/s/BoHk9XZRdaSGMSK-9_PpGA
+
 - title: 'Aligning Vision Models with Human Aesthetics in Retrieval: Benchmarks and Algorithms'
   authors: Miaosen Zhang, Yixuan Wei, **Zhen Xing**, Yifei Ma, Zuxuan Wu, Ji Li, Zheng Zhang, Qi Dai, Chong Luo, Xin Geng,
     Baining Guo
